@@ -18,4 +18,4 @@ git push -f https://github.com/Aiden-Coding/code-note.git master:gh-pages
 
 cd ../
 rm -rf ./dist
-cd -
+cd ../
