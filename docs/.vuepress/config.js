@@ -1,4 +1,5 @@
 module.exports = {
+    base: '/code-note/',
     title: '...',
     description: '...',
     theme: 'reco',
