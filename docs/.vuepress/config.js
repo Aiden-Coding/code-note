@@ -13,6 +13,7 @@ module.exports = {
         nav: [
             { text: "首页", link: "/" },
             { text: "flowable", link: "/flowable/Flowable课件-基础篇" },
+            { text: "Java", link: "/cs/java/Java 基础" },
             { text: "操作系统", link: "/cs/system/Linux" },
             { text: "计算机网络", link: "/cs/net/HTTP" },
             { text: "其他", link: "/cs/others/面向对象思想" }
@@ -61,6 +62,9 @@ module.exports = {
                         '计算机网络 - 目录', '计算机网络 - 传输层', '计算机网络 - 概述', '计算机网络 - 链路层', '计算机网络 - 网络层', '计算机网络 - 物理层', '计算机网络 - 应用层', '计算机网络'
                     ]
                 }
+            ],
+            "/cs/java/": [
+                'Java 并发', 'Java 基础', 'Java 容器', 'Java 虚拟机', 'Java IO'
             ]
         }
     }
