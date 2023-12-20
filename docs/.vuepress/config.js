@@ -1,59 +1,44 @@
 module.exports = {
-    base: '/code-note/',
-    title: '学习笔记',
-    description: '...',
-    theme: 'reco',
+    base: "/code-note/",
+    title: "学习笔记",
+    description: "...",
+    theme: "reco",
     locales: {
-        '/': {
-            lang: 'zh-CN'
-        }
+        "/": {
+            lang: "zh-CN",
+        },
     },
     themeConfig: {
-        subSidebar: 'auto',
+        subSidebar: "auto",
         nav: [
-            { text: '首页', link: '/' },
-            { text: 'flowable', link: '/flowable/Flowable课件-基础篇' },
-            { text: 'test', link: '/language/' }
-        ], sidebar: {
-            '/flowable/': [
+            { text: "首页", link: "/" },
+            { text: "flowable", link: "/flowable/Flowable课件-基础篇" },
+            { text: "others", title: "其他", link: "/cs/others/面向对象思想" }
+        ],
+        sidebar: {
+            "/flowable/": [
                 {
-                    title: 'flowalbe 学习',
+                    title: "flowalbe 学习",
                     collapsable: true,
-                    children: ['Flowable课件-基础篇', 'Flowable课件-高级篇']
+                    children: ["Flowable课件-基础篇", "Flowable课件-高级篇"],
                 }
             ],
-            '/language/': [
-                //Group1
+            "/cs/others/": [
                 {
-                    title: 'Group1',
+                    title: "工具",
                     children: [
-                        'c'
-                        // {
-                        //     title: 'chinese',   // 必要的
-                        //     children: ['c']
-                        // }
+                        "Docker",
+                        "构建工具",
+                        "Git"
                     ]
                 },
-                //Group2
                 {
-                    title: 'Group2',
+                    title: "其他",
                     children: [
-                        //小组A
-                        {
-                            title: 'A',
-                            children: ['a'],
-                        },
-                        //小组B
-                        {
-                            title: 'B',
-                            children: ['b'],
-                        },
-                    ],
-                },
-
-            ],
-            '/': [''] //不能放在数组第一个，否则会导致右侧栏无法使用
-        },
-
+                        '代码风格规范', '代码可读性', '分布式', '攻击技术', '集群', '面向对象思想', '正则表达式'
+                    ]
+                }
+            ]
+        }
     }
-}
+};

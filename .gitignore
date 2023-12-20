@@ -1,3 +1,6 @@
 pnpm-lock.yaml
 node_modules/
 docs/.vuepress/dist
+.DS_Store
+docs/.DS_Store
+docs/cs/.DS_Store
