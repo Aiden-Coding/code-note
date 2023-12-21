@@ -12,7 +12,12 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "vuepress": "^1.9.10",
-    "vuepress-theme-reco": "^1.6.17"
+    "@vuepress/client": "2.0.0-rc.0",
+    "v": "^0.3.0",
+    "vuepress": "2.0.0-rc.0"
+  },
+  "dependencies": {
+    "vue": "^3.3.13",
+    "vuepress-theme-reco": "2.0.0-rc.5"
   }
 }
