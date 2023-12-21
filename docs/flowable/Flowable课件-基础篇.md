@@ -1409,7 +1409,7 @@ BPMN2.0的**基本符合**主要包含：
 
 &emsp;&emsp;结构图标可以看做是整个流程活动的结构，一个流程中可以包括子流程。常见的结构有：
 
-![image-20220320104025737](C:\Users\dpb\AppData\Roaming\Typora\typora-user-images\image-20220320104025737.png)
+![image-20220320104025737](./img/image-20220320104025737.png)
 
 
 
