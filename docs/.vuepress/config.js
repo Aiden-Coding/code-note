@@ -216,9 +216,9 @@ export default {
                     text: "数组与矩阵",
                     collapsable: true,
                     children: [
-                        "/cs/algo/3. 数组中重复的数字.md",
-                        "/cs/algo/4. 二维数组中的查找.md",
-                        "/cs/algo/5. 替换空格.md",
+                        "3. 数组中重复的数字.md",
+                        "4. 二维数组中的查找.md",
+                        "5. 替换空格.md",
                         "29. 顺时针打印矩阵.md",
                         "50. 第一个只出现一次的字符位置.md",
                     ],
