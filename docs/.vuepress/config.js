@@ -1,5 +1,13 @@
 import { recoTheme } from "vuepress-theme-reco";
+import { tocPlugin } from '@vuepress/plugin-toc'
 export default {
+    plugins: [
+        tocPlugin({
+            // 配置项
+            componentName: 'Toc',
+            defaultPropsOptions: {}
+        }),
+    ],
     base: "/code-note/",
     title: "学习笔记",
     description: "...",
