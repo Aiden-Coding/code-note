@@ -1,4 +1,4 @@
-# Leetcode 题解 - 数学
+# 数学
 <!-- GFM-TOC -->
 * [Leetcode 题解 - 数学](#leetcode-题解---数学)
     * [素数分解](#素数分解)

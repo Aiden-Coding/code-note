@@ -1,4 +1,4 @@
-# Leetcode 题解 - 树
+# 树
 <!-- GFM-TOC -->
 * [Leetcode 题解 - 树](#leetcode-题解---树)
     * [递归](#递归)

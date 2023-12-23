@@ -1,4 +1,4 @@
-# Leetcode 题解 - 图
+# 图
 <!-- GFM-TOC -->
 * [Leetcode 题解 - 图](#leetcode-题解---图)
     * [二分图](#二分图)

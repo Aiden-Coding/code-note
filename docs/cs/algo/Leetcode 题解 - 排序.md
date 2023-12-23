@@ -1,4 +1,4 @@
-# Leetcode 题解 - 排序
+# 排序
 <!-- GFM-TOC -->
 * [Leetcode 题解 - 排序](#leetcode-题解---排序)
     * [快速选择](#快速选择)

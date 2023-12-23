@@ -1,4 +1,4 @@
-# Leetcode 题解 - 搜索
+# 搜索
 <!-- GFM-TOC -->
 * [Leetcode 题解 - 搜索](#leetcode-题解---搜索)
     * [BFS](#bfs)

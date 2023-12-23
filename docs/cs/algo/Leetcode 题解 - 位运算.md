@@ -1,4 +1,4 @@
-# Leetcode 题解 - 位运算
+# 位运算
 <!-- GFM-TOC -->
 * [Leetcode 题解 - 位运算](#leetcode-题解---位运算)
     * [0. 原理](#0-原理)
