@@ -68,6 +68,7 @@ export default {
             { text: "算法", link: "/cs/algo/算法 - 目录.md" },
             { text: "设计模式", link: "/cs/design/设计模式 - 目录.md" },
             { text: "flowable", link: "/flowable/Flowable课件-基础篇.md" },
+            { text: "代码随想录", link: "/programmercarl/" },
             { text: "其他", link: "/cs/others/面向对象思想.md" },
         ],
         series: {
