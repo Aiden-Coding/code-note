@@ -369,6 +369,38 @@ export default {
             ],
             "/cs/programmercarl/": [
                 {
+                    text: "图论",
+                    collapsable: false,
+                    children: [
+                        "/cs/programmercarl/problems/0463.岛屿的周长.md",
+                        "/cs/programmercarl/problems/0841.钥匙和房间.md",
+                        "/cs/programmercarl/problems/0127.单词接龙.md",
+                    ],
+                },
+                {
+                    text: "并查集",
+                    collapsable: false,
+                    children: [
+                        "/cs/programmercarl/problems/0684.冗余连接.md",
+                        "/cs/programmercarl/problems/0685.冗余连接II.md",
+                    ],
+                },
+                {
+                    text: "模拟",
+                    collapsable: false,
+                    children: [
+                        "/cs/programmercarl/problems/0657.机器人能否返回原点.md",
+                        "/cs/programmercarl/problems/0031.下一个排列.md",
+                    ],
+                },
+                {
+                    text: "位运算",
+                    collapsable: false,
+                    children: [
+                        "/cs/programmercarl/problems/1356.根据数字二进制下1的数目排序.md",
+                    ],
+                },
+                {
                     text: "算法模板",
                     collapsable: false,
                     children: [
