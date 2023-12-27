@@ -1,77 +1,5 @@
-
-👉 推荐 [在线阅读](http://programmercarl.com/) (Github在国内访问经常不稳定)         
-👉 推荐 [Gitee同步](https://gitee.com/programmercarl/leetcode-master) 
-
-> 1. **介绍** ：本项目是一套完整的刷题计划，旨在帮助大家少走弯路，循序渐进学算法，[关注作者](#关于作者)
-> 2. **正式出版** ：[《代码随想录》](https://programmercarl.com/other/publish.html) 。
-> 3. **PDF版本** ：[「代码随想录」算法精讲 PDF 版本](https://programmercarl.com/other/algo_pdf.html) 。
-> 4. **算法公开课** ：[《代码随想录》算法视频公开课](https://www.bilibili.com/video/BV1fA4y1o715) 。
-> 5. **最强八股文** ：[代码随想录知识星球精华PDF](https://www.programmercarl.com/other/kstar_baguwen.html) 。
-> 6. **刷题顺序** ：README已经将刷题顺序排好了，按照顺序一道一道刷就可以。
-> 7. **学习社区** ：一起学习打卡/面试技巧/如何选择offer/大厂内推/职场规则/简历修改/技术分享/程序人生。欢迎加入[「代码随想录」知识星球](https://programmercarl.com/other/kstar.html) 。
-> 8. **提交代码** ：本项目统一使用C++语言进行讲解，但已经有Java、Python、Go、JavaScript等等多语言版本，感谢[这里的每一位贡献者](https://github.com/youngyangyang04/leetcode-master/graphs/contributors)，如果你也想贡献代码点亮你的头像，[点击这里](https://www.programmercarl.com/qita/join.html)了解提交代码的方式。
-> 9. **转载须知** ：以下所有文章皆为我（[程序员Carl](https://github.com/youngyangyang04)）的原创。引用本项目文章请注明出处，发现恶意抄袭或搬运，会动用法律武器维护自己的权益。让我们一起维护一个良好的技术创作环境！
-
-
-<p align="center">
-<a href="https://programmercarl.com/other/xunlianying.html" target="_blank">
-	<img src="./pics/训练营.png" width="800"/>
-</a>
-</p>
-
 # LeetCode 刷题攻略
-
-## 刷题攻略的背景
-
-很多刚开始刷题的同学都有一个困惑：面对leetcode上近两千道题目，从何刷起。
-
-大家平时刷题感觉效率低，浪费的时间主要在三点：
-
-* 找题
-* 找到了不应该现阶段做的题
-* 没有全套的优质题解可以参考
-
-其实我之前在知乎上回答过这个问题，回答内容大概是按照如下类型来刷数组-> 链表-> 哈希表->字符串->栈与队列->树->回溯->贪心->动态规划->图论->高级数据结构，再从简单刷起，做了几个类型题目之后，再慢慢做中等题目、困难题目。
-
-但我能设身处地的感受到：即使有这样一个整体规划，对于一位初学者甚至算法老手寻找合适自己的题目也是很困难，时间成本很高，而且题目还不一定就是经典题目。
-
-对于刷题，我们都是想用最短的时间**按照循序渐进的难度顺序把经典题目都做一遍**，这样效率才是最高的！
-
-所以我整理了leetcode刷题攻略：一个超级详细的刷题顺序，**每道题目都是我精心筛选，都是经典题目高频面试题**，大家只要按照这个顺序刷就可以了，**你没看错，README已经把题目顺序都排好了，文章顺序就是刷题顺序！挨个刷就可以，不用自己再去题海里选题了！**
-
-而且每道题目我都写了的详细题解（图文并茂，难点配有视频），力扣上我的题解都是排在对应题目的首页，质量是有目共睹的。
-
-**那么现在我把刷题顺序都整理出来，是为了帮助更多的学习算法的同学少走弯路！**
-
-如果你在刷leetcode，强烈建议先按照本攻略刷题顺序来刷，刷完了你会发现对整个知识体系有一个质的飞跃，不用在题海茫然的寻找方向。
-
-<div align="center"><strong>最新文章会首发在公众号「代码随想录」，扫码看看吧，你会发现相见恨晚！</strong></img></div>
-
-<div align="center"><img src='./pics/公众号二维码.jpg' width=150 alt=''> </img></div> 
-
-## 如何使用该刷题攻略
-
-按照先面的排列顺序，从数组开始刷起就可以了，顺序都安排好了，按顺序刷就好。
-
-在刷题攻略中，每个专题开始都有理论基础篇，并不像是教科书般的理论介绍，而是从实战中归纳需要的基础知识。每个专题结束都有总结篇，最这个专题的归纳总结。
-
-如果你是算法老手，这篇攻略也是复习的最佳资料，如果把每个系列对应的总结篇，快速过一遍，整个算法知识体系以及各种解法就重现脑海了。
-
-**这里每一篇题解，都是精品，值得仔细琢磨**。
-
-我在题目讲解中统一使用C++，但你会发现下面几乎每篇题解都配有其他语言版本，Java、Python、Go、JavaScript等等，正是这些[热心小伙们](https://github.com/youngyangyang04/leetcode-master/graphs/contributors)贡献的代码，当然我也会严格把控代码质量。 
-
-**所以也欢迎大家参与进来，完善题解的各个语言版本，拥抱开源，让更多小伙伴们受益**。
-
-准备好了么，刷题攻略开始咯，go go go！
-
----------------------------------------------
-
 ## 前序
-
-* [「代码随想录」学习社区](https://programmercarl.com/other/kstar.html)
-
-
 * 编程语言
     * [C++面试&C++学习指南知识点整理](https://github.com/youngyangyang04/TechCPP)
     * [C++语言基础课](https://kamacoder.com/course.php?course_id=1)
@@ -189,9 +117,6 @@
 
 ## 二叉树 
 
-题目分类大纲如下：           
-<img src='https://img-blog.csdnimg.cn/20210219190809451.png' width=600 alt='二叉树大纲'> </img></div>
-
 1. [关于二叉树，你该了解这些！](./problems/二叉树理论基础.md)
 2. [二叉树：二叉树的递归遍历](./problems/二叉树的递归遍历.md)
 3. [二叉树：二叉树的迭代遍历](./problems/二叉树的迭代遍历.md)
@@ -230,10 +155,6 @@
 
 ## 回溯算法 
 
-题目分类大纲如下：             
-
-<img src='https://img-blog.csdnimg.cn/20210219192050666.png' width=600 alt='回溯算法大纲'> </img></div>
-
 1. [关于回溯算法，你该了解这些！](./problems/回溯算法理论基础.md)
 2. [回溯算法：77.组合](./problems/0077.组合.md)
 3. [回溯算法：77.组合优化](./problems/0077.组合优化.md)
@@ -258,11 +179,6 @@
 22. [回溯算法总结篇](./problems/回溯总结.md)
 
 ## 贪心算法 
-
-题目分类大纲如下：             
-
-
-<img src='https://code-thinking-1253855093.file.myqcloud.com/pics/20210917104315.png' width=600 alt='贪心算法大纲'> </img></div>
 
 1. [关于贪心算法，你该了解这些！](./problems/贪心算法理论基础.md)
 2. [贪心算法：455.分发饼干](./problems/0455.分发饼干.md)
@@ -291,9 +207,6 @@
 
 ## 动态规划
 
-动态规划专题已经开始啦，来不及解释了，小伙伴们上车别掉队！
-
-<img src='https://code-thinking.cdn.bcebos.com/pics/动态规划-总结大纲1.jpg' width=500> </img></div>
 1. [关于动态规划，你该了解这些！](./problems/动态规划理论基础.md)
 2. [动态规划：509.斐波那契数](./problems/0509.斐波那契数.md)
 3. [动态规划：70.爬楼梯](./problems/0070.爬楼梯.md)
@@ -306,10 +219,6 @@
 10. [本周小结！（动态规划系列二）](./problems/周总结/20210114动规周末总结.md)
 
 背包问题系列：
-
-<img src='https://code-thinking.cdn.bcebos.com/pics/动态规划-背包问题总结.png' width=500 alt='背包问题大纲'> </img></div>
-
-
 11. [动态规划：01背包理论基础](./problems/背包理论基础01背包-1.md)
 12. [动态规划：01背包理论基础（滚动数组）](./problems/背包理论基础01背包-2.md)
 13. [动态规划：416.分割等和子集](./problems/0416.分割等和子集.md)
@@ -337,9 +246,6 @@
 
 股票系列：
 
-<img src='https://code-thinking.cdn.bcebos.com/pics/股票问题总结.jpg' width=500 alt='股票问题总结'> </img></div>
-
-
 32. [动态规划：121.买卖股票的最佳时机](./problems/0121.买卖股票的最佳时机.md)
 33. [动态规划：本周小结（系列六）](./problems/周总结/20210225动规周末总结.md)
 34. [动态规划：122.买卖股票的最佳时机II](./problems/0122.买卖股票的最佳时机II（动态规划）.md)
@@ -351,9 +257,6 @@
 40. [动态规划：股票系列总结篇](./problems/动态规划-股票问题总结篇.md)
 
 子序列系列： 
-
-<img src='https://code-thinking.cdn.bcebos.com/pics/动态规划-子序列问题总结.jpg' width=500 alt=''> </img></div>
-
 
 41. [动态规划：300.最长递增子序列](./problems/0300.最长上升子序列.md)
 42. [动态规划：674.最长连续递增序列](./problems/0674.最长连续递增序列.md)
@@ -494,36 +397,6 @@
 
 # 算法模板 
 
-[各类基础算法模板](https://github.com/youngyangyang04/leetcode/blob/master/problems/算法模板.md)
+[各类基础算法模板](./problems/算法模板.md)
 
-# 贡献者 
-
-[点此这里](https://github.com/youngyangyang04/leetcode-master/graphs/contributors)查看LeetCode-Master的所有贡献者。感谢他们补充了LeetCode-Master的其他语言版本，让更多的读者收益于此项目。
-
-# Star 趋势
-
-[![Star History Chart](https://api.star-history.com/svg?repos=youngyangyang04/leetcode-master&type=Date)](https://star-history.com/#youngyangyang04/leetcode-master&Date)
-
-# 关于作者
-
-大家好，我是程序员Carl，哈工大师兄，《代码随想录》作者，先后在腾讯和百度从事后端技术研发。对算法和C++后端技术有一定的见解，利用工作之余重新刷leetcode。 
-
-加入「代码随想录」刷题小分队（微信群），可以扫下方二维码，加代码随想录客服微信。
-
-如果是已工作，备注：姓名-城市-岗位-组队刷题。如果学生，备注：姓名-学校-年级-组队刷题。**备注没有自我介绍不通过哦**
-
-
-<div align="center"><img src="https://code-thinking-1253855093.file.myqcloud.com/pics/第二企业刷题活码.png" data-img="1" width="200" height="200"></img></div>
-
-
-# 公众号
-
-更多精彩文章持续更新，微信搜索：「代码随想录」第一时间围观，关注后回复：666，可以获得我的所有算法专题原创PDF。
-
-**来看看就知道了，你会发现相见恨晚！**
-
-
-<a name="公众号"></a>
-<div align="center"><img src="https://code-thinking-1253855093.file.myqcloud.com/pics/20211026122841.png" data-img="1" width="650" height="500"></img></div>
-
-
+[「代码随想录」学习社区](https://programmercarl.com/other/kstar.html)

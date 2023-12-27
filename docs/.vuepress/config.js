@@ -68,7 +68,7 @@ export default {
             { text: "算法", link: "/cs/algo/算法 - 目录.md" },
             { text: "设计模式", link: "/cs/design/设计模式 - 目录.md" },
             { text: "flowable", link: "/flowable/Flowable课件-基础篇.md" },
-            { text: "代码随想录", link: "/programmercarl/" },
+            { text: "代码随想录", link: "/cs/programmercarl/" },
             { text: "其他", link: "/cs/others/面向对象思想.md" },
         ],
         series: {
@@ -364,6 +364,15 @@ export default {
                         "64. 求 1 + 2 + 3 +...+n.md",
                         "65. 不用加减乘除做加法.md",
                         "67. 把字符串转换成整数.md",
+                    ],
+                },
+            ],
+            "/cs/programmercarl/": [
+                {
+                    text: "算法模板",
+                    collapsable: false,
+                    children: [
+                        "/cs/programmercarl/problems/算法模板.md",
                     ],
                 },
             ],
