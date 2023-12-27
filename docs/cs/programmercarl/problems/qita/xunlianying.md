@@ -5,7 +5,7 @@
 
 大家可以百度搜索：代码随想录算法训练营， 看看往期录友们在训练营里打卡总结的博客。
 
-<div align="center"><img src='https://code-thinking-1253855093.file.myqcloud.com/pics/20221104123405.png' width=500 alt=''> </img></div>
+cs/20221104123405.png)
 
 这是训练营里录友坚持到最后一天的打卡，大家可以看看他们的博客是每天都有记录的：
 
@@ -20,16 +20,16 @@
 
 
 博客链接：[https://blog.csdn.net/m0_61724447/article/details/128443084](https://blog.csdn.net/m0_61724447/article/details/128443084)
-<div align="center"><img src='https://code-thinking-1253855093.file.myqcloud.com/pics/20230101122746.png' width=500 alt=''> </img></div>
+![img](https://code-thinking-1253855093.file.myqcloud.com/pics/20230101122746.png)
 
 博客链接：[https://juejin.cn/post/7170304080504586254](https://juejin.cn/post/7170304080504586254)
-<div align="center"><img src='https://code-thinking-1253855093.file.myqcloud.com/pics/20230101122837.png' width=500 alt=''> </img></div>
+![img](https://code-thinking-1253855093.file.myqcloud.com/pics/20230101122837.png)
 
 博客链接：[https://blog.csdn.net/weixin_44047621/article/details/128430623](https://blog.csdn.net/weixin_44047621/article/details/128430623)
-<div align="center"><img src='https://code-thinking-1253855093.file.myqcloud.com/pics/20230101122913.png' width=500 alt=''> </img></div>
+![img](https://code-thinking-1253855093.file.myqcloud.com/pics/20230101122913.png)
 
 博客链接：[https://blog.csdn.net/weixin_47467016/article/details/128460565](https://blog.csdn.net/weixin_47467016/article/details/128460565v)
-<div align="center"><img src='https://code-thinking-1253855093.file.myqcloud.com/pics/20230101123012.png' width=500 alt=''> </img></div>
+![img](https://code-thinking-1253855093.file.myqcloud.com/pics/20230101123012.png)
 
 也有一些录友，把总结发在训练营内部打卡表里，例如：
 
@@ -104,23 +104,23 @@
 针对代码随想录上，**195篇算法文章，主要题目150道**，手把手带大家刷完，帮大家做好详细刷题规划，每天布置刷题任务，监督博客记录总结。
 
 任务布置
-<div align="center"><img src='https://code-thinking-1253855093.file.myqcloud.com/pics/20221007104512.png' width=500 alt=''> </img></div>
+![img](https://code-thinking-1253855093.file.myqcloud.com/pics/20221007104512.png)
 
 每日规划：
-<div align="center"><img src='https://code-thinking-1253855093.file.myqcloud.com/pics/20221007104345.png' width=500 alt=''> </img></div>
+![img](https://code-thinking-1253855093.file.myqcloud.com/pics/20221007104345.png)
 
 训练营周期内，每天应该做哪些题目，同时我根据题目的难度，适当调整每天学习安排，不会是 每天固定3题的这种，而是根据难度而定。
 
 我会告诉大家，哪些解法是一刷的时候必须掌握的，哪些解法可以二刷再去学习，哪些总结是必看的。
 
 每日打卡：
-<div align="center"><img src='https://code-thinking-1253855093.file.myqcloud.com/pics/20221007104738.png' width=500 alt=''> </img></div>
+![img](https://code-thinking-1253855093.file.myqcloud.com/pics/20221007104738.png)
 
 关于如果debug自己的代码，训练营会给具体建议：
-<div align="center"><img src='https://code-thinking-1253855093.file.myqcloud.com/pics/20221007105631.png' width=500 alt=''> </img></div>
+![img](https://code-thinking-1253855093.file.myqcloud.com/pics/20221007105631.png)
 
 训练营群中每日讨论的重点内容都会做整理，在分享给大家训练营成员：
-<div align="center"><img src='https://code-thinking-1253855093.file.myqcloud.com/pics/20221007110042.png' width=500 alt=''> </img></div>
+![img](https://code-thinking-1253855093.file.myqcloud.com/pics/20221007110042.png)
 
 **同时每天做针对大家的疑问做详细答疑，保证大家消化当天的学习内容**。
 
@@ -129,7 +129,7 @@
 训练营中，**大家都是同一个基础，同一个进度刷题，每天刷题题目都是一样的**，这样的一个学习群，大家讨论起来更有意义。
 **还有会监督机制**，训练营的成员要注册一个自己的博客（自己搭建或者使用博客网站都可以），每天要去写今日刷题心得和总结，来进行打卡。
 
-<div align="center"><img src='https://code-thinking-1253855093.file.myqcloud.com/pics/20221007103231.png' width=500 alt=''> </img></div>
+![img](https://code-thinking-1253855093.file.myqcloud.com/pics/20221007103231.png)
 
 3.带大家写博客
 
@@ -141,15 +141,15 @@
 
 因为训练营很多录友开始有了写博客的习惯，以下是一些录友博客的结尾部分：
 
-<div align="center"><img src='https://code-thinking-1253855093.file.myqcloud.com/pics/20221008095645.png' width=500 alt=''> </img></div>
+![img](https://code-thinking-1253855093.file.myqcloud.com/pics/20221008095645.png)
 
-<div align="center"><img src='https://code-thinking-1253855093.file.myqcloud.com/pics/20221008095408.png' width=500 alt=''> </img></div>
+![img](https://code-thinking-1253855093.file.myqcloud.com/pics/20221008095408.png)
 
 每天训练营群里会每天统计大家的博客情况。这样不仅可以监督自己总结，针对大家写的比较好的博客，会给予曝光，增加自己写博客的动力。
 
 训练营里的录友们可以相互参考对方的博客，看谁总结的更好。
 
-<div align="center"><img src='https://code-thinking-1253855093.file.myqcloud.com/pics/20221007111116.png' width=500 alt=''> </img></div>
+![img](https://code-thinking-1253855093.file.myqcloud.com/pics/20221007111116.png)
 
 
 4.关于答疑
@@ -160,7 +160,7 @@
 
 估计训练营里的问题会比较多，我也可能回答不过来。所以我会找了算法能力很强的助手协助我给大家答疑，也就是说，**大家刷题遇到问题，不会有后顾之忧，当天的问题，当天一定会得到解决**。
 
-<div align="center"><img src='https://code-thinking-1253855093.file.myqcloud.com/pics/20221008103558.png' width=500 alt=''> </img></div>
+![img](https://code-thinking-1253855093.file.myqcloud.com/pics/20221008103558.png)
 
 当然训练营题目答疑，**仅限于 每天规划的题目**，并不会大家刷的其他算法题都做答疑，那样的话工作量很容易不可控（这里我也不会夸大承诺，欺骗大家报名之类的），如果是其他算法题可以在群里和大家交流。
 
@@ -172,9 +172,9 @@
 
 至于代码随想录算法内容的质量如何，这个已经是有口皆碑了，基本是面试求职必刷的资料。
 
-<div align="center"><img src='https://code-thinking-1253855093.file.myqcloud.com/pics/20220815160227.png' width=500 alt=''> </img></div>
+![img](https://code-thinking-1253855093.file.myqcloud.com/pics/20220815160227.png)
 
-<div align="center"><img src='https://code-thinking-1253855093.file.myqcloud.com/pics/20220815160306.png' width=500 alt=''> </img></div>
+![img](https://code-thinking-1253855093.file.myqcloud.com/pics/20220815160306.png)
 
 而且代码随想录开源的内容要比市面上 大家付费几百，上千元报的算法训练营的资料都要好的多。
 
@@ -269,7 +269,7 @@
 
 扫码支付268元。 （如果是[代码随想录知识星球](https://programmercarl.com/other/kstar.html)成员录友，只需要支付238元，提交客服的时候需提供知识星球截图，**注意一定要是代码随想录知识星球**）
 
-<div align="center"><img src='https://code-thinking-1253855093.file.myqcloud.com/pics/20230603175016.png' width=500 alt=''> </img></div>
+![img](https://code-thinking-1253855093.file.myqcloud.com/pics/20230603175016.png)
 
 付款后，将付款截图发给客服，客服会在24h内统一回复，**所以大家发给客服信息不要急，当天一定会回复的**。
 

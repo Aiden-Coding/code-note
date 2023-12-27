@@ -21,15 +21,15 @@
 知识星球里也有很多录友，因为不熟悉ACM模式在面试的过程中吃了不少亏。
 
 
-<div align="center"><img src='https://code-thinking-1253855093.file.myqcloud.com/pics/20230727163624.png' width=500 alt=''></img></div>
+![img](https://code-thinking-1253855093.file.myqcloud.com/pics/20230727163624.png)
 
-<div align="center"><img src='https://code-thinking-1253855093.file.myqcloud.com/pics/20230727163938.png' width=500 alt=''></img></div>
+![img](https://code-thinking-1253855093.file.myqcloud.com/pics/20230727163938.png)
 
-<div align="center"><img src='https://code-thinking-1253855093.file.myqcloud.com/pics/20230727164042.png' width=500 alt=''></img></div>
+![img](https://code-thinking-1253855093.file.myqcloud.com/pics/20230727164042.png)
 
-<div align="center"><img src='https://code-thinking-1253855093.file.myqcloud.com/pics/20230727164151.png' width=500 alt=''></img></div>
+![img](https://code-thinking-1253855093.file.myqcloud.com/pics/20230727164151.png)
 
-<div align="center"><img src='https://code-thinking-1253855093.file.myqcloud.com/pics/20230727164459.png' width=500 alt=''></img></div>
+thinking-1253855093.file.myqcloud.com/pics/20230727164459.png)
 
 ## 面试究竟怎么考？
 
