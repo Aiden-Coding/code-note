@@ -176,9 +176,10 @@
    - [面经手册 · 第30篇《关于 Spring 中 getBean 的全流程源码解析》](./md/java/interview/2021-04-18-%E9%9D%A2%E7%BB%8F%E6%89%8B%E5%86%8C%20%C2%B7%20%E7%AC%AC30%E7%AF%87%E3%80%8A%E5%85%B3%E4%BA%8E%20Spring%20%E4%B8%AD%20getBean%20%E7%9A%84%E5%85%A8%E6%B5%81%E7%A8%8B%E6%BA%90%E7%A0%81%E8%A7%A3%E6%9E%90%E3%80%8B.md)
    - [面经手册 · 第31篇《Spring Bean IOC、AOP 循环依赖解读》](./md/java/interview/2021-05-05-%E9%9D%A2%E7%BB%8F%E6%89%8B%E5%86%8C%20%C2%B7%20%E7%AC%AC31%E7%AF%87%E3%80%8ASpring%20Bean%20IOC%E3%80%81AOP%20%E5%BE%AA%E7%8E%AF%E4%BE%9D%E8%B5%96%E8%A7%A3%E8%AF%BB%E3%80%8B.md)
     
-</details>
+
 
 ### 2.2 用Java实现JVM - 👉
+
 [**在线阅读**](./md/java/develop-jvm/2019-05-01-%E7%94%A8Java%E5%AE%9E%E7%8E%B0JVM%E7%AC%AC%E4%B8%80%E7%AB%A0%E3%80%8A%E5%91%BD%E4%BB%A4%E8%A1%8C%E5%B7%A5%E5%85%B7%E3%80%8B.html)
 
 - [用Java实现JVM第一章《命令行工具》](./md/java/develop-jvm/2019-05-01-%E7%94%A8Java%E5%AE%9E%E7%8E%B0JVM%E7%AC%AC%E4%B8%80%E7%AB%A0%E3%80%8A%E5%91%BD%E4%BB%A4%E8%A1%8C%E5%B7%A5%E5%85%B7%E3%80%8B.md)
@@ -195,7 +196,7 @@
 - [用Java实现JVM第九章《本地方法调用》](./md/java/develop-jvm/2019-05-10-%E7%94%A8Java%E5%AE%9E%E7%8E%B0JVM%E7%AC%AC%E4%B9%9D%E7%AB%A0%E3%80%8A%E6%9C%AC%E5%9C%B0%E6%96%B9%E6%B3%95%E8%B0%83%E7%94%A8%E3%80%8B.md)
 - [用Java实现JVM第十章《异常处理》](./md/java/develop-jvm/2019-05-11-%E7%94%A8Java%E5%AE%9E%E7%8E%B0JVM%E7%AC%AC%E5%8D%81%E7%AB%A0%E3%80%8A%E5%BC%82%E5%B8%B8%E5%A4%84%E7%90%86%E3%80%8B.md)
 
-</details>
+
 
 ### 2.3 基础技术 - 👉[**在线阅读**]
 (./md/java/core/2020-01-06-%5B%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90%5D%E5%92%8B%E5%98%9E%EF%BC%9F%E4%BD%A0%E7%9A%84IDEA%E8%BF%87%E6%9C%9F%E4%BA%86%E5%90%A7%EF%BC%81%E5%8A%A0%E4%B8%AAJar%E5%8C%85%E5%B0%B1%E7%A0%B4%E8%A7%A3%E4%BA%86%EF%BC%8C%E4%B8%BA%E4%BB%80%E4%B9%88%EF%BC%9F.html)
@@ -211,7 +212,7 @@
 - [鹿鼎记 · 韦小宝，丽春院、天地会、入皇宫等五个场景，搭配不同剧情讲解多线程和锁，真香！](./md/java/core/2020-11-22-%E9%B9%BF%E9%BC%8E%E8%AE%B0%20%C2%B7%20%E9%9F%A6%E5%B0%8F%E5%AE%9D%EF%BC%8C%E4%B8%BD%E6%98%A5%E9%99%A2%E3%80%81%E5%A4%A9%E5%9C%B0%E4%BC%9A%E3%80%81%E5%85%A5%E7%9A%87%E5%AE%AB%E7%AD%89%E4%BA%94%E4%B8%AA%E5%9C%BA%E6%99%AF%EF%BC%8C%E6%90%AD%E9%85%8D%E4%B8%8D%E5%90%8C%E5%89%A7%E6%83%85%E8%AE%B2%E8%A7%A3%E5%A4%9A%E7%BA%BF%E7%A8%8B%E5%92%8C%E9%94%81%EF%BC%8C%E7%9C%9F%E9%A6%99%EF%BC%81.md)
 - [一个Bug，让我发现了 Java 界的AJ锥！](./md/java/core/2021-04-21-%E4%B8%80%E4%B8%AABug%EF%BC%8C%E8%AE%A9%E6%88%91%E5%8F%91%E7%8E%B0%E4%BA%86%20Java%20%E7%95%8C%E7%9A%84AJ%E9%94%A5%EF%BC%81.md)
 
-</details>
+
 
 ## 3. Spring
 
@@ -245,7 +246,7 @@
    - [第17章：攻无不克，通过三级缓存解决循环依赖](./md/spring/develop-spring/2021-08-07-%E7%AC%AC17%E7%AB%A0%EF%BC%9A%E6%94%BB%E6%97%A0%E4%B8%8D%E5%85%8B%EF%BC%8C%E9%80%9A%E8%BF%87%E4%B8%89%E7%BA%A7%E7%BC%93%E5%AD%98%E8%A7%A3%E5%86%B3%E5%BE%AA%E7%8E%AF%E4%BE%9D%E8%B5%96.md)
    - [第18章：挂印封刀，数据类型转换工厂设计实现](./md/spring/develop-spring/2021-08-09-%E7%AC%AC18%E7%AB%A0%EF%BC%9A%E6%8C%82%E5%8D%B0%E5%B0%81%E5%88%80%EF%BC%8C%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B%E8%BD%AC%E6%8D%A2%E5%B7%A5%E5%8E%82%E8%AE%BE%E8%AE%A1%E5%AE%9E%E7%8E%B0.md)
 
-</details>
+
 
 ### 3.2 Mybatis 手撸专栏  - 👉[**在线阅读**](./md/spring/develop-mybatis/2022-03-20-%E7%AC%AC1%E7%AB%A0%EF%BC%9A%E5%BC%80%E7%AF%87%E4%BB%8B%E7%BB%8D%EF%BC%8C%E6%89%8B%E5%86%99Mybatis%E8%83%BD%E7%BB%99%E4%BD%A0%E5%B8%A6%E6%9D%A5%E4%BB%80%E4%B9%88%EF%BC%9F.html)
 
@@ -305,7 +306,7 @@
 - [Spring Cloud八《服务网关路由 Zuul1》](./md/spring/spring-cloud/2019-11-08-Spring%20Cloud%E5%85%AB%E3%80%8A%E6%9C%8D%E5%8A%A1%E7%BD%91%E5%85%B3%E8%B7%AF%E7%94%B1%20Zuul1%E3%80%8B.md)
 - [Spring Cloud九《服务网关Zuul 动态路由与权限过滤器》](./md/spring/spring-cloud/2019-11-24-Spring%20Cloud%E4%B9%9D%E3%80%8A%E6%9C%8D%E5%8A%A1%E7%BD%91%E5%85%B3Zuul%20%E5%8A%A8%E6%80%81%E8%B7%AF%E7%94%B1%E4%B8%8E%E6%9D%83%E9%99%90%E8%BF%87%E6%BB%A4%E5%99%A8%E3%80%8B.md)
 
-</details>
+
 
 ### 3.3 源码分析(Mybatis、Quartz) - 👉[**在线阅读**]()
 
@@ -319,7 +320,7 @@
 - [手写mybait-spring核心功能，干货好文一次学会工厂bean、类代理、bean注册的使用](./md/spring/source-code/2020-01-20-%5B%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90%5D%E6%89%8B%E5%86%99mybait-spring%E6%A0%B8%E5%BF%83%E5%8A%9F%E8%83%BD%EF%BC%8C%E5%B9%B2%E8%B4%A7%E5%A5%BD%E6%96%87%E4%B8%80%E6%AC%A1%E5%AD%A6%E4%BC%9A%E5%B7%A5%E5%8E%82bean%E3%80%81%E7%B1%BB%E4%BB%A3%E7%90%86%E3%80%81bean%E6%B3%A8%E5%86%8C%E7%9A%84%E4%BD%BF%E7%94%A8.md)
 - [为什么 insert 配置 "SELECT LAST_INSERT_ID()" 返回个0呢？](./md/spring/source-code/2022-06-24-%E4%B8%BA%E4%BB%80%E4%B9%88insert%E9%85%8D%E7%BD%AESELECT%20LAST_INSERT_ID()%E8%BF%94%E5%9B%9E%E4%B8%AA0%E5%91%A2.md)
 
-</details>
+
 
 ## 4. 面向对象
 
@@ -362,7 +363,7 @@
     - [重学 Java 设计模式《实战模板模式》](./md/develop/design-pattern/2020-07-07-%E9%87%8D%E5%AD%A6%20Java%20%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E3%80%8A%E5%AE%9E%E6%88%98%E6%A8%A1%E6%9D%BF%E6%A8%A1%E5%BC%8F%E3%80%8B.md)
     - [重学 Java 设计模式《实战访问者模式》](./md/develop/design-pattern/2020-07-09-%E9%87%8D%E5%AD%A6%20Java%20%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E3%80%8A%E5%AE%9E%E6%88%98%E8%AE%BF%E9%97%AE%E8%80%85%E6%A8%A1%E5%BC%8F%E3%80%8B.md)
 
-</details>
+
 
 ### 4.2 系统架构 - 👉[**在线阅读**](./md/develop/framework/ddd/2019-10-15-DDD%E4%B8%93%E9%A2%98%E6%A1%88%E4%BE%8B%E4%B8%80%E3%80%8A%E5%88%9D%E8%AF%86%E9%A2%86%E5%9F%9F%E9%A9%B1%E5%8A%A8%E8%AE%BE%E8%AE%A1DDD%E8%90%BD%E5%9C%B0%E3%80%8B.html)
 
@@ -391,7 +392,7 @@
     - [基于库表分段扫描和数据Redis预热，优化分布式延迟任务触达时效性](./md/develop/framework/scheme/2022-02-14-%E5%9F%BA%E4%BA%8E%E5%BA%93%E8%A1%A8%E5%88%86%E6%AE%B5%E6%89%AB%E6%8F%8F%E5%92%8C%E6%95%B0%E6%8D%AERedis%E9%A2%84%E7%83%AD%EF%BC%8C%E4%BC%98%E5%8C%96%E5%88%86%E5%B8%83%E5%BC%8F%E5%BB%B6%E8%BF%9F%E4%BB%BB%E5%8A%A1%E8%A7%A6%E8%BE%BE%E6%97%B6%E6%95%88%E6%80%A7.md)
     - [怎么说服领导，能让我用DDD架构肝项目？](https://github.com/fuzhengwei/CodeGuide/blob/85f9a7e21065a5c3b2345f94734e903eb58d3b08/docs/md/develop/framework/scheme/2022-02-21-%E6%80%8E%E4%B9%88%E8%AF%B4%E6%9C%8D%E9%A2%86%E5%AF%BC%EF%BC%8C%E8%83%BD%E8%AE%A9%E6%88%91%E7%94%A8DDD%E6%9E%B6%E6%9E%84.md)
 
-</details>
+
 
 ### 4.3 开发规范&事故 - 👉[**在线阅读**](./md/develop/standard/2020-09-14-%E4%B8%80%E6%AC%A1%E4%BB%A3%E7%A0%81%E8%AF%84%E5%AE%A1%EF%BC%8C%E5%B7%AE%E7%82%B9%E8%BF%87%E4%B8%8D%E4%BA%86%E8%AF%95%E7%94%A8%E6%9C%9F%EF%BC%81.html)
 
@@ -408,7 +409,7 @@
 - [架构师深夜把玩 ApiPost，分享细腻的体验！](./md/develop/standard/2022-03-06-ApiPost.md)
 - [你说写代码，最常用的3个设计模式是啥？](./md/develop/standard/2022-05-15-%E4%BD%A0%E8%AF%B4%E5%86%99%E4%BB%A3%E7%A0%81%EF%BC%8C%E6%9C%80%E5%B8%B8%E7%94%A8%E7%9A%843%E4%B8%AA%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E6%98%AF%E5%95%A5%EF%BC%9F.md)
 
-</details>
+
 
 ## 5. 中间件
 
@@ -422,7 +423,7 @@
 
 - [基于Hash散列，数据库路由组件设计](./md/assembly/middleware/2021-08-19-%E5%9F%BA%E4%BA%8EHash%E6%95%A3%E5%88%97%EF%BC%8C%E6%95%B0%E6%8D%AE%E5%BA%93%E8%B7%AF%E7%94%B1%E7%BB%84%E4%BB%B6%E8%AE%BE%E8%AE%A1.md)
 
-</details>
+
 
 ### 5.2 IDEA-Plugin - 👉[**在线阅读**](./md/assembly/idea-plugin/2021-08-27-%E6%8A%80%E6%9C%AF%E8%B0%83%E7%A0%94%EF%BC%8CIDEA%20%E6%8F%92%E4%BB%B6%E6%80%8E%E4%B9%88%E5%BC%80%E5%8F%91%EF%BC%9F.html)
 
@@ -471,7 +472,7 @@
 - [netty案例，netty4.1基础入门篇十一《netty udp通信方式案例Demo》](./md/netty/base/2019-08-14-netty%E6%A1%88%E4%BE%8B%EF%BC%8Cnetty4.1%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8%E7%AF%87%E5%8D%81%E4%B8%80%E3%80%8Anetty%20udp%E9%80%9A%E4%BF%A1%E6%96%B9%E5%BC%8F%E6%A1%88%E4%BE%8BDemo%E3%80%8B.md)
 - [netty案例，netty4.1基础入门篇十二《简单实现一个基于Netty搭建的Http服务》](./md/netty/base/2019-08-15-netty%E6%A1%88%E4%BE%8B%EF%BC%8Cnetty4.1%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8%E7%AF%87%E5%8D%81%E4%BA%8C%E3%80%8A%E7%AE%80%E5%8D%95%E5%AE%9E%E7%8E%B0%E4%B8%80%E4%B8%AA%E5%9F%BA%E4%BA%8ENetty%E6%90%AD%E5%BB%BA%E7%9A%84Http%E6%9C%8D%E5%8A%A1%E3%80%8B.md)
 
-</details>
+
 
 ### 6.2 中级拓展篇 - 👉[**在线阅读**](./md/netty/expand/2019-08-16-netty%E6%A1%88%E4%BE%8B%EF%BC%8Cnetty4.1%E4%B8%AD%E7%BA%A7%E6%8B%93%E5%B1%95%E7%AF%87%E4%B8%80%E3%80%8ANetty%E4%B8%8ESpringBoot%E6%95%B4%E5%90%88%E3%80%8B.html)
 
@@ -492,7 +493,7 @@
 - [netty案例，netty4.1中级拓展篇十二《Netty流量整形数据流速率控制分析与实战》](./md/netty/expand/2019-08-27-netty%E6%A1%88%E4%BE%8B%EF%BC%8Cnetty4.1%E4%B8%AD%E7%BA%A7%E6%8B%93%E5%B1%95%E7%AF%87%E5%8D%81%E4%BA%8C%E3%80%8ANetty%E6%B5%81%E9%87%8F%E6%95%B4%E5%BD%A2%E6%95%B0%E6%8D%AE%E6%B5%81%E9%80%9F%E7%8E%87%E6%8E%A7%E5%88%B6%E5%88%86%E6%9E%90%E4%B8%8E%E5%AE%9E%E6%88%98%E3%80%8B.md)
 - [netty案例，netty4.1中级拓展篇十三《Netty基于SSL实现信息传输过程中双向加密验证》](./md/netty/expand/2019-08-28-netty%E6%A1%88%E4%BE%8B%EF%BC%8Cnetty4.1%E4%B8%AD%E7%BA%A7%E6%8B%93%E5%B1%95%E7%AF%87%E5%8D%81%E4%B8%89%E3%80%8ANetty%E5%9F%BA%E4%BA%8ESSL%E5%AE%9E%E7%8E%B0%E4%BF%A1%E6%81%AF%E4%BC%A0%E8%BE%93%E8%BF%87%E7%A8%8B%E4%B8%AD%E5%8F%8C%E5%90%91%E5%8A%A0%E5%AF%86%E9%AA%8C%E8%AF%81%E3%80%8B.md)
 
-</details>
+
 
 ### 6.3 高级应用篇 - 👉[**在线阅读**](./md/netty/application/2019-09-01-%E6%89%8B%E5%86%99RPC%E6%A1%86%E6%9E%B6%E7%AC%AC%E4%B8%80%E7%AB%A0%E3%80%8A%E8%87%AA%E5%AE%9A%E4%B9%89%E9%85%8D%E7%BD%AExml%E3%80%8B.html)
 
@@ -505,7 +506,7 @@
 - [websocket与下位机通过netty方式通信传输行为信息](./md/netty/application/2019-12-01-websocket%E4%B8%8E%E4%B8%8B%E4%BD%8D%E6%9C%BA%E9%80%9A%E8%BF%87netty%E6%96%B9%E5%BC%8F%E9%80%9A%E4%BF%A1%E4%BC%A0%E8%BE%93%E8%A1%8C%E4%B8%BA%E4%BF%A1%E6%81%AF.md)
 - [给学习加点实践，开发一个分布式IM即时通信系统](./md/netty/application/2021-08-17-%E7%BB%99%E5%AD%A6%E4%B9%A0%E5%8A%A0%E7%82%B9%E5%AE%9E%E8%B7%B5%EF%BC%8C%E5%BC%80%E5%8F%91%E4%B8%80%E4%B8%AA%E5%88%86%E5%B8%83%E5%BC%8FIM%E5%8D%B3%E6%97%B6%E9%80%9A%E4%BF%A1%E7%B3%BB%E7%BB%9F.md)
 
-</details>
+
 
 ### 6.4 源码分析篇 - 👉[**在线阅读**](./md/netty/source-code/2019-09-10-netty%E6%A1%88%E4%BE%8B%EF%BC%8Cnetty4.1%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90%E7%AF%87%E4%B8%80%E3%80%8ANioEventLoopGroup%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90%E3%80%8B.html)
 
@@ -519,7 +520,7 @@
 - [netty案例，netty4.1源码分析篇五《一行简单的writeAndFlush都做了哪些事》](./md/netty/source-code/2019-09-14-netty%E6%A1%88%E4%BE%8B%EF%BC%8Cnetty4.1%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90%E7%AF%87%E4%BA%94%E3%80%8A%E4%B8%80%E8%A1%8C%E7%AE%80%E5%8D%95%E7%9A%84writeAndFlush%E9%83%BD%E5%81%9A%E4%BA%86%E5%93%AA%E4%BA%9B%E4%BA%8B%E3%80%8B.md)
 - [netty案例，netty4.1源码分析篇六《Netty异步架构监听类Promise源码分析》](./md/netty/source-code/2019-09-15-netty%E6%A1%88%E4%BE%8B%EF%BC%8Cnetty4.1%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90%E7%AF%87%E5%85%AD%E3%80%8ANetty%E5%BC%82%E6%AD%A5%E6%9E%B6%E6%9E%84%E7%9B%91%E5%90%AC%E7%B1%BBPromise%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90%E3%80%8B.md)
 
-</details>
+
 
 ## 7. 字节码编程
 
@@ -547,7 +548,7 @@
 - [Byte-buddy篇二《监控方法执行耗时动态获取出入参类型和值》](./md/bytecode/byte-buddy/2020-05-12-%E5%AD%97%E8%8A%82%E7%A0%81%E7%BC%96%E7%A8%8B%EF%BC%8CByte-buddy%E7%AF%87%E4%BA%8C%E3%80%8A%E7%9B%91%E6%8E%A7%E6%96%B9%E6%B3%95%E6%89%A7%E8%A1%8C%E8%80%97%E6%97%B6%E5%8A%A8%E6%80%81%E8%8E%B7%E5%8F%96%E5%87%BA%E5%85%A5%E5%8F%82%E7%B1%BB%E5%9E%8B%E5%92%8C%E5%80%BC%E3%80%8B.md)
 - [Byte-buddy篇三《使用委托实现抽象类方法并注入自定义注解信息》](./md/bytecode/byte-buddy/2020-05-14-%E5%AD%97%E8%8A%82%E7%A0%81%E7%BC%96%E7%A8%8B%EF%BC%8CByte-buddy%E7%AF%87%E4%B8%89%E3%80%8A%E4%BD%BF%E7%94%A8%E5%A7%94%E6%89%98%E5%AE%9E%E7%8E%B0%E6%8A%BD%E8%B1%A1%E7%B1%BB%E6%96%B9%E6%B3%95%E5%B9%B6%E6%B3%A8%E5%85%A5%E8%87%AA%E5%AE%9A%E4%B9%89%E6%B3%A8%E8%A7%A3%E4%BF%A1%E6%81%AF%E3%80%8B.md)
 
-</details>
+
 
 ### 7.2 全链路监控 - 👉[**在线阅读**](./md/bytecode/agent/2019-07-10-%E5%9F%BA%E4%BA%8EJavaAgent%E7%9A%84%E5%85%A8%E9%93%BE%E8%B7%AF%E7%9B%91%E6%8E%A7%E4%B8%80%E3%80%8A%E5%97%A8%EF%BC%81JavaAgent%E3%80%8B.html)
 
@@ -561,7 +562,7 @@
 - [基于JavaAgent的全链路监控五《ThreadLocal链路追踪》](./md/bytecode/agent/2019-07-14-%E5%9F%BA%E4%BA%8EJavaAgent%E7%9A%84%E5%85%A8%E9%93%BE%E8%B7%AF%E7%9B%91%E6%8E%A7%E4%BA%94%E3%80%8AThreadLocal%E9%93%BE%E8%B7%AF%E8%BF%BD%E8%B8%AA%E3%80%8B.md)
 - [基于JavaAgent的全链路监控六《开发应用级监控》](./md/bytecode/agent/2019-07-15-%E5%9F%BA%E4%BA%8EJavaAgent%E7%9A%84%E5%85%A8%E9%93%BE%E8%B7%AF%E7%9B%91%E6%8E%A7%E5%85%AD%E3%80%8A%E5%BC%80%E5%8F%91%E5%BA%94%E7%94%A8%E7%BA%A7%E7%9B%91%E6%8E%A7%E3%80%8B.md)
 
-</details>
+
 
 ### 7.3 文档(ASM-DOC) - 👉[**在线阅读**](./md/bytecode/asm-document/1%E5%BC%95%E8%A8%80.html)
 
@@ -627,7 +628,7 @@
     - [A.5性能](./md/bytecode/asm-document/A.5%E6%80%A7%E8%83%BD.md)
     - [JVM-指令表](./md/bytecode/asm-document/JVM-%E6%8C%87%E4%BB%A4%E8%A1%A8.md)
 
-</details>
+
 
 ## 8. 实战项目
 
@@ -666,7 +667,7 @@
     - [3.8：练习篇-聊天表情发送功能实现](https://gitbook.cn/gitchat/column/5e5d29ac3fbd2d3f5d05e05f)
     - [3.9：解答篇-聊天表情发送功能实现](https://gitbook.cn/gitchat/column/5e5d29ac3fbd2d3f5d05e05f)
 
-</details>
+
 
 ### 8.2 SpringBoot 中间件设计和开发 - 👉
 [**在线阅读**](./md/project/springboot-middleware/2021-03-31-%E3%80%8ASpringBoot%20%E4%B8%AD%E9%97%B4%E4%BB%B6%E8%AE%BE%E8%AE%A1%E5%92%8C%E5%BC%80%E5%8F%91%E3%80%8B%E4%B8%93%E6%A0%8F%E5%B0%8F%E5%86%8C%E4%B8%8A%E7%BA%BF%E5%95%A6%EF%BC%81.html)
@@ -701,7 +702,7 @@
 - 第 6 部分
     - [第 19 章 后记](./md/project/springboot-middleware/%E7%AC%AC%2019%20%E7%AB%A0%20%E5%90%8E%E8%AE%B0.html)
 
-</details>
+
 
 ### 8.3 Lottery 分布式抽奖系统 - 👉
 [**在线阅读**](./md/project/lottery/introduce/Lottery%E6%8A%BD%E5%A5%96%E7%B3%BB%E7%BB%9F.html)
@@ -761,7 +762,7 @@
     - [第07节：部署环境 Elasticsearch、Kibana](#)
     - [第08节：部署环境 canal 同步数据到 ES](#)
     
-</details>
+
 
 ## 9. 部署 - 👉
 [**在线阅读**](./md/devops/2019-08-12-windows%E7%8E%AF%E5%A2%83%E4%B8%8B%E5%AE%89%E8%A3%85elasticsearch6.2.2.html)
@@ -781,7 +782,7 @@
 - [关于怎么使用 webhooks 自动部署博客，详细教程文档！](./md/devops/2021-11-07-%E5%85%B3%E4%BA%8E%E6%80%8E%E4%B9%88%E4%BD%BF%E7%94%A8%20webhooks%20%E8%87%AA%E5%8A%A8%E9%83%A8%E7%BD%B2%E5%8D%9A%E5%AE%A2%EF%BC%8C%E8%AF%A6%E7%BB%86%E6%95%99%E7%A8%8B%E6%96%87%E6%A1%A3%EF%BC%81.md)
 - [教小白使用 docsify，搭建一个贼简单的所见即所得博客！](./md/devops/2022-03-04-%E6%95%99%E5%B0%8F%E7%99%BD%E4%BD%BF%E7%94%A8%20docsify%EF%BC%8C%E6%90%AD%E5%BB%BA%E4%B8%80%E4%B8%AA%E8%B4%BC%E7%AE%80%E5%8D%95%E7%9A%84%E6%89%80%E8%A7%81%E5%8D%B3%E6%89%80%E5%BE%97%E5%8D%9A%E5%AE%A2%EF%BC%81.md)
 
-</details>
+
 
 
 ## 10. PDF 下载
@@ -818,7 +819,7 @@
 - [2021年，小傅哥の年终总结！](./md/about/me/2022-01-27-2021%E5%B9%B4%EF%BC%8C%E5%B0%8F%E5%82%85%E5%93%A5%E3%81%AE%E5%B9%B4%E7%BB%88%E6%80%BB%E7%BB%93%EF%BC%81.md)
 - [被掘金读者举报，侵权国外资料，但却是一次不错的经历！](./md/about/me/2022-05-22-copyright-violation.md)
 
-</details>
+
 
 ### 11.2 关于学习 - 👉
 [**在线阅读**](./md/about/study/2020-04-30-%E8%AE%B2%E9%81%93%E7%90%86%EF%BC%8C%E5%8F%AA%E8%A6%81%E4%BD%A0%E6%98%AF%E4%B8%80%E4%B8%AA%E7%88%B1%E6%8A%98%E8%85%BE%E7%9A%84%E7%A8%8B%E5%BA%8F%E5%91%98%EF%BC%8C%E6%AF%95%E4%B8%9A%E6%89%BE%E5%B7%A5%E4%BD%9C%E7%9C%9F%E7%9A%84%E4%B8%8D%E9%9C%80%E8%A6%81%E5%86%8D%E8%8A%B1%E9%92%B1%E5%9F%B9%E8%AE%AD.html)
@@ -838,7 +839,7 @@
 - [2021版，开发者学习路线图分享](./md/about/study/2021-09-09-2021%E7%89%88%EF%BC%8C%E5%BC%80%E5%8F%91%E8%80%85%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF%E5%9B%BE%E5%88%86%E4%BA%AB.md)
 - [你上车，我就把你带成卷王！](./md/about/study/2022-02-07-%E4%BD%A0%E4%B8%8A%E8%BD%A6%EF%BC%8C%E6%88%91%E5%B0%B1%E6%8A%8A%E4%BD%A0%E5%B8%A6%E6%88%90%E5%8D%B7%E7%8E%8B%EF%BC%81.md)
 
-</details>
+
 
 ### 11.3 关于工作 - 👉
 [**在线阅读**](./md/about/job/2020-04-11-%E5%B7%A5%E4%BD%9C%E4%B8%A4%E5%B9%B4%E7%AE%80%E5%8E%86%E5%86%99%E6%88%90%E8%BF%99%E6%A0%B7%EF%BC%8C%E8%B0%81%E8%A6%81%E4%BD%A0%E5%91%80%EF%BC%81.html)
@@ -854,7 +855,7 @@
 - [半年筛选了400+份简历，告诉你怎么写会被撩](./md/about/job/2021-02-24-%E5%8D%8A%E5%B9%B4%E7%AD%9B%E9%80%89%E4%BA%86400%2B%E4%BB%BD%E7%AE%80%E5%8E%86%EF%BC%8C%E5%91%8A%E8%AF%89%E4%BD%A0%E6%80%8E%E4%B9%88%E5%86%99%E4%BC%9A%E8%A2%AB%E6%92%A9.md)
 - [刚提测就改需求，我是渣男吗？](./md/about/job/2021-12-02-%E5%88%9A%E6%8F%90%E6%B5%8B%E5%B0%B1%E6%94%B9%E9%9C%80%E6%B1%82%EF%BC%8C%E6%88%91%E6%98%AF%E6%B8%A3%E7%94%B7%E5%90%97.md)
 
-</details>
+
 
 ## 12. 转载分享
 
