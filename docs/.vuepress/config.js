@@ -93,7 +93,7 @@ export default {
             },
             { text: "bestJavaer", link: "/bestJavaer/" },
             { text: "JavaGuide", link: "/JavaGuide/" },
-            { text: "CodeGuide", link: "/CodeGuide/" },
+            { text: "CodeGuide", link: "/CodeGuide/home.md" },
             { text: "其他", link: "/cs/others/面向对象思想.md" },
         ],
         series: {
