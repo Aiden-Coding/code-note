@@ -19,6 +19,16 @@ export default {
         },
     },
     theme: recoTheme({
+        // 自动设置分类
+        // autoSetBlogCategories: true,
+        // 自动将分类和标签添加至头部导航条
+        autoAddCategoryToNavbar: {
+            location: 1, // 默认 0
+            categoryText: '分类', // 默认 categories
+            tagText: '标签' // 默认 tags
+        },
+        // 当 autoAddCategoryToNavbar 为 true 时，则全部取默认值
+        // autoAddCategoryToNavbar: true,
         bulletin: {
             body: [
                 {
@@ -72,7 +82,14 @@ export default {
             { text: "微服务", link: "/cs/cloud/微服务和Spring Cloud Alibaba介绍.md" },
             { text: "advanced-java", link: "/advanced-java/java/Java 基础.md" },
             { text: "toBeTopJavaer", link: "/toBeTopJavaer/menu.md" },
-            { text: "toBeBetterJavaer", link: "/toBeBetterJavaer/home.md" },
+            {
+                text: "toBeBetterJavaer", children: [
+                    { text: 'home', link: '/toBeBetterJavaer/home.md' },
+                    { text: 'comments', link: '/toBeBetterJavaer/comments' },
+                    { text: 'vue-previews', link: '/toBeBetterJavaer/vue-previews' },
+                    { text: 'bulletin-popover', link: '/toBeBetterJavaer/bulletin-popover' },
+                ]
+            },
             { text: "其他", link: "/cs/others/面向对象思想.md" },
         ],
         series: {
