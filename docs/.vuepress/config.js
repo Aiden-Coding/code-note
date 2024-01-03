@@ -61,14 +61,18 @@ export default {
         //默认主题配置
         navbar: [
             { text: "首页", link: "/" },
+            { text: "Java", link: "/cs/java/Java 基础.md" },
             { text: "操作系统", link: "/cs/system/Linux.md" },
             { text: "计算机网络", link: "/cs/net/HTTP.md" },
             { text: "数据库", link: "/cs/database/MySQL.md" },
-            { text: "Java", link: "/cs/java/Java 基础.md" },
             { text: "算法", link: "/cs/algo/算法 - 目录.md" },
             { text: "设计模式", link: "/cs/design/设计模式 - 目录.md" },
             { text: "flowable", link: "/flowable/Flowable课件-基础篇.md" },
             { text: "代码随想录", link: "/cs/programmercarl/" },
+            { text: "微服务", link: "/cs/cloud/微服务和Spring Cloud Alibaba介绍.md" },
+            { text: "advanced-java", link: "/advanced-java/java/Java 基础.md" },
+            { text: "toBeTopJavaer", link: "/toBeTopJavaer/menu.md" },
+            { text: "toBeBetterJavaer", link: "/toBeBetterJavaer/home.md" },
             { text: "其他", link: "/cs/others/面向对象思想.md" },
         ],
         series: {
@@ -77,6 +81,18 @@ export default {
                     text: "flowalbe 学习",
                     collapsable: true,
                     children: ["Flowable课件-基础篇.md", "Flowable课件-高级篇.md"],
+                },
+            ],
+            "/cs/cloud/": [
+                {
+                    text: "springcloud",
+                    collapsable: true,
+                    children: ["/cs/cloud/微服务和Spring Cloud Alibaba介绍.md"],
+                },
+                {
+                    text: "nginx",
+                    collapsable: true,
+                    children: ["/cs/cloud/nginx.md"],
                 },
             ],
             "/cs/others/": [
