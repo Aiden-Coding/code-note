@@ -1,5 +1,5 @@
 ---
-layout: post
+
 category: interview
 title: 面经手册 · 第12篇《面试官，ThreadLocal 你要这么问，我就挂了！》
 tagline: by 小傅哥

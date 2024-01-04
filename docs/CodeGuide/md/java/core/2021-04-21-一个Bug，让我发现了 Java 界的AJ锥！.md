@@ -1,5 +1,5 @@
 ---
-layout: post
+
 category: itstack-code-life
 title: 一个Bug，让我发现了 Java 界的.AJ(锥)！
 tagline: by 小傅哥

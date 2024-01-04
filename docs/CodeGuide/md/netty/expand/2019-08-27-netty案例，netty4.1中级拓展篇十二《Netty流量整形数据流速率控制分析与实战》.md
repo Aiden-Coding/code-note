@@ -1,5 +1,5 @@
 ---
-layout: post
+
 category: itstack-demo-netty-2
 title: netty案例，netty4.1中级拓展篇十二《Netty流量整形数据流速率控制分析与实战》
 tagline: by 付政委

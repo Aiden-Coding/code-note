@@ -1,5 +1,5 @@
 ---
-layout: post
+
 category: itstack-demo-any
 title: 源码分析 | 像盗墓一样分析Spring是怎么初始化xml并注册bean的
 tagline: by 付政委

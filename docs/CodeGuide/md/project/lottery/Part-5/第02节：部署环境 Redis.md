@@ -20,14 +20,14 @@ pay: https://t.zsxq.com/fAYNJy3
 
 ## 二、选择 Redis 镜像
 
-![](/images/article/project/lottery/Part-5/2-01.png)
+<!-- ![](/images/article/project/lottery/Part-5/2-01.png) -->
 
 - 网址：[https://hub.docker.com/_/redis?tab=tags](https://hub.docker.com/_/redis?tab=tags)
 - 选择最新的镜像文件：`docker pull redis:latest`
 
 ## 三、下载Redis的配置文件
 
-![](/images/article/project/lottery/Part-5/2-02.png)
+<!-- ![](/images/article/project/lottery/Part-5/2-02.png) -->
 
 - 下载后解压，你会看到一个 redis.conf 的文件，接下来需要对文件进行修改；*如果你自己配置的有问题，也可以下载我配置好的：[redis.conf](https://gitcode.net/KnowledgePlanet/Lottery/-/blob/master/doc/assets/redis/redis.conf)*
      - 【必须】`bind 127.0.0.1` 把`#`号注释掉这部分，使redis可以外部访问

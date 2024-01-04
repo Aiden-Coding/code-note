@@ -237,7 +237,7 @@ if (configuration.getEnvironment() != null) {
 ![](https://img2018.cnblogs.com/blog/1515111/201908/1515111-20190808213659335-267738794.png)
 
 
-> 这里需要注意一下最后一个值， configuration.getEnvironment().getId() 这是什么，这其实就是定义在 `mybatis-config.xml` 中的 <environment> 标签，见如下。
+> 这里需要注意一下最后一个值， configuration.getEnvironment().getId() 这是什么，这其实就是定义在 `mybatis-config.xml` 中的 `<environment>` 标签，见如下。
 >
 > ```xml
 > <environments default="development">

@@ -1,5 +1,5 @@
 ---
-layout: post
+
 category: itstack-demo-agent
 title: 四、通过字节码插桩监控方法采集运行时入参出参和异常信息
 tagline: by 付政委

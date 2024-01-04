@@ -1,5 +1,5 @@
 ---
-layout: post
+
 category: itstack-demo-netty-2
 title: netty案例，netty4.1中级拓展篇十一《Netty基于ChunkedStream数据流切块传输》
 tagline: by 付政委

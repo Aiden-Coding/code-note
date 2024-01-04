@@ -1,5 +1,5 @@
 ---
-layout: post
+
 category: interview
 title: 《Java面经手册》PDF数据结构篇， 肝完出炉了！来吧，这本书帮你拿最贵的offer！
 tagline: by 小傅哥

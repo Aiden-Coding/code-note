@@ -1,5 +1,5 @@
 ---
-layout: post
+
 category: itstack-demo-netty-3
 title: websocket与下位机通过netty方式通信传输行为信息
 tagline: by 付政委

@@ -1,5 +1,5 @@
 ---
-layout: post
+
 category: itstack-demo-any
 title: elasticsearch-head插件安装
 tagline: by 付政委

@@ -1,5 +1,5 @@
 ---
-layout: post
+
 category: itstack-demo-agent
 title: 四、JVM内存与GC信息
 tagline: by 付政委

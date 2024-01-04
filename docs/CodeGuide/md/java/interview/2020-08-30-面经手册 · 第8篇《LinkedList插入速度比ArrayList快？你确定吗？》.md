@@ -1,5 +1,5 @@
 ---
-layout: post
+
 category: interview
 title: 面经手册 · 第8篇《LinkedList插入速度比ArrayList快？你确定吗？》
 tagline: by 小傅哥

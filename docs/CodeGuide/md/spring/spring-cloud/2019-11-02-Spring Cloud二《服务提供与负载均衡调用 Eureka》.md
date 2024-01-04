@@ -1,5 +1,5 @@
 ---
-layout: post
+
 category: itstack-demo-springcloud
 title: 第2章：服务提供与负载均衡调用 Eureka
 tagline: by 付政委

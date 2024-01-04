@@ -1,5 +1,5 @@
 ---
-layout: post
+
 category: itstack-demo-springcloud
 title: 第4章：服务响应性能成功率监控 Hystrix
 tagline: by 付政委

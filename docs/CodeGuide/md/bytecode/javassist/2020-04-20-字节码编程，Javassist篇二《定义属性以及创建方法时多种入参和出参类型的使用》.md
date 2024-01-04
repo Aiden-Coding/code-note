@@ -1,5 +1,5 @@
 ---
-layout: post
+
 category: itstack-demo-agent
 title: 二、定义属性以及创建方法时多种入参和出参类型的使用
 tagline: by 付政委

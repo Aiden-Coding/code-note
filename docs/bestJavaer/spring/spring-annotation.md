@@ -201,7 +201,7 @@ AnnotationConfigApplicationContext的一个WebApplicationContext的变化是使�
 
 ## 使用@Bean注解
 
-@Bean 注解是一个方法级别的注解，能够替换XML-Based中的<bean/>标签，@Bean注解同样支持<bean>标签支持的属性，像是 `init-method`, `destroy-method`, `autowiring`。
+@Bean 注解是一个方法级别的注解，能够替换XML-Based中的`<bean/>`标签，@Bean注解同样支持`<bean>`标签支持的属性，像是 `init-method`, `destroy-method`, `autowiring`。
 
 ### 定义一个Bean
 
@@ -517,7 +517,7 @@ public static void main(String[] args) {
 }
 ```
 
-> 在`system-test-config.xml`中，AppConfig 对应的<bean/> 标签没有声明id属性，虽然这样做是可以接受的，但是没有必要，因为没有其他bean引用它，并且不太可能通过名称从容器中获取它。同样的，DataSource bean只是按类型自动装配，因此不严格要求显式的bean id。
+> 在`system-test-config.xml`中，AppConfig 对应的`<bean/> `标签没有声明id属性，虽然这样做是可以接受的，但是没有必要，因为没有其他bean引用它，并且不太可能通过名称从容器中获取它。同样的，DataSource bean只是按类型自动装配，因此不严格要求显式的bean id。
 
 ### 使用<<context:component-scan/>> 挑选指定的@Configuration类
 

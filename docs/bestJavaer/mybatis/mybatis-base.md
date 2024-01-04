@@ -109,11 +109,11 @@ public interface DeptDao {
 </mapper>
 ```
 
-> 上述的<mapper namespace> 就是映射到Mapper接口类的命名空间
+> 上述的`<mapper namespace>` 就是映射到Mapper接口类的命名空间
 >
 > `<select>`标签用于编写查询语句，查询完成之后需要把结果映射到对象或者map集合等，需要用到`resultType`属性指定对应的结果集。
 >
-> 上述采用了<sql>和<include>的标签写法，为了方便的映射到实体类，需要修改的话统一修改即可，降低耦合性。
+> 上述采用了`<sql>`和`<include>`的标签写法，为了方便的映射到实体类，需要修改的话统一修改即可，降低耦合性。
 
 构建完成基础的SQL语句和映射之后，下面来构建MySQL数据库驱动，在/resources 下创建`config.properties`类
 

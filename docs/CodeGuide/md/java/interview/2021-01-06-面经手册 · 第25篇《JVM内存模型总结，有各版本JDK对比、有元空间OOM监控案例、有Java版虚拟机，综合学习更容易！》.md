@@ -1,5 +1,5 @@
 ---
-layout: post
+
 category: interview
 title: 面经手册 · 第25篇《JVM内存模型总结，有各版本JDK对比、有元空间OOM监控案例、有Java版虚拟机，综合学习更容易！》
 tagline: by 小傅哥

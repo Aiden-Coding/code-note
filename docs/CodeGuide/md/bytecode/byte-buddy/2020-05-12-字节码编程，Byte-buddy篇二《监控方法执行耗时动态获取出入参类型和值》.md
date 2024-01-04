@@ -1,5 +1,5 @@
 ---
-layout: post
+
 category: itstack-demo-agent
 title: 二、监控方法执行耗时动态获取出入参类型和值
 tagline: by 付政委

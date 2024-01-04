@@ -1,5 +1,5 @@
 ---
-layout: post
+
 category: itstack-demo-agent
 title: 一、嗨！JavaAgent
 tagline: by 付政委

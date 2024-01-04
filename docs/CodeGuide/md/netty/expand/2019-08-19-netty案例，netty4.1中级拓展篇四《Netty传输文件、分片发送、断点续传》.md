@@ -1,5 +1,5 @@
 ---
-layout: post
+
 category: itstack-demo-netty-2
 title: netty案例，netty4.1中级拓展篇四《Netty传输文件、分片发送、断点续传》
 tagline: by 付政委

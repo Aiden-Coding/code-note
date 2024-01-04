@@ -1,5 +1,5 @@
 ---
-layout: post
+
 category: interview
 title: 面经手册 · 第17篇《码农会锁，ReentrantLock之AQS原理分析和实践使用》
 tagline: by 小傅哥

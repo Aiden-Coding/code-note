@@ -18,11 +18,11 @@ pay: https://t.zsxq.com/7i6Yjyr
 
 访问 MySQL 镜像库地址：[https://hub.docker.com/_/mysql?tab=tags](https://hub.docker.com/_/mysql?tab=tags)
 
-![](/images/article/project/lottery/Part-5/4-01.png)
+<!-- ![](/images/article/project/lottery/Part-5/4-01.png) -->
 
 **此外，我们还可以用 `docker search mysql` 命令来查看可用版本：**
 
-![](/images/article/project/lottery/Part-5/4-02.png)
+<!-- ![](/images/article/project/lottery/Part-5/4-02.png) -->
 
 ## 二、拉取 MySQL 镜像
 
@@ -30,4 +30,4 @@ pay: https://t.zsxq.com/7i6Yjyr
 docker pull mysql:latest
 ```
 
-![](/images/article/project/lottery/Part-5/4-03.png)
+<!-- ![](/images/article/project/lottery/Part-5/4-03.png) -->

@@ -30,11 +30,11 @@ pay: https://t.zsxq.com/6i27EeM
 
 **运维面板**：portainer [http://39.96.73.167:9000/#/containers](http://39.96.73.167:9000/#/containers)
 
-![](/images/article/project/lottery/Part-5/7-01.png)
+<!-- ![](/images/article/project/lottery/Part-5/7-01.png) -->
 
 **启动信息**：[http://39.96.73.167:9200](http://39.96.73.167:9200)
 
-![](/images/article/project/lottery/Part-5/7-02.png)
+<!-- ![](/images/article/project/lottery/Part-5/7-02.png) -->
 
 ## 三、安装 Kibana
 
@@ -71,7 +71,7 @@ pay: https://t.zsxq.com/6i27EeM
   
 - 访问验证：[http://39.96.73.167:5601/app/kibana#/home](http://39.96.73.167:5601/app/kibana#/home)  
 
-![](/images/article/project/lottery/Part-5/7-03.png)
+<!-- ![](/images/article/project/lottery/Part-5/7-03.png) -->
   
 
   

@@ -1,5 +1,5 @@
 ---
-layout: post
+
 category: spring
 title: 第10章：对象作用域和FactoryBean
 tagline: by 小傅哥

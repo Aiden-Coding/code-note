@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "vuepress dev docs",
-    "build": "vuepress build docs"
+    "build": "vuepress build docs",
+    "fix-memory-limit": "cross-env LIMIT=8096 increase-memory-limit"
   },
   "keywords": [],
   "author": "",
@@ -14,6 +15,8 @@
   "devDependencies": {
     "@vuepress/client": "2.0.0-rc.0",
     "@vuepress/plugin-toc": "2.0.0-rc.0",
+    "cross-env": "^7.0.3",
+    "increase-memory-limit": "^1.0.7",
     "v": "^0.3.0",
     "vuepress": "2.0.0-rc.0"
   },

@@ -1,5 +1,5 @@
 ---
-layout: post
+
 category: itstack-code-life
 title: Cloudreve 自建云盘实践，我说了没人能限得了我的容量和速度！
 tagline: by 小傅哥

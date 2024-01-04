@@ -1,5 +1,5 @@
 ---
-layout: post
+
 category: spring
 title: 第12章：基于JDK、Cglib实现AOP切面
 tagline: by 小傅哥

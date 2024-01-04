@@ -1,5 +1,5 @@
 ---
-layout: post
+
 category: itstack-demo-springcloud
 title: 第3章：应用服务快速失败熔断降级保护 Hystrix
 tagline: by 付政委

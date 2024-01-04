@@ -1,5 +1,5 @@
 ---
-layout: post
+
 category: itstack-demo-netty-4
 title: netty案例，netty4.1源码分析篇三《Netty服务端初始化过程以及反射工厂的作用》
 tagline: by 付政委

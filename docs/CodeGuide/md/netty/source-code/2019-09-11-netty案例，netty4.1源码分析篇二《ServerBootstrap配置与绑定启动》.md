@@ -1,5 +1,5 @@
 ---
-layout: post
+
 category: itstack-demo-netty-4
 title: netty案例，netty4.1源码分析篇二《ServerBootstrap配置与绑定启动》
 tagline: by 付政委

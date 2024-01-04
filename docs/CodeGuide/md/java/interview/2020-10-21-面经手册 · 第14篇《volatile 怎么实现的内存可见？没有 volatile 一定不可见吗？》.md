@@ -1,5 +1,5 @@
 ---
-layout: post
+
 category: interview
 title: 面经手册 · 第14篇《volatile 怎么实现的内存可见？没有 volatile 一定不可见吗？》
 tagline: by 小傅哥

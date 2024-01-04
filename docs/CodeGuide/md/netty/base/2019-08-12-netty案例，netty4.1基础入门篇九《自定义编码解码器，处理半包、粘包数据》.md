@@ -1,5 +1,5 @@
 ---
-layout: post
+
 category: itstack-demo-netty-1
 title: netty案例，netty4.1基础入门篇九《自定义编码解码器，处理半包、粘包数据》
 tagline: by 付政委

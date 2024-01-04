@@ -1,5 +1,5 @@
 ---
-layout: post
+
 category: itstack-demo-ddd
 title: DDD专题案例三《领域驱动设计架构基于SpringCloud搭建微服务》
 tagline: by 付政委

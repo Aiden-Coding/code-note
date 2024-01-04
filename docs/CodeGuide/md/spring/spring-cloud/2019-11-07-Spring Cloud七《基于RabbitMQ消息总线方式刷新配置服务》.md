@@ -1,5 +1,5 @@
 ---
-layout: post
+
 category: itstack-demo-springcloud
 title: 第7章：基于RabbitMQ消息总线方式刷新配置服务
 tagline: by 付政委

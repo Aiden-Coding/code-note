@@ -1,5 +1,5 @@
 ---
-layout: post
+
 category: itstack-demo-netty-3
 title: 《Netty+JavaFx实战：仿桌面版微信聊天》代码开源、上云部署、视频讲解，只为让你给点个Star！
 tagline: by 付政委

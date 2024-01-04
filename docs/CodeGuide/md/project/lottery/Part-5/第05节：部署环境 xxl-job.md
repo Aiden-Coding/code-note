@@ -17,7 +17,7 @@ pay: https://t.zsxq.com/zbUVR7E
 
 ## 二、导入SQL
 
-![](/images/article/project/lottery/Part-5/5-01.png)
+<!-- ![](/images/article/project/lottery/Part-5/5-01.png) -->
 
 - 我们使用本地 SQL 链接工具，并创建 xxl-job 库已经导入 xxl-job.sql 文件
 

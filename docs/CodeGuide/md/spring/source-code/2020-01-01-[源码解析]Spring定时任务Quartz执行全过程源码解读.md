@@ -1,5 +1,5 @@
 ---
-layout: post
+
 category: itstack-demo-any
 title: 源码分析 | Spring定时任务Quartz执行全过程源码解读
 tagline: by 付政委

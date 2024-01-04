@@ -1,5 +1,5 @@
 ---
-layout: post
+
 category: itstack-demo-springcloud
 title: 第6章：基于github webhook动态刷新服务配置
 tagline: by 付政委

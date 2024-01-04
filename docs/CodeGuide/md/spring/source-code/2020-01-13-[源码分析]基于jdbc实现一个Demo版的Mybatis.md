@@ -1,5 +1,5 @@
 ---
-layout: post
+
 category: itstack-demo-any
 title: 源码分析 | 基于jdbc实现一个Demo版的Mybatis
 tagline: by 付政委

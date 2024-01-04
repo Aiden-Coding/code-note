@@ -1,5 +1,5 @@
 ---
-layout: post
+
 category: itstack-demo-agent
 title: 六、开发应用级监控
 tagline: by 付政委

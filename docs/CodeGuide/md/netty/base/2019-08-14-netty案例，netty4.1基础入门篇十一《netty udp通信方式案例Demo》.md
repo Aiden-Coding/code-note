@@ -1,5 +1,5 @@
 ---
-layout: post
+
 category: itstack-demo-netty-1
 title: netty案例，netty4.1基础入门篇十一《netty udp通信方式案例Demo》
 tagline: by 付政委

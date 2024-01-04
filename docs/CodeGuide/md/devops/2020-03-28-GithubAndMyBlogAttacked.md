@@ -1,5 +1,5 @@
 ---
-layout: post
+
 category: itstack-code-life
 title: 20年3月27日，Github被攻击。我的GitPage博客也挂了，紧急修复之路，也教会你搭建 Jekyll 博客！
 tagline: by 付政委

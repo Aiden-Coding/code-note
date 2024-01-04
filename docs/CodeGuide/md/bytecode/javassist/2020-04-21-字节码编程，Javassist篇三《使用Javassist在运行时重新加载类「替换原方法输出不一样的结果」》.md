@@ -1,5 +1,5 @@
 ---
-layout: post
+
 category: itstack-demo-agent
 title: 三、使用Javassist在运行时重新加载类「替换原方法输出不一样的结果」
 tagline: by 付政委

@@ -1,5 +1,5 @@
 ---
-layout: post
+
 category: itstack-demo-agent
 title: 一、基于javassist的第一个案例helloworld
 tagline: by 付政委

@@ -1,5 +1,5 @@
 ---
-layout: post
+
 category: itstack-demo-agent
 title: 一、基于Byte Buddy语法创建的第一个HelloWorld
 tagline: by 付政委

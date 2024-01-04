@@ -1,5 +1,5 @@
 ---
-layout: post
+
 category: itstack-demo-netty-4
 title: netty案例，netty4.1源码分析篇四《ByteBuf的数据结构在使用方式中的剖析》
 tagline: by 付政委

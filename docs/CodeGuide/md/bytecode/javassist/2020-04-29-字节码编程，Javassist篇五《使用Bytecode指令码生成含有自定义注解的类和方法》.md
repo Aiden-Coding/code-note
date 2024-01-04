@@ -1,5 +1,5 @@
 ---
-layout: post
+
 category: itstack-demo-agent
 title: 五、使用Bytecode指令码生成含有自定义注解的类和方法
 tagline: by 付政委

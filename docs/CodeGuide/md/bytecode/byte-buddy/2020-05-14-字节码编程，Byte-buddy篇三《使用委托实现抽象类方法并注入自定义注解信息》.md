@@ -1,5 +1,5 @@
 ---
-layout: post
+
 category: itstack-demo-agent
 title: 三、使用委托实现抽象类方法并注入自定义注解信息
 tagline: by 付政委

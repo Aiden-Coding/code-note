@@ -1,5 +1,5 @@
 ---
-layout: post
+
 category: itstack-demo-jvm
 title: 用Java实现JVM第三章《解析class文件》附[classReader拆解]
 tagline: by 付政委

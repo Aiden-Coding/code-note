@@ -1,5 +1,5 @@
 ---
-layout: post
+
 category: itstack-demo-springcloud
 title: 第1章：服务集群注册与发现 Eureka
 tagline: by 付政委

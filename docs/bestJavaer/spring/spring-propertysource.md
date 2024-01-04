@@ -64,7 +64,7 @@
 
 ```
 
->一般把版本名称统一定义在<Properties> 标签中，便于统一管理，如上可以通过`${…}` 来获取指定版本。
+>一般把版本名称统一定义在`<Properties>` 标签中，便于统一管理，如上可以通过`${…}` 来获取指定版本。
 
 * 定义一个application.properties 来写入如下配置
 
@@ -142,7 +142,7 @@ public class TestBean {
 testBean = TestBean{name='liuXuan', age=18}
 Refreshing the spring context
 
->__@Configuration : 相当于<beans> 标签，注意不是<bean>，一个配置类可以有多个bean，但是只能有一个<beans>__
+>__@Configuration : 相当于`<beans>` 标签，注意不是`<bean>`，一个配置类可以有多个bean，但是只能有一个`<beans>`__
 >
 >__@PropertySource: 用于引入外部属性配置，和Environment 配合一起使用。其中ignoreResourceNotFound 表示没有找到文件是否会报错，默认为false，就是会报错，一般开发情况应该使用默认值，设置为true相当于生吞异常，增加排查问题的复杂性。__
 >

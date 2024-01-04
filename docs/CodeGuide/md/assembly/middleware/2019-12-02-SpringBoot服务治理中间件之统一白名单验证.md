@@ -1,5 +1,5 @@
 ---
-layout: post
+
 category: itstack-ark-middleware
 title: Spring Boot 中间件开发(一)《服务治理中间件之统一白名单验证》
 tagline: by 付政委

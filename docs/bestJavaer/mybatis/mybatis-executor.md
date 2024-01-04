@@ -108,7 +108,7 @@ public Executor newExecutor(Transaction transaction, ExecutorType executorType) 
 >
 > ExecutorType来决定Configuration对象创建何种类型的执行器，它的赋值可以通过两个地方进行赋值：
 >
-> - 可以通过<settings>标签来设置当前工程中所有的SqlSession对象使用默认的Executor
+> - 可以通过`<settings>`标签来设置当前工程中所有的SqlSession对象使用默认的Executor
 >
 > ```xml
 > <settings>

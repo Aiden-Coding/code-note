@@ -1,5 +1,5 @@
 ---
-layout: post
+
 category: itstack-code-life
 title: BATJTMD，大厂招聘，都招什么样Java程序员？
 tagline: by 小傅哥

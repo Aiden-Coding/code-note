@@ -1,5 +1,5 @@
 ---
-layout: post
+
 category: itstack-demo-agent
 title: 三、ByteBuddy操作监控方法字节码
 tagline: by 付政委

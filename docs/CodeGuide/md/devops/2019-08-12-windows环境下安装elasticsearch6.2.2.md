@@ -1,5 +1,5 @@
 ---
-layout: post
+
 category: itstack-demo-any
 title: windows环境下安装elasticsearch6.2.2
 tagline: by 付政委

@@ -1,5 +1,5 @@
 ---
-layout: post
+
 category: itstack-demo-springcloud
 title: 第9章：服务网关Zuul 动态路由与权限过滤器
 tagline: by 付政委

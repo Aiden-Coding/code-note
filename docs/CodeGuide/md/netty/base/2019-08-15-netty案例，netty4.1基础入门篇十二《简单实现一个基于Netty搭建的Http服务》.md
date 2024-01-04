@@ -1,5 +1,5 @@
 ---
-layout: post
+
 category: itstack-demo-netty-1
 title: netty案例，netty4.1基础入门篇十二《简单实现一个基于Netty搭建的Http服务》
 tagline: by 付政委

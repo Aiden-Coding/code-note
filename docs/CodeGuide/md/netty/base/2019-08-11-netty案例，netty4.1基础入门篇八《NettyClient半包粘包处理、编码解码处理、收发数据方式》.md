@@ -1,5 +1,5 @@
 ---
-layout: post
+
 category: itstack-demo-netty-1
 title: netty案例，netty4.1基础入门篇八《NettyClient半包粘包处理、编码解码处理、收发数据方式》
 tagline: by 付政委

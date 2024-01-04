@@ -17,7 +17,7 @@ pay: https://t.zsxq.com/RjqfEmA
 
 ## 二、环境要求
 
-![](/images/article/project/lottery/Part-5/8-01.png)
+<!-- ![](/images/article/project/lottery/Part-5/8-01.png) -->
 
 canal [kə'næl]，译意为水道/管道/沟渠，主要用途是基于 MySQL 数据库增量日志解析，提供增量数据订阅和消费
 
@@ -48,6 +48,6 @@ canal [kə'næl]，译意为水道/管道/沟渠，主要用途是基于 MySQL �
 
 |   已开启 binlog   |  未开启 binlog    |
 | :----: | :----: |
-| ![](/images/article/project/lottery/Part-5/8-02.png) |  ![](/images/article/project/lottery/Part-5/8-03.png)  |
+<!-- | ![](/images/article/project/lottery/Part-5/8-02.png) |  ![](/images/article/project/lottery/Part-5/8-03.png)  | -->
 
 - 如果你的 Mysql 是未开启 binlog 的，那么需要执行下面的步骤进行开启，否则不能使用 canal 订阅 binlog

@@ -66,7 +66,7 @@ http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
 	</beans>
 ```
 
-> 通过给PropertyPlaceholderConfigurer 设置一个bean，指定<property>的名称为location，指定value值就能够引入外部配置文件，然后就能够通过${jdbc.key} 来获取properties 中的值 
+> 通过给PropertyPlaceholderConfigurer 设置一个bean，指定`<property>`的名称为location，指定value值就能够引入外部配置文件，然后就能够通过${jdbc.key} 来获取properties 中的值 
 
 #### PropertyPlaceholderConfigurer 引入多个属性文件
 

@@ -1,5 +1,5 @@
 ---
-layout: post
+
 category: interview
 title: 面经手册 · 第30篇《关于 Spring 中 getBean 的全流程源码解析》
 tagline: by 小傅哥

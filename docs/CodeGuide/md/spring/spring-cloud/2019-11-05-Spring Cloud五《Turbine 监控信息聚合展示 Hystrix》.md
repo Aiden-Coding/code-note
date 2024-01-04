@@ -1,5 +1,5 @@
 ---
-layout: post
+
 category: itstack-demo-springcloud
 title: 第5章：Turbine 监控信息聚合展示 Hystrix
 tagline: by 付政委

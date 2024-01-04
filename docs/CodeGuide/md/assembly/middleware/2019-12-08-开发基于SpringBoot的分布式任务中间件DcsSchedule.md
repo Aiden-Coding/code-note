@@ -1,5 +1,5 @@
 ---
-layout: post
+
 category: itstack-ark-middleware
 title: 开发基于SpringBoot的分布式任务中间件DcsSchedule(为开源贡献力量)
 tagline: by 付政委

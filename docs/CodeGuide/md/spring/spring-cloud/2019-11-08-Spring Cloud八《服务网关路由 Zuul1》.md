@@ -1,5 +1,5 @@
 ---
-layout: post
+
 category: itstack-demo-springcloud
 title: 第8章：服务网关路由 Zuul1
 tagline: by 付政委

@@ -1,5 +1,5 @@
 ---
-layout: post
+
 category: itstack-demo-jvm
 title: 用Java实现JVM第二章《搜索class文件》
 tagline: by 付政委

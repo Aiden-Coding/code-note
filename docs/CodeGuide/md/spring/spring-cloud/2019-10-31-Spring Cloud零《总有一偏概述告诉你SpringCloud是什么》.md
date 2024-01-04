@@ -1,5 +1,5 @@
 ---
-layout: post
+
 category: itstack-demo-springcloud
 title: 第0章：总有一偏概述告诉你SpringCloud是什么
 tagline: by 付政委

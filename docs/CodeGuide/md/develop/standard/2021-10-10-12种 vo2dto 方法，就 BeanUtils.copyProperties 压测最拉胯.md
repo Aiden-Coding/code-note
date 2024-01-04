@@ -1,5 +1,5 @@
 ---
-layout: post
+
 category: itstack-code-life
 title: 12种 vo2dto 方法，就 BeanUtils.copyProperties 压测最拉胯！
 tagline: by 小傅哥

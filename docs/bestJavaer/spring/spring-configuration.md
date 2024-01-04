@@ -1,6 +1,6 @@
 # @Configuration 全部用法
 
-现在大部分的项目都采用了基于注解的配置，采用了@Configuration 替换<beans> 标签的做法。但是最近在翻看Spring 官方文档时，发现@Configuration 声明为基础标签之外，还和大量的其他注解产生化学反应。
+现在大部分的项目都采用了基于注解的配置，采用了@Configuration 替换`<beans>` 标签的做法。但是最近在翻看Spring 官方文档时，发现@Configuration 声明为基础标签之外，还和大量的其他注解产生化学反应。
 
 ## @Configuration 基本说明
 

@@ -17,7 +17,7 @@ pay: https://t.zsxq.com/uVjqrvB
 
 ## 二、下载镜像
 
-![](/images/article/project/lottery/Part-5/3-01.png)
+<!-- ![](/images/article/project/lottery/Part-5/3-01.png) -->
 
 ```java
 docker pull wurstmeister/kafka

@@ -1,5 +1,5 @@
 ---
-layout: post
+
 category: interview
 title: 面经手册 · 第21篇《手写线程池，对照学习ThreadPoolExecutor线程池实现原理！》
 tagline: by 小傅哥

@@ -1,5 +1,5 @@
 ---
-layout: post
+
 category: itstack-demo-agent
 title: 三、用字节码增强技术给所有方法加上TryCatch捕获异常并输出
 tagline: by 付政委

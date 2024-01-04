@@ -1,5 +1,5 @@
 ---
-layout: post
+
 category: itstack-demo-netty-1
 title: netty案例，netty4.1基础入门篇七《嗨！NettyClient》
 tagline: by 付政委

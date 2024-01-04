@@ -1,5 +1,5 @@
 ---
-layout: post
+
 category: itstack-demo-agent
 title: 二、JavaAgent+ASM字节码插桩采集方法名称以及入参和出参结果并记录方法耗时
 tagline: by 付政委

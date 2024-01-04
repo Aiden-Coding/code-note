@@ -25,6 +25,6 @@ pay: https://t.zsxq.com/08kipfRje
 - 安装部署：`docker run -d -p 8848:8848 --env MODE=standalone  --name nacos  nacos/nacos-server`
 - 打开链接：[http://127.0.0.1:8848/nacos/](http://127.0.0.1:8848/nacos/) - `账号：nacos 密码：nacos`
 
-![](/images/article/project/lottery/Part-5/6-01.png)
+<!-- ![](/images/article/project/lottery/Part-5/6-01.png) -->
 
 - 输入账号和密码，登录进来就可以了，安装到这就成功了

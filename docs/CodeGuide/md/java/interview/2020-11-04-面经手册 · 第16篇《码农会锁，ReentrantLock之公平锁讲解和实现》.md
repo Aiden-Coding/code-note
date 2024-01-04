@@ -1,5 +1,5 @@
 ---
-layout: post
+
 category: interview
 title: 面经手册 · 第16篇《码农会锁，ReentrantLock之公平锁讲解和实现》
 tagline: by 小傅哥

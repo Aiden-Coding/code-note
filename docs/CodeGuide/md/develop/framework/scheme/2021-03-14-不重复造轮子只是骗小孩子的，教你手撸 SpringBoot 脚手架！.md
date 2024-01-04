@@ -1,5 +1,5 @@
 ---
-layout: post
+
 category: framework
 title: 不重复造轮子都是骗小孩的，教你手撸 SpringBoot 脚手架！
 tagline: by 小傅哥

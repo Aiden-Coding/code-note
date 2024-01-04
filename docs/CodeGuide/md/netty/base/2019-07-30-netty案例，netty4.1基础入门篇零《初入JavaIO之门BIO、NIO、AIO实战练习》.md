@@ -1,5 +1,5 @@
 ---
-layout: post
+
 category: itstack-demo-netty-1
 title: netty案例，netty4.1基础入门篇零《初入JavaIO之门BIO、NIO、AIO实战练习》
 tagline: by 付政委

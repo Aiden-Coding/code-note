@@ -1,5 +1,5 @@
 ---
-layout: post
+
 category: itstack-demo-any
 title: 源码分析 | 手写mybait-spring核心功能(干货好文一次学会工厂bean、类代理、bean注册的使用)
 tagline: by 付政委
