@@ -1,29 +1,8 @@
----
-heroImage: /images/system/blog-03.png
-actionLinks:
-- link: ./md/other/guide-to-reading.md
-  text: 开始阅读 →
-  class: primary
-- link: https://t.zsxq.com/09hMHNMEh
-  text: 知识星球
-  class: secondary  
-- link: ./md/road-map/road-map.md
-  text: 路书 👣
-  class: secondary   
-- link: https://gaga.plus
-  text: 项目 💐
-  class: secondary    
-features:
-- title: 沉淀
-  details: 承遇朝霞，年少正恰。整装戎马，刻印风华。
-- title: 分享
-  details: 八表流云澄夜色，九霄华月动春城。
-- title: 成长
-  details: 心怀天下，声色犬码。生有热烈，藏与俗常。
-footer: <a href="http://beian.miit.gov.cn" target="_blank">京ICP备19031103号</a> | <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11030102010881" style="display:inline-block;text-decoration:none;height:20px;line-height:20px;"><img src="https://bugstack.cn/assets/images/beian.png" style="float:left;"/><p style="float:left;height:20px;line-height:20px;margin-top:5px; color:#939393;">京公网安备 11030102010881号</p></a> | GPL Licensed | Copyright © 2019 小傅哥，All rights reserved. 
----
 
----
+## 开始阅读
+
+1. [编码指南](./md/other/guide-to-reading.md) 
+2. [路书](./md/road-map/road-map.md)
 
 ## 更新计划
 
@@ -57,28 +36,5 @@ footer: <a href="http://beian.miit.gov.cn" target="_blank">京ICP备19031103号<
 - [《字节码编程》](https://download.csdn.net/download/Yao__Shun__Yu/12505051)
 - [《IDEA Plugin 开发手册》](https://download.csdn.net/download/Yao__Shun__Yu/77484299)
 
-## 公众号
-
-最新文章会首发公众号，强烈推荐读者伙伴关注一波！另外，在公众号：bugstack虫洞栈 回复 `1024` 可以下载更多资源内容。
-
-<div align="center">
-    <img src="https://bugstack.cn/images/system/resources-xiaofuge.png?raw=true" width="650px">
-    <div style="font-size: 9px;">公众号：bugstack虫洞栈</div>
-    <br/>
-</div>
-
-## 联系我
-
-沉淀、分享、成长，让自己和他人都能有所收获！你也可以添加本站作者小傅哥的微信：`fustack` —— 加入作者技术交流群
-
-<div align="center">
-    <img src="https://bugstack.cn/images/personal/fustack.png?raw=true" width="190" height="190">
-    <div style="font-size: 9px;">微信：fustack</div>
-    <br/>
-</div>
-
----
-
-把博客安装到手机桌面：iOS 用户可以通过 Safari 浏览器来保存 bugstack.cn 到应用到首页屏幕上。具体操作：在 Safari 浏览器中打开博客 https://bugstack.cn 点击`分享按钮`->`添加到主屏幕`即可。—— 随时随地，开启学习！
 
                                                                                                                                                                                                    
