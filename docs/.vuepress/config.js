@@ -80,8 +80,7 @@ export default {
             { text: "flowable", link: "/flowable/Flowable课件-基础篇.md" },
             { text: "代码随想录", link: "/cs/programmercarl/" },
             { text: "微服务", link: "/cs/cloud/微服务和Spring Cloud Alibaba介绍.md" },
-            { text: "advanced-java", link: "/advanced-java/java/Java 基础.md" },
-            { text: "toBeTopJavaer", link: "/toBeTopJavaer/menu.md" },
+            { text: "advanced-java", link: "/advanced-java/big-data/" },
             {
                 text: "toBeBetterJavaer",
                 children: [
@@ -99,6 +98,7 @@ export default {
                     { text: "Readme", link: "/CodeGuide/" },
                 ]
             },
+            { text: "toBeTopJavaer", link: "/toBeTopJavaer/menu.md" },
             { text: "其他", link: "/cs/others/面向对象思想.md" },
         ],
         series: {

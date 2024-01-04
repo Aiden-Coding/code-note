@@ -1,5 +1,4 @@
 ---
-home: true
 heroImage: /images/system/blog-03.png
 actionLinks:
 - link: ./md/other/guide-to-reading.md
