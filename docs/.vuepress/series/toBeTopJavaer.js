@@ -1,6 +1,5 @@
 export const toBeTopJavaer = [
     "/toBeTopJavaer/menu.md",
-    "/toBeTopJavaer/README.md",
     {
         text: "advance",
         collapsable: true,
