@@ -12,12 +12,7 @@ export const navbar = [
     { text: "advanced-java", link: "/advanced-java/big-data/" },
     {
         text: "toBeBetterJavaer",
-        children: [
-            { text: "home", link: "/toBeBetterJavaer/home.md" },
-            { text: "comments", link: "/toBeBetterJavaer/comments" },
-            { text: "vue-previews", link: "/toBeBetterJavaer/vue-previews" },
-            { text: "bulletin-popover", link: "/toBeBetterJavaer/bulletin-popover" },
-        ],
+        link: "/toBeBetterJavaer/home.md"
     },
     { text: "bestJavaer", link: "/bestJavaer/README.md" },
     { text: "JavaGuide", link: "/JavaGuide/README.md" },

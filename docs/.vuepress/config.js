@@ -7,6 +7,7 @@ import { JavaGuide } from "./series/JavaGuide"
 import { bestJavaer } from "./series/bestJavaer"
 import { CodeGuide } from "./series/CodeGuide"
 import { programmercarl } from "./series/programmercarl"
+import { toBeBetterJavaer } from "./series/toBeBetterJavaer"
 export default {
     base: "/code-note/",
     title: "学习笔记",
@@ -38,6 +39,7 @@ export default {
             "/JavaGuide/": JavaGuide,
             "/bestJavaer/": bestJavaer,
             "/CodeGuide/": CodeGuide,
+            "/toBeBetterJavaer/": toBeBetterJavaer,
             "/cs/cloud/": [
                 {
                     text: "springcloud",
