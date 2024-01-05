@@ -52,6 +52,12 @@ export const toBeBetterJavaer = [
             "/toBeBetterJavaer/basic-grammar/javadoc.md",
             "/toBeBetterJavaer/basic-grammar/operator.md",
             "/toBeBetterJavaer/basic-grammar/type-cast.md",
+        ],
+    },
+    {
+        text: "cityselect",
+        collapsable: true,
+        children: [
             "/toBeBetterJavaer/cityselect/xian.md",
             "/toBeBetterJavaer/cityselect/beijing.md",
             "/toBeBetterJavaer/cityselect/chengdu.md",
@@ -64,6 +70,12 @@ export const toBeBetterJavaer = [
             "/toBeBetterJavaer/cityselect/suzhou.md",
             "/toBeBetterJavaer/cityselect/wuhan.md",
             "/toBeBetterJavaer/cityselect/zhengzhou.md",
+        ],
+    },
+    {
+        text: "collection",
+        collapsable: true,
+        children: [
             "/toBeBetterJavaer/collection/arraydeque.md",
             "/toBeBetterJavaer/collection/arraylist.md",
             "/toBeBetterJavaer/collection/fail-fast.md",
@@ -77,6 +89,12 @@ export const toBeBetterJavaer = [
             "/toBeBetterJavaer/collection/time-complexity.md",
             "/toBeBetterJavaer/collection/treemap.md",
             "/toBeBetterJavaer/collection/WeakHashMap.md",
+        ],
+    },
+    {
+        text: "common-tool",
+        collapsable: true,
+        children: [
             "/toBeBetterJavaer/common-tool/arrays.md",
             "/toBeBetterJavaer/common-tool/collections.md",
             "/toBeBetterJavaer/common-tool/guava.md",
@@ -85,20 +103,44 @@ export const toBeBetterJavaer = [
             "/toBeBetterJavaer/common-tool/scanner.md",
             "/toBeBetterJavaer/common-tool/StringUtils.md",
             "/toBeBetterJavaer/common-tool/utils.md",
-            "/toBeBetterJavaer/cs/os.md",
-            "/toBeBetterJavaer/cs/wangluo.md",
+        ],
+    },
+    {
+        text: "cs",
+        collapsable: true,
+        children: ["/toBeBetterJavaer/cs/os.md", "/toBeBetterJavaer/cs/wangluo.md"],
+    },
+    {
+        text: "download",
+        collapsable: true,
+        children: [
             "/toBeBetterJavaer/download/history.md",
             "/toBeBetterJavaer/download/javabooks.md",
             "/toBeBetterJavaer/download/learn-jianyi.md",
             "/toBeBetterJavaer/download/nicearticle.md",
-            "/toBeBetterJavaer/elasticsearch/rumen.md",
+        ],
+    },
+    "/toBeBetterJavaer/elasticsearch/rumen.md",
+    {
+        text: "exception",
+        collapsable: true,
+        children: [
             "/toBeBetterJavaer/exception/gailan.md",
             "/toBeBetterJavaer/exception/npe.md",
             "/toBeBetterJavaer/exception/shijian.md",
             "/toBeBetterJavaer/exception/try-catch-xingneng.md",
             "/toBeBetterJavaer/exception/try-with-resources.md",
-            "/toBeBetterJavaer/git/git-qiyuan.md",
-            "/toBeBetterJavaer/git/progit.md",
+        ],
+    },
+    {
+        text: "git",
+        collapsable: true,
+        children: ["/toBeBetterJavaer/git/git-qiyuan.md", "/toBeBetterJavaer/git/progit.md"],
+    },
+    {
+        text: "gongju",
+        collapsable: true,
+        children: [
             "/toBeBetterJavaer/gongju/brew.md",
             "/toBeBetterJavaer/gongju/chiner.md",
             "/toBeBetterJavaer/gongju/choco.md",
@@ -117,9 +159,21 @@ export const toBeBetterJavaer = [
             "/toBeBetterJavaer/gongju/tabby.md",
             "/toBeBetterJavaer/gongju/warp.md",
             "/toBeBetterJavaer/gongju/windterm.md",
+        ],
+    },
+    {
+        text: "ide",
+        collapsable: true,
+        children: [
             "/toBeBetterJavaer/ide/4-debug-skill.md",
             "/toBeBetterJavaer/ide/shenji-chajian-10.md",
             "/toBeBetterJavaer/ide/xechat.md",
+        ],
+    },
+    {
+        text: "interview",
+        collapsable: true,
+        children: [
             "/toBeBetterJavaer/interview/dubbo-17.md",
             "/toBeBetterJavaer/interview/java-34.md",
             "/toBeBetterJavaer/interview/java-basic-baguwen.md",
@@ -134,6 +188,12 @@ export const toBeBetterJavaer = [
             "/toBeBetterJavaer/interview/mysql-suoyin-15.md",
             "/toBeBetterJavaer/interview/nginx-40.md",
             "/toBeBetterJavaer/interview/redis-12.md",
+        ],
+    },
+    {
+        text: "io",
+        collapsable: true,
+        children: [
             "/toBeBetterJavaer/io/buffer.md",
             "/toBeBetterJavaer/io/char-byte.md",
             "/toBeBetterJavaer/io/file-path.md",
@@ -144,10 +204,22 @@ export const toBeBetterJavaer = [
             "/toBeBetterJavaer/io/shangtou.md",
             "/toBeBetterJavaer/io/stream.md",
             "/toBeBetterJavaer/io/transient.md",
+        ],
+    },
+    {
+        text: "java8",
+        collapsable: true,
+        children: [
             "/toBeBetterJavaer/java8/java14.md",
             "/toBeBetterJavaer/java8/Lambda.md",
             "/toBeBetterJavaer/java8/optional.md",
             "/toBeBetterJavaer/java8/stream.md",
+        ],
+    },
+    {
+        text: "jvm",
+        collapsable: true,
+        children: [
             "/toBeBetterJavaer/jvm/tujie-gc.md",
             "/toBeBetterJavaer/jvm/asm.md",
             "/toBeBetterJavaer/jvm/bytecode.md",
@@ -174,10 +246,22 @@ export const toBeBetterJavaer = [
             "/toBeBetterJavaer/jvm/whereis-the-object.md",
             "/toBeBetterJavaer/jvm/zijiema-zhiling.md",
             "/toBeBetterJavaer/jvm/zongjie.md",
+        ],
+    },
+    {
+        text: "kaiyuan",
+        collapsable: true,
+        children: [
             "/toBeBetterJavaer/kaiyuan/auto-generator.md",
             "/toBeBetterJavaer/kaiyuan/readme.md",
             "/toBeBetterJavaer/kaiyuan/yuneban-wangyiyunyinyue.md",
-            "/toBeBetterJavaer/maven/maven.md",
+        ],
+    },
+    "/toBeBetterJavaer/maven/maven.md",
+    {
+        text: "mianjing",
+        collapsable: true,
+        children: [
             "/toBeBetterJavaer/mianjing/chengxyspnhxagzl.md",
             "/toBeBetterJavaer/mianjing/huanxgzl.md",
             "/toBeBetterJavaer/mianjing/quzjlsspdx.md",
@@ -185,28 +269,58 @@ export const toBeBetterJavaer = [
             "/toBeBetterJavaer/mianjing/shezynmjfxhelmtttjddd.md",
             "/toBeBetterJavaer/mianjing/xuelybdzheloffer.md",
             "/toBeBetterJavaer/mianjing/zheisnylzldhzd.md",
-            "/toBeBetterJavaer/microservice/api-wangguan.md",
-            "/toBeBetterJavaer/mongodb/rumen.md",
+        ],
+    },
+    "/toBeBetterJavaer/microservice/api-wangguan.md",
+    "/toBeBetterJavaer/mongodb/rumen.md",
+    {
+        text: "mq",
+        collapsable: true,
+        children: [
             "/toBeBetterJavaer/mq/100-budiushi.md",
             "/toBeBetterJavaer/mq/kafka.md",
             "/toBeBetterJavaer/mq/rabbitmq-rumen.md",
+        ],
+    },
+    {
+        text: "mysql",
+        collapsable: true,
+        children: [
             "/toBeBetterJavaer/mysql/install.md",
             "/toBeBetterJavaer/mysql/lijie-shiwu.md",
             "/toBeBetterJavaer/mysql/redis-shuju-yizhixing.md",
             "/toBeBetterJavaer/mysql/shiwu-shixian.md",
-            "/toBeBetterJavaer/netty/rumen.md",
-            "/toBeBetterJavaer/nginx/nginx.md",
+        ],
+    },
+    "/toBeBetterJavaer/netty/rumen.md",
+    "/toBeBetterJavaer/nginx/nginx.md",
+    {
+        text: "nice-article",
+        collapsable: true,
+        children: [
             "/toBeBetterJavaer/nice-article/weixin/luoczbmsddyb.md",
             "/toBeBetterJavaer/nice-article/weixin/miansmtgl.md",
             "/toBeBetterJavaer/nice-article/weixin/xzbztdncdlxgljsjq.md",
             "/toBeBetterJavaer/nice-article/weixin/youdxzhhmjzlycfx.md",
             "/toBeBetterJavaer/nice-article/weixin/zijxjjdyfqzgl.md",
+        ],
+    },
+    {
+        text: "nio",
+        collapsable: true,
+        children: [
             "/toBeBetterJavaer/nio/BIONIOAIO.md",
             "/toBeBetterJavaer/nio/buffer-channel.md",
             "/toBeBetterJavaer/nio/moxing.md",
             "/toBeBetterJavaer/nio/network-connect.md",
             "/toBeBetterJavaer/nio/nio-better-io.md",
             "/toBeBetterJavaer/nio/paths-files.md",
+        ],
+    },
+    {
+        text: "oo",
+        collapsable: true,
+        children: [
             "/toBeBetterJavaer/oo/abstract-vs-interface.md",
             "/toBeBetterJavaer/oo/abstract.md",
             "/toBeBetterJavaer/oo/access-control.md",
@@ -226,6 +340,12 @@ export const toBeBetterJavaer = [
             "/toBeBetterJavaer/oo/static.md",
             "/toBeBetterJavaer/oo/this-super.md",
             "/toBeBetterJavaer/oo/var.md",
+        ],
+    },
+    {
+        text: "overview",
+        collapsable: true,
+        children: [
             "/toBeBetterJavaer/overview/hello-world.md",
             "/toBeBetterJavaer/overview/IDEA-install-config.md",
             "/toBeBetterJavaer/overview/java-can-do-what.md",
@@ -233,6 +353,12 @@ export const toBeBetterJavaer = [
             "/toBeBetterJavaer/overview/jdk-install-config.md",
             "/toBeBetterJavaer/overview/readme.md",
             "/toBeBetterJavaer/overview/what-is-java.md",
+        ],
+    },
+    {
+        text: "pdf",
+        collapsable: true,
+        children: [
             "/toBeBetterJavaer/pdf/ali-java-shouce.md",
             "/toBeBetterJavaer/pdf/bat-shuati.md",
             "/toBeBetterJavaer/pdf/github-java-jiaocheng-115-star.md",
@@ -246,10 +372,22 @@ export const toBeBetterJavaer = [
             "/toBeBetterJavaer/pdf/readme.md",
             "/toBeBetterJavaer/pdf/shejimoshi.md",
             "/toBeBetterJavaer/pdf/yuanyifeng-c-language.md",
+        ],
+    },
+    {
+        text: "redis",
+        collapsable: true,
+        children: [
             "/toBeBetterJavaer/redis/install.md",
             "/toBeBetterJavaer/redis/redis-springboot.md",
             "/toBeBetterJavaer/redis/rumen.md",
             "/toBeBetterJavaer/redis/xuebeng-chuantou-jichuan.md",
+        ],
+    },
+    {
+        text: "sidebar",
+        collapsable: true,
+        children: [
             "/toBeBetterJavaer/sidebar/computer-base.md",
             "/toBeBetterJavaer/sidebar/kusen/javase.md",
             "/toBeBetterJavaer/sidebar/sanfene/collection.md",
@@ -266,9 +404,21 @@ export const toBeBetterJavaer = [
             "/toBeBetterJavaer/sidebar/sanfene/rocketmq.md",
             "/toBeBetterJavaer/sidebar/sanfene/spring.md",
             "/toBeBetterJavaer/sidebar/sanfene/weifuwu.md",
+        ],
+    },
+    {
+        text: "socket",
+        collapsable: true,
+        children: [
             "/toBeBetterJavaer/socket/http.md",
             "/toBeBetterJavaer/socket/network-base.md",
             "/toBeBetterJavaer/socket/socket.md",
+        ],
+    },
+    {
+        text: "springboot",
+        collapsable: true,
+        children: [
             "/toBeBetterJavaer/springboot/aop-log.md",
             "/toBeBetterJavaer/springboot/cors.md",
             "/toBeBetterJavaer/springboot/docker.md",
@@ -292,6 +442,12 @@ export const toBeBetterJavaer = [
             "/toBeBetterJavaer/springboot/transaction.md",
             "/toBeBetterJavaer/springboot/validator.md",
             "/toBeBetterJavaer/springboot/windows-codingmore-run.md",
+        ],
+    },
+    {
+        text: "string",
+        collapsable: true,
+        children: [
             "/toBeBetterJavaer/string/builder-buffer.md",
             "/toBeBetterJavaer/string/constant-pool.md",
             "/toBeBetterJavaer/string/equals.md",
@@ -300,6 +456,12 @@ export const toBeBetterJavaer = [
             "/toBeBetterJavaer/string/join.md",
             "/toBeBetterJavaer/string/split.md",
             "/toBeBetterJavaer/string/string-source.md",
+        ],
+    },
+    {
+        text: "szjy",
+        collapsable: true,
+        children: [
             "/toBeBetterJavaer/szjy/buy-cloud-server.md",
             "/toBeBetterJavaer/szjy/buy-domain.md",
             "/toBeBetterJavaer/szjy/https-domain.md",
@@ -307,6 +469,12 @@ export const toBeBetterJavaer = [
             "/toBeBetterJavaer/szjy/record-domain.md",
             "/toBeBetterJavaer/szjy/tobebetterjavaer-wangzhan-shangxian.md",
             "/toBeBetterJavaer/szjy/tupian-zhuanlian.md",
+        ],
+    },
+    {
+        text: "thread",
+        collapsable: true,
+        children: [
             "/toBeBetterJavaer/thread/ali-executors.md",
             "/toBeBetterJavaer/thread/aqs.md",
             "/toBeBetterJavaer/thread/atomic.md",
@@ -341,11 +509,23 @@ export const toBeBetterJavaer = [
             "/toBeBetterJavaer/thread/volatile.md",
             "/toBeBetterJavaer/thread/wangzhe-thread.md",
             "/toBeBetterJavaer/thread/why-need-thread.md",
+        ],
+    },
+    {
+        text: "xianliaolaoke",
+        collapsable: true,
+        children: [
             "/toBeBetterJavaer/xianliaolaoke/aliyun-shuaiguo-gongchengshi.md",
             "/toBeBetterJavaer/xianliaolaoke/chadiansanhuo.md",
             "/toBeBetterJavaer/xianliaolaoke/chengxuyuannv-chonghui-java.md",
             "/toBeBetterJavaer/xianliaolaoke/daxue-nuli-jisuanji.md",
             "/toBeBetterJavaer/xianliaolaoke/fumutuanju.md",
+        ],
+    },
+    {
+        text: "xuexijianyi",
+        collapsable: true,
+        children: [
             "/toBeBetterJavaer/xuexijianyi/20ren-it-quma.md",
             "/toBeBetterJavaer/xuexijianyi/35-weiji.md",
             "/toBeBetterJavaer/xuexijianyi/408.md",
@@ -377,6 +557,12 @@ export const toBeBetterJavaer = [
             "/toBeBetterJavaer/xuexiluxian/java/jvm.md",
             "/toBeBetterJavaer/xuexiluxian/java/thread.md",
             "/toBeBetterJavaer/xuexiluxian/java/yitiaolong.md",
+        ],
+    },
+    {
+        text: "zhishixingqiu",
+        collapsable: true,
+        children: [
             "/toBeBetterJavaer/zhishixingqiu/august.md",
             "/toBeBetterJavaer/zhishixingqiu/first.md",
             "/toBeBetterJavaer/zhishixingqiu/java-mianshi-zhinan.md",
@@ -388,7 +574,7 @@ export const toBeBetterJavaer = [
             "/toBeBetterJavaer/zhishixingqiu/mianshi.md",
             "/toBeBetterJavaer/zhishixingqiu/paicoding.md",
             "/toBeBetterJavaer/zhishixingqiu/readme.md",
-            "/toBeBetterJavaer/zookeeper/jibenjieshao.md",
         ],
     },
+    "/toBeBetterJavaer/zookeeper/jibenjieshao.md",
 ];

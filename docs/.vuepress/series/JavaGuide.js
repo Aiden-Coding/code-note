@@ -40,13 +40,13 @@ export const JavaGuide = [
             "/JavaGuide/database/sql/sql-syntax-summary.md",
         ],
     },
+    "/JavaGuide/home.md",
+    "/JavaGuide/readme 2.md",
+    "/JavaGuide/README.md",
     {
-        text: "flowalbe",
+        text: "about-the-author",
         collapsable: true,
         children: [
-            "/JavaGuide/home.md",
-            "/JavaGuide/readme 2.md",
-            "/JavaGuide/README.md",
             "/JavaGuide/about-the-author/dog-that-copies-other-people-essay.md",
             "/JavaGuide/about-the-author/feelings-after-one-month-of-induction-training.md",
             "/JavaGuide/about-the-author/feelings-of-half-a-year-from-graduation-to-entry.md",
@@ -57,6 +57,12 @@ export const JavaGuide = [
             "/JavaGuide/about-the-author/readme.md",
             "/JavaGuide/about-the-author/writing-technology-blog-six-years.md",
             "/JavaGuide/about-the-author/zhishixingqiu-two-years.md",
+        ],
+    },
+    {
+        text: "books",
+        collapsable: true,
+        children: [
             "/JavaGuide/books/cs-basics.md",
             "/JavaGuide/books/database.md",
             "/JavaGuide/books/distributed-system.md",
@@ -64,6 +70,12 @@ export const JavaGuide = [
             "/JavaGuide/books/readme.md",
             "/JavaGuide/books/search-engine.md",
             "/JavaGuide/books/software-quality.md",
+        ],
+    },
+    {
+        text: "cs-basics",
+        collapsable: true,
+        children: [
             "/JavaGuide/cs-basics/algorithms/10-classical-sorting-algorithms.md",
             "/JavaGuide/cs-basics/algorithms/classical-algorithm-problems-recommendations.md",
             "/JavaGuide/cs-basics/algorithms/common-data-structures-leetcode-recommendations.md",
@@ -94,6 +106,12 @@ export const JavaGuide = [
             "/JavaGuide/cs-basics/operating-system/operating-system-basic-questions-01.md",
             "/JavaGuide/cs-basics/operating-system/operating-system-basic-questions-02.md",
             "/JavaGuide/cs-basics/operating-system/shell-intro.md",
+        ],
+    },
+    {
+        text: "database",
+        collapsable: true,
+        children: [
             "/JavaGuide/database/basis.md",
             "/JavaGuide/database/character-set.md",
             "/JavaGuide/database/elasticsearch/elasticsearch-questions-01.md",
@@ -129,6 +147,12 @@ export const JavaGuide = [
             "/JavaGuide/database/sql/sql-questions-04.md",
             "/JavaGuide/database/sql/sql-questions-05.md",
             "/JavaGuide/database/sql/sql-syntax-summary.md",
+        ],
+    },
+    {
+        text: "distributed-system",
+        collapsable: true,
+        children: [
             "/JavaGuide/distributed-system/api-gateway.md",
             "/JavaGuide/distributed-system/distributed-configuration-center.md",
             "/JavaGuide/distributed-system/distributed-id-design.md",
@@ -148,12 +172,24 @@ export const JavaGuide = [
             "/JavaGuide/distributed-system/rpc/http&rpc.md",
             "/JavaGuide/distributed-system/rpc/rpc-intro.md",
             "/JavaGuide/distributed-system/spring-cloud-gateway-questions.md",
+        ],
+    },
+    {
+        text: "high-availability",
+        collapsable: true,
+        children: [
             "/JavaGuide/high-availability/fallback-and-circuit-breaker.md",
             "/JavaGuide/high-availability/high-availability-system-design.md",
             "/JavaGuide/high-availability/limit-request.md",
             "/JavaGuide/high-availability/performance-test.md",
             "/JavaGuide/high-availability/redundancy.md",
             "/JavaGuide/high-availability/timeout-and-retry.md",
+        ],
+    },
+    {
+        text: "high-performance",
+        collapsable: true,
+        children: [
             "/JavaGuide/high-performance/cdn.md",
             "/JavaGuide/high-performance/load-balancing.md",
             "/JavaGuide/high-performance/read-and-write-separation-and-library-subtable.md",
@@ -163,6 +199,12 @@ export const JavaGuide = [
             "/JavaGuide/high-performance/message-queue/message-queue.md",
             "/JavaGuide/high-performance/message-queue/rabbitmq-questions.md",
             "/JavaGuide/high-performance/message-queue/rocketmq-questions.md",
+        ],
+    },
+    {
+        text: "high-quality-technical-articles",
+        collapsable: true,
+        children: [
             "/JavaGuide/high-quality-technical-articles/readme.md",
             "/JavaGuide/high-quality-technical-articles/advanced-programmer/20-bad-habits-of-bad-programmers.md",
             "/JavaGuide/high-quality-technical-articles/advanced-programmer/meituan-three-year-summary-lesson-10.md",
@@ -188,13 +230,24 @@ export const JavaGuide = [
             "/JavaGuide/high-quality-technical-articles/work/32-tips-improving-career.md",
             "/JavaGuide/high-quality-technical-articles/work/employee-performance.md",
             "/JavaGuide/high-quality-technical-articles/work/get-into-work-mode-quickly-when-you-join-a-company.md",
-            "/JavaGuide/home.md",
+        ],
+    },
+    {
+        text: "interview-preparation",
+        collapsable: true,
+        children: [
             "/JavaGuide/interview-preparation/interview-experience.md",
             "/JavaGuide/interview-preparation/key-points-of-interview.md",
             "/JavaGuide/interview-preparation/project-experience-guide.md",
             "/JavaGuide/interview-preparation/resume-guide.md",
             "/JavaGuide/interview-preparation/self-test-of-common-interview-questions.md",
             "/JavaGuide/interview-preparation/teach-you-how-to-prepare-for-the-interview-hand-in-hand.md",
+        ],
+    },
+    {
+        text: "java",
+        collapsable: true,
+        children: [
             "/JavaGuide/java/basis/bigdecimal.md",
             "/JavaGuide/java/basis/generics-and-wildcards.md",
             "/JavaGuide/java/basis/java-basic-questions-01.md",
@@ -260,11 +313,23 @@ export const JavaGuide = [
             "/JavaGuide/java/new-features/java19.md",
             "/JavaGuide/java/new-features/java20.md",
             "/JavaGuide/java/new-features/java21.md",
+        ],
+    },
+    {
+        text: "javaguide",
+        collapsable: true,
+        children: [
             "/JavaGuide/javaguide/contribution-guideline.md",
             "/JavaGuide/javaguide/faq.md",
             "/JavaGuide/javaguide/history.md",
             "/JavaGuide/javaguide/intro.md",
             "/JavaGuide/javaguide/use-suggestion.md",
+        ],
+    },
+    {
+        text: "open-source-project",
+        collapsable: true,
+        children: [
             "/JavaGuide/open-source-project/big-data.md",
             "/JavaGuide/open-source-project/machine-learning.md",
             "/JavaGuide/open-source-project/practical-project.md",
@@ -273,14 +338,24 @@ export const JavaGuide = [
             "/JavaGuide/open-source-project/tool-library.md",
             "/JavaGuide/open-source-project/tools.md",
             "/JavaGuide/open-source-project/tutorial.md",
-            "/JavaGuide/readme 2.md",
-            "/JavaGuide/README.md",
+        ],
+    },
+    {
+        text: "snippets",
+        collapsable: true,
+        children: [
             "/JavaGuide/snippets/article-footer.snippet.md",
             "/JavaGuide/snippets/article-header.snippet.md",
             "/JavaGuide/snippets/planet.snippet.md",
             "/JavaGuide/snippets/planet2.snippet.md",
             "/JavaGuide/snippets/small-advertisement.snippet.md",
             "/JavaGuide/snippets/yuanma.snippet.md",
+        ],
+    },
+    {
+        text: "system-design",
+        collapsable: true,
+        children: [
             "/JavaGuide/system-design/basis/naming.md",
             "/JavaGuide/system-design/basis/refactoring.md",
             "/JavaGuide/system-design/basis/RESTfulAPI.md",
@@ -309,6 +384,12 @@ export const JavaGuide = [
             "/JavaGuide/system-design/security/sso-intro.md",
             "/JavaGuide/system-design/system-design-questions.md",
             "/JavaGuide/system-design/web-real-time-message-push.md",
+        ],
+    },
+    {
+        text: "tools",
+        collapsable: true,
+        children: [
             "/JavaGuide/tools/docker/docker-in-action.md",
             "/JavaGuide/tools/docker/docker-intro.md",
             "/JavaGuide/tools/git/git-intro.md",
@@ -316,6 +397,17 @@ export const JavaGuide = [
             "/JavaGuide/tools/gradle/gradle-core-concepts.md",
             "/JavaGuide/tools/maven/maven-best-practices.md",
             "/JavaGuide/tools/maven/maven-core-concepts.md",
+            "/JavaGuide/zhuanlan/back-end-interview-high-frequency-system-design-and-scenario-questions.md",
+            "/JavaGuide/zhuanlan/handwritten-rpc-framework.md",
+            "/JavaGuide/zhuanlan/java-mian-shi-zhi-bei.md",
+            "/JavaGuide/zhuanlan/readme.md",
+            "/JavaGuide/zhuanlan/source-code-reading.md",
+        ],
+    },
+    {
+        text: "zhuanlan",
+        collapsable: true,
+        children: [
             "/JavaGuide/zhuanlan/back-end-interview-high-frequency-system-design-and-scenario-questions.md",
             "/JavaGuide/zhuanlan/handwritten-rpc-framework.md",
             "/JavaGuide/zhuanlan/java-mian-shi-zhi-bei.md",

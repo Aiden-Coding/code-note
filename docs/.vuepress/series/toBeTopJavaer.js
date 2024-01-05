@@ -1,11 +1,11 @@
 export const toBeTopJavaer = [
+    "/toBeTopJavaer/_sidebar.md",
+    "/toBeTopJavaer/menu.md",
+    "/toBeTopJavaer/README.md",
     {
-        text: "toBeTopJavaer",
+        text: "advance",
         collapsable: true,
         children: [
-            "/toBeTopJavaer/_sidebar.md",
-            "/toBeTopJavaer/menu.md",
-            "/toBeTopJavaer/README.md",
             "/toBeTopJavaer/advance/design-patterns/abstract-factory-pattern.md",
             "/toBeTopJavaer/advance/design-patterns/adapter-pattern.md",
             "/toBeTopJavaer/advance/design-patterns/builder-pattern.md",
@@ -13,6 +13,12 @@ export const toBeTopJavaer = [
             "/toBeTopJavaer/advance/design-patterns/iterator-pattern.md",
             "/toBeTopJavaer/advance/design-patterns/singleton-pattern.md",
             "/toBeTopJavaer/advance/design-patterns/strategy-pattern.md",
+        ],
+    },
+    {
+        text: "basement",
+        collapsable: true,
+        children: [
             "/toBeTopJavaer/basement/jvm/break-parants-delegate.md",
             "/toBeTopJavaer/basement/jvm/define-class-loader.md",
             "/toBeTopJavaer/basement/jvm/exclusive-in-runtime-area.md",
@@ -27,6 +33,12 @@ export const toBeTopJavaer = [
             "/toBeTopJavaer/basement/jvm/stack-alloc.md",
             "/toBeTopJavaer/basement/jvm/tomcat-parents-delegate.md",
             "/toBeTopJavaer/basement/jvm/why-parents-delegate.md",
+        ],
+    },
+    {
+        text: "concurrent-coding",
+        collapsable: true,
+        children: [
             "/toBeTopJavaer/basics/concurrent-coding/concurrent-vs-parallel.md",
             "/toBeTopJavaer/basics/concurrent-coding/concurrent.md",
             "/toBeTopJavaer/basics/concurrent-coding/create-thread-with-callback-future-task.md",
@@ -47,6 +59,12 @@ export const toBeTopJavaer = [
             "/toBeTopJavaer/basics/concurrent-coding/thread.md",
             "/toBeTopJavaer/basics/concurrent-coding/volatile.md",
             "/toBeTopJavaer/basics/concurrent-coding/why-not-executors.md",
+        ],
+    },
+    {
+        text: "java-basic",
+        collapsable: true,
+        children: [
             "/toBeTopJavaer/basics/java-basic/annotation-in-java.md",
             "/toBeTopJavaer/basics/java-basic/annotation-in-spring.md",
             "/toBeTopJavaer/basics/java-basic/annotion-and-reflect.md",
@@ -183,6 +201,12 @@ export const toBeTopJavaer = [
             "/toBeTopJavaer/basics/java-basic/why-utf8.md",
             "/toBeTopJavaer/basics/java-basic/Wildcard-Character.md",
             "/toBeTopJavaer/basics/java-basic/YYYY-vs-yyyy.md",
+        ],
+    },
+    {
+        text: "object-oriented",
+        collapsable: true,
+        children: [
             "/toBeTopJavaer/basics/object-oriented/characteristics.md",
             "/toBeTopJavaer/basics/object-oriented/constructor.md",
             "/toBeTopJavaer/basics/object-oriented/extends-implement.md",

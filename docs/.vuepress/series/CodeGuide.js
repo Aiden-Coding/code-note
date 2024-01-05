@@ -523,7 +523,7 @@ export const CodeGuide = [
         ],
     },
     {
-        text: "导航1",
+        text: "about",
         collapsable: true,
         children: [
             "/CodeGuide/md/about/job/2020-04-11-工作两年简历写成这样，谁要你呀！.md",
@@ -577,6 +577,12 @@ export const CodeGuide = [
             "/CodeGuide/md/about/study/2023-04-02-国外码农，会卷八股文吗？.md",
             "/CodeGuide/md/about/study/2023-05-14-卧龙、凤雏！两源码学得一，代码质量都不会差！.md",
             "/CodeGuide/md/about/study/2023-06-04-后端码农，怎么写好前端代码？.md",
+        ],
+    },
+    {
+        text: "algorithm",
+        collapsable: true,
+        children: [
             "/CodeGuide/md/algorithm/data-structures/2022-07-22-linked-list.md",
             "/CodeGuide/md/algorithm/data-structures/2022-07-30-array-list.md",
             "/CodeGuide/md/algorithm/data-structures/2022-08-06-queue.md",
@@ -617,6 +623,12 @@ export const CodeGuide = [
             "/CodeGuide/md/algorithm/model/2023-02-12-chat-gpt.md",
             "/CodeGuide/md/algorithm/model/2023-02-18-gpt2-chitchat.md",
             "/CodeGuide/md/algorithm/model/2023-05-21-chatglm-6b.md",
+        ],
+    },
+    {
+        text: "assembly",
+        collapsable: true,
+        children: [
             "/CodeGuide/md/assembly/api-gateway/2022-08-12-开篇：如果让我设计一套，TPS百万级API网关.md",
             "/CodeGuide/md/assembly/api-gateway/2022-08-13-第1章：HTTP请求会话协议处理.md",
             "/CodeGuide/md/assembly/api-gateway/2022-08-20-第2章：代理RPC泛化调用.md",
@@ -686,6 +698,12 @@ export const CodeGuide = [
             "/CodeGuide/md/assembly/middleware/第 17 章 非入侵监控设计，JVMTI 定位代码.md",
             "/CodeGuide/md/assembly/middleware/第 18 章 基于IDEA插件开发和字节码插桩技术，采集研发过程中代码执行信息.md",
             "/CodeGuide/md/assembly/middleware/第 19 章 后记.md",
+        ],
+    },
+    {
+        text: "bytecode",
+        collapsable: true,
+        children: [
             "/CodeGuide/md/bytecode/agent/2019-07-10-基于JavaAgent的全链路监控一《嗨！JavaAgent》.md",
             "/CodeGuide/md/bytecode/agent/2019-07-11-基于JavaAgent的全链路监控二《通过字节码增加监控执行耗时》.md",
             "/CodeGuide/md/bytecode/agent/2019-07-12-基于JavaAgent的全链路监控三《ByteBuddy操作监控方法字节码》.md",
@@ -742,6 +760,12 @@ export const CodeGuide = [
             "/CodeGuide/md/bytecode/javassist/2020-04-21-字节码编程，Javassist篇三《使用Javassist在运行时重新加载类「替换原方法输出不一样的结果」》.md",
             "/CodeGuide/md/bytecode/javassist/2020-04-27-字节码编程，Javassist篇四《通过字节码插桩监控方法采集运行时入参出参和异常信息》.md",
             "/CodeGuide/md/bytecode/javassist/2020-04-29-字节码编程，Javassist篇五《使用Bytecode指令码生成含有自定义注解的类和方法》.md",
+        ],
+    },
+    {
+        text: "design-pattern",
+        collapsable: true,
+        children: [
             "/CodeGuide/md/develop/design-pattern/2020-05-20-重学Java设计模式《实战工厂方法模式》.md",
             "/CodeGuide/md/develop/design-pattern/2020-05-24-重学Java设计模式《抽象工厂模式》.md",
             "/CodeGuide/md/develop/design-pattern/2020-05-26-重学Java设计模式《实战建造者模式》.md",
@@ -765,6 +789,12 @@ export const CodeGuide = [
             "/CodeGuide/md/develop/design-pattern/2020-07-07-重学 Java 设计模式《实战模板模式》.md",
             "/CodeGuide/md/develop/design-pattern/2020-07-09-重学 Java 设计模式《实战访问者模式》.md",
             "/CodeGuide/md/develop/design-pattern/2022-03-12-重学Java设计模式B站视频.md",
+        ],
+    },
+    {
+        text: "framework",
+        collapsable: true,
+        children: [
             "/CodeGuide/md/develop/framework/ddd/2019-10-15-DDD专题案例一《初识领域驱动设计DDD落地》.md",
             "/CodeGuide/md/develop/framework/ddd/2019-10-16-DDD专题案例二《领域层决策规则树服务设计》.md",
             "/CodeGuide/md/develop/framework/ddd/2019-10-17-DDD专题案例三《领域驱动设计架构基于SpringCloud搭建微服务》.md",
@@ -779,6 +809,12 @@ export const CodeGuide = [
             "/CodeGuide/md/develop/framework/scheme/2021-07-19-调研字节码插桩技术，用于系统监控设计和实现.md",
             "/CodeGuide/md/develop/framework/scheme/2022-02-14-基于库表分段扫描和数据Redis预热，优化分布式延迟任务触达时效性.md",
             "/CodeGuide/md/develop/framework/scheme/2022-02-21-怎么说服领导，能让我用DDD架构.md",
+        ],
+    },
+    {
+        text: "standard",
+        collapsable: true,
+        children: [
             "/CodeGuide/md/develop/standard/2020-09-06-握草，你竟然在代码里下毒！.md",
             "/CodeGuide/md/develop/standard/2020-09-14-一次代码评审，差点过不了试用期！.md",
             "/CodeGuide/md/develop/standard/2021-01-03-谁说明天上线，这货压根不知道开发流程！.md",
@@ -788,6 +824,12 @@ export const CodeGuide = [
             "/CodeGuide/md/develop/standard/2021-10-10-12种 vo2dto 方法，就 BeanUtils.copyProperties 压测最拉胯.md",
             "/CodeGuide/md/develop/standard/2022-03-06-ApiPost.md",
             "/CodeGuide/md/develop/standard/2022-05-15-你说写代码，最常用的3个设计模式是啥？.md",
+        ],
+    },
+    {
+        text: "devops",
+        collapsable: true,
+        children: [
             "/CodeGuide/md/devops/2019-08-12-windows环境下安装elasticsearch6.2.2.md",
             "/CodeGuide/md/devops/2019-08-13-elasticsearch-head插件安装.md",
             "/CodeGuide/md/devops/2019-11-23-并不想吹牛皮，但！为了把Github博客粉丝转移到公众号，我干了！.md",
@@ -805,6 +847,12 @@ export const CodeGuide = [
             "/CodeGuide/md/devops/2023-04-18-nginx.md",
             "/CodeGuide/md/devops/2023-04-18-portainer.md",
             "/CodeGuide/md/devops/2023-04-18-tool.md",
+        ],
+    },
+    {
+        text: "java",
+        collapsable: true,
+        children: [
             "/CodeGuide/md/java/core/2019-12-10-[有点干货]Jdk1.8新特性实战篇41个案例.md",
             "/CodeGuide/md/java/core/2019-12-21-[有点干货]JDK、CGLIB动态代理使用以及源码分析.md",
             "/CodeGuide/md/java/core/2020-01-06-[源码分析]咋嘞？你的IDEA过期了吧！加个Jar包就破解了，为什么？.md",
@@ -857,6 +905,12 @@ export const CodeGuide = [
             "/CodeGuide/md/java/interview/2021-04-07-面经手册 · 第29篇《Spring IOC 特性有哪些，不会读不懂源码！》.md",
             "/CodeGuide/md/java/interview/2021-04-18-面经手册 · 第30篇《关于 Spring 中 getBean 的全流程源码解析》.md",
             "/CodeGuide/md/java/interview/2021-05-05-面经手册 · 第31篇《Spring Bean IOC、AOP 循环依赖解读》.md",
+        ],
+    },
+    {
+        text: "netty",
+        collapsable: true,
+        children: [
             "/CodeGuide/md/netty/application/2019-09-01-手写RPC框架第一章《自定义配置xml》.md",
             "/CodeGuide/md/netty/application/2019-09-02-手写RPC框架第二章《netty通信》.md",
             "/CodeGuide/md/netty/application/2019-09-03-手写RPC框架第三章《RPC中间件》.md",
@@ -894,8 +948,17 @@ export const CodeGuide = [
             "/CodeGuide/md/netty/source-code/2019-09-13-netty案例，netty4.1源码分析篇四《ByteBuf的数据结构在使用方式中的剖析》.md",
             "/CodeGuide/md/netty/source-code/2019-09-14-netty案例，netty4.1源码分析篇五《一行简单的writeAndFlush都做了哪些事》.md",
             "/CodeGuide/md/netty/source-code/2019-09-15-netty案例，netty4.1源码分析篇六《Netty异步架构监听类Promise源码分析》.md",
-            "/CodeGuide/md/other/guide-to-reading.md",
-            "/CodeGuide/md/other/road-map.md",
+        ],
+    },
+    {
+        text: "other",
+        collapsable: true,
+        children: ["/CodeGuide/md/other/guide-to-reading.md", "/CodeGuide/md/other/road-map.md"],
+    },
+    {
+        text: "product",
+        collapsable: true,
+        children: [
             "/CodeGuide/md/product/book/design-pattern.md",
             "/CodeGuide/md/product/book/mybatis.md",
             "/CodeGuide/md/product/book/spring.md",
@@ -907,6 +970,12 @@ export const CodeGuide = [
             "/CodeGuide/md/product/pdf/2021-01-26-Java面经手册PDF下载.md",
             "/CodeGuide/md/product/pdf/2021-08-12-《手撸 Spring》PDF，全书260页6.5万字，完稿&发版！.md",
             "/CodeGuide/md/product/pdf/2022-01-23-IDEA Plugin 开发手册.md",
+        ],
+    },
+    {
+        text: "project",
+        collapsable: true,
+        children: [
             "/CodeGuide/md/project/big-market/api/第1节：抽奖策略领域和库表设计.md",
             "/CodeGuide/md/project/big-market/api/第2节：基础层持久化数据.md",
             "/CodeGuide/md/project/big-market/api/第3节：策略概率装配处理.md",
@@ -1061,6 +1130,12 @@ export const CodeGuide = [
             "/CodeGuide/md/project/springboot-middleware/第 17 章 非入侵监控设计，JVMTI 定位代码.md",
             "/CodeGuide/md/project/springboot-middleware/第 18 章 基于IDEA插件开发和字节码插桩技术，采集研发过程中代码执行信息.md",
             "/CodeGuide/md/project/springboot-middleware/第 19 章 后记.md",
+        ],
+    },
+    {
+        text: "road-map",
+        collapsable: true,
+        children: [
             "/CodeGuide/md/road-map/connection-pool.md",
             "/CodeGuide/md/road-map/db-router.md",
             "/CodeGuide/md/road-map/ddd-archetype.md",
@@ -1099,6 +1174,12 @@ export const CodeGuide = [
             "/CodeGuide/md/road-map/sharding-jdbc.md",
             "/CodeGuide/md/road-map/skywalking.md",
             "/CodeGuide/md/road-map/zookeeper.md",
+        ],
+    },
+    {
+        text: "spring",
+        collapsable: true,
+        children: [
             "/CodeGuide/md/spring/develop-mybatis/2022-03-20-第1章：开篇介绍，手写Mybatis能给你带来什么？.md",
             "/CodeGuide/md/spring/develop-mybatis/2022-03-27-第2章：创建简单的映射器代理工厂.md",
             "/CodeGuide/md/spring/develop-mybatis/2022-04-04-第3章：实现映射器的注册和使用.md",
@@ -1155,6 +1236,12 @@ export const CodeGuide = [
             "/CodeGuide/md/spring/spring-cloud/2019-11-07-Spring Cloud七《基于RabbitMQ消息总线方式刷新配置服务》.md",
             "/CodeGuide/md/spring/spring-cloud/2019-11-08-Spring Cloud八《服务网关路由 Zuul1》.md",
             "/CodeGuide/md/spring/spring-cloud/2019-11-24-Spring Cloud九《服务网关Zuul 动态路由与权限过滤器》.md",
+        ],
+    },
+    {
+        text: "zsxq",
+        collapsable: true,
+        children: [
             "/CodeGuide/md/zsxq/about/xiaofuge.md",
             "/CodeGuide/md/zsxq/booklet/bytecode.md",
             "/CodeGuide/md/zsxq/booklet/data-structures.md",
@@ -1189,8 +1276,6 @@ export const CodeGuide = [
             "/CodeGuide/md/zsxq/project/springboot-starter.md",
             "/CodeGuide/md/zsxq/source-code/develop-mybatis.md",
             "/CodeGuide/md/zsxq/source-code/develop-spring.md",
-            "/CodeGuide/home.md",
-            "/CodeGuide/README.md",
         ],
     },
 ];

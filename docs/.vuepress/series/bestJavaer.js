@@ -216,7 +216,7 @@ export const bestJavaer = [
     "/bestJavaer/zookeeper/zookeeper-basic.md",
     "/bestJavaer/chatgpt/chatGPT-operating-system.md",
     {
-        text: "studysuggestion1",
+        text: "aboutlife",
         collapsable: true,
         children: [
             "/bestJavaer/aboutlife/cxuan-changepicturestorage.md",
@@ -237,6 +237,12 @@ export const bestJavaer = [
             "/bestJavaer/aboutlife/howtobebetter.md",
             "/bestJavaer/aboutlife/interviewer-story.md",
             "/bestJavaer/aboutlife/selfmedia-difficult.md",
+        ],
+    },
+    {
+        text: "assembly",
+        collapsable: true,
+        children: [
             "/bestJavaer/assembly/assembly01-basic.md",
             "/bestJavaer/assembly/assembly02-register.md",
             "/bestJavaer/assembly/assembly03-debug.md",
@@ -245,29 +251,66 @@ export const bestJavaer = [
             "/bestJavaer/assembly/assembly06-segment.md",
             "/bestJavaer/assembly/assembly07-moresegment.md",
             "/bestJavaer/assembly/assembly08-memorylocate.md",
+        ],
+    },
+    {
+        text: "book-view",
+        collapsable: true,
+        children: [
             "/bestJavaer/book-view/read-csapp.md",
             "/bestJavaer/book-view/read-onJava.md",
             "/bestJavaer/book-view/read-theArtOfJavaConcurrencyProgramming.md",
             "/bestJavaer/book-view/read-zhishenshinei.md",
-            "/bestJavaer/computersystem/csapp-basic.md",
+        ],
+    },
+    "/bestJavaer/computersystem/csapp-basic.md",
+    {
+        text: "cprograming",
+        collapsable: true,
+        children: [
             "/bestJavaer/cprograming/c-basic.md",
             "/bestJavaer/cprograming/c-data.md",
             "/bestJavaer/cprograming/c-function.md",
             "/bestJavaer/cprograming/c-strings.md",
+        ],
+    },
+    {
+        text: "design-pattern",
+        collapsable: true,
+        children: [
             "/bestJavaer/design-pattern/designpattern-basic.md",
             "/bestJavaer/design-pattern/designpattern-singlaton.md",
+        ],
+    },
+    {
+        text: "http",
+        collapsable: true,
+        children: [
             "/bestJavaer/http/http-advanced.md",
             "/bestJavaer/http/http-basic.md",
             "/bestJavaer/http/http-cookesessiontoken.md",
             "/bestJavaer/http/http-deepknow.md",
             "/bestJavaer/http/http-https.md",
             "/bestJavaer/http/http-manageconnection.md",
+        ],
+    },
+    {
+        text: "interview",
+        collapsable: true,
+        children: [
             "/bestJavaer/interview-answer/http-interview.md",
             "/bestJavaer/interview-answer/java-basic-interview.md",
             "/bestJavaer/interview-answer/mysql-interview.md",
             "/bestJavaer/interview-jd/meituan.md",
             "/bestJavaer/interview-jd/tencent.md",
             "/bestJavaer/interview-jd/xinao.md",
+        ],
+    },
+
+    {
+        text: "java-basic",
+        collapsable: true,
+        children: [
             "/bestJavaer/java-basic/java-@suppresswarnings.md",
             "/bestJavaer/java-basic/java-clone.md",
             "/bestJavaer/java-basic/java-collections.md",
@@ -290,6 +333,12 @@ export const bestJavaer = [
             "/bestJavaer/java-basic/java-summary.md",
             "/bestJavaer/java-basic/java-varaibles.md",
             "/bestJavaer/java-basic/learn-java.md",
+        ],
+    },
+    {
+        text: "java-concurrent",
+        collapsable: true,
+        children: [
             "/bestJavaer/java-concurrent/java-aqs.md",
             "/bestJavaer/java-concurrent/java-atomicInteger.md",
             "/bestJavaer/java-concurrent/java-atomicReference.md",
@@ -309,9 +358,18 @@ export const bestJavaer = [
             "/bestJavaer/java-concurrent/java-synchronized.md",
             "/bestJavaer/java-concurrent/java-threadpoolexecutor.md",
             "/bestJavaer/java-concurrent/java-volatile.md",
-            "/bestJavaer/jvm/jvm-interviewanswer.md",
-            "/bestJavaer/kafka/kafka-basic.md",
-            "/bestJavaer/kafka/kafka-deep.md",
+        ],
+    },
+    "/bestJavaer/jvm/jvm-interviewanswer.md",
+    {
+        text: "kafka",
+        collapsable: true,
+        children: ["/bestJavaer/kafka/kafka-basic.md", "/bestJavaer/kafka/kafka-deep.md"],
+    },
+    {
+        text: "linux",
+        collapsable: true,
+        children: [
             "/bestJavaer/linux/linux-file-system.md",
             "/bestJavaer/linux/linux-first.md",
             "/bestJavaer/linux/linux-hardware.md",
@@ -326,6 +384,12 @@ export const bestJavaer = [
             "/bestJavaer/linux/linux-x86register.md",
             "/bestJavaer/linux/whymemoryshouldsegment.md",
             "/bestJavaer/linux/whyx86loadsMBR.md",
+        ],
+    },
+    {
+        text: "mybatis",
+        collapsable: true,
+        children: [
             "/bestJavaer/mybatis/mybatis-base.md",
             "/bestJavaer/mybatis/mybatis-configuration.md",
             "/bestJavaer/mybatis/mybatis-executor.md",
@@ -335,10 +399,22 @@ export const bestJavaer = [
             "/bestJavaer/mybatis/mybatis-resultsethandler.md",
             "/bestJavaer/mybatis/mybatis-secondcache.md",
             "/bestJavaer/mybatis/mybatis-statmenthandler.md",
+        ],
+    },
+    {
+        text: "mysql",
+        collapsable: true,
+        children: [
             "/bestJavaer/mysql/mysql-basicall.md",
             "/bestJavaer/mysql/mysql-develop.md",
             "/bestJavaer/mysql/mysql-improve.md",
             "/bestJavaer/mysql/mysql-optimization.md",
+        ],
+    },
+    {
+        text: "operating-system",
+        collapsable: true,
+        children: [
             "/bestJavaer/operating-system/os-deadlock.md",
             "/bestJavaer/operating-system/os-fiftyInterview.md",
             "/bestJavaer/operating-system/os-filesystem.md",
@@ -349,9 +425,21 @@ export const bestJavaer = [
             "/bestJavaer/operating-system/os-processandthread.md",
             "/bestJavaer/operating-system/os-rammanage.md",
             "/bestJavaer/operating-system/os-recommand.md",
+        ],
+    },
+    {
+        text: "programmer",
+        collapsable: true,
+        children: [
             "/bestJavaer/programmer/never-say-goodbay-collshell.md",
             "/bestJavaer/programmer/thegreatffemaleprogrammerintheworld.md",
             "/bestJavaer/programmer/website-recommand.md",
+        ],
+    },
+    {
+        text: "reader",
+        collapsable: true,
+        children: [
             "/bestJavaer/reader/2020-interview-everyday.md",
             "/bestJavaer/reader/interview-baidu.md",
             "/bestJavaer/reader/interview-jingdong-social.md",
@@ -360,6 +448,12 @@ export const bestJavaer = [
             "/bestJavaer/reader/interview-tencent.md",
             "/bestJavaer/reader/interview-zhongruan.md",
             "/bestJavaer/reader/thedayofshanghai.md",
+        ],
+    },
+    {
+        text: "spring",
+        collapsable: true,
+        children: [
             "/bestJavaer/spring/spring-annotation.md",
             "/bestJavaer/spring/spring-aop.md",
             "/bestJavaer/spring/spring-bean.md",
@@ -372,12 +466,8 @@ export const bestJavaer = [
             "/bestJavaer/spring/spring-propertyplaceholderconfig.md",
             "/bestJavaer/spring/spring-propertysource.md",
             "/bestJavaer/spring/spring-resource.md",
-            "/bestJavaer/studysuggestion/about-assembly.md",
-            "/bestJavaer/studysuggestion/basetools.md",
-            "/bestJavaer/studysuggestion/good-programmer.md",
-            "/bestJavaer/studysuggestion/howstudyeffierent.md",
-            "/bestJavaer/studysuggestion/knowledge-earth.md",
-            "/bestJavaer/zookeeper/zookeeper-basic.md",
         ],
     },
+
+    "/bestJavaer/zookeeper/zookeeper-basic.md",
 ];
