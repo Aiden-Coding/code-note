@@ -1,4 +1,4 @@
-## 基于 request cache 请求缓存技术优化批量商品数据查询接口
+# 基于 request cache 请求缓存技术优化批量商品数据查询接口
 
 Hystrix command 执行时 8 大步骤第三步，就是检查 Request cache 是否有缓存。
 

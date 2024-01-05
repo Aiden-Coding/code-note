@@ -1,4 +1,4 @@
-## 深入 Hystrix 线程池隔离与接口限流
+# 深入 Hystrix 线程池隔离与接口限流
 
 前面讲了 Hystrix 的 request cache 请求缓存、fallback 优雅降级、circuit breaker 断路器快速熔断，这一讲，我们来详细说说 Hystrix 的线程池隔离与接口限流。
 

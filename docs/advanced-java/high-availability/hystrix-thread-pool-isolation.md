@@ -1,4 +1,4 @@
-## 基于 Hystrix 线程池技术实现资源隔离
+# 基于 Hystrix 线程池技术实现资源隔离
 
 [上一讲](./e-commerce-website-detail-page-architecture.md)提到，如果从 Nginx 开始，缓存都失效了，Nginx 会直接通过缓存服务调用商品服务获取最新商品数据（我们基于电商项目做个讨论），有可能出现调用延时而把缓存服务资源耗尽的情况。这里，我们就来说说，怎么通过 Hystrix 线程池技术实现资源隔离。
 

@@ -8,7 +8,7 @@ export const navbar = [
     { text: "设计模式", link: "/cs/design/设计模式 - 目录.md" },
     { text: "flowable", link: "/flowable/Flowable课件-基础篇.md" },
     { text: "代码随想录", link: "/cs/programmercarl/" },
-    { text: "微服务", link: "/cs/cloud/微服务和Spring Cloud Alibaba介绍.md" },
+    { text: "微服务", link: "/cs/cloud/微服务和SpringCloudAlibaba介绍.md" },
     { text: "advanced-java", link: "/advanced-java/big-data/" },
     {
         text: "toBeBetterJavaer",

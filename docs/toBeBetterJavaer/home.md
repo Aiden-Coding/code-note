@@ -1,33 +1,4 @@
----
-title: 二哥的Java进阶之路x沉默王二
-isOriginal: true
-headerDepth: 1
-description: 二哥的Java进阶之路，小白的零基础Java教程，从入门到进阶
-head:
-  - - meta
-    - name: keywords
-      content: Java,java,springboot,mysql,redis,教程,git,软件,编程,开发,互联网,Java 基础,Java 教程,二哥的Java进阶之路,Java 入门
-    - name: description
-      content: 二哥的Java进阶之路，小白的零基础Java教程，从入门到进阶
----
-
-::: center
-<div align="center">
-  <a href="https://javabetter.cn">
-    <img src="https://cdn.tobebetterjavaer.com/tobebetterjavaer/images/logo.png" width="200px" alt="二哥的Java进阶之路">
-  </a><br>
-  <a href="https://javabetter.cn/blog.html" target="_blank"><img src="https://img.shields.io/badge/博客-在线阅读-green.svg?style=for-the-badge"></a>
-  <a href="#联系方式" target="_blank"><img src="https://img.shields.io/badge/公众号-沉默王二-brightgreen.svg?style=for-the-badge"></a>
-  <a href="https://javabetter.cn/zhishixingqiu/" target="_blank"><img src="https://img.shields.io/badge/学习圈子-立即加入-critical?style=for-the-badge"></a>
-  <a href="https://javabetter.cn/download/java.html" target="_blank"><img src="https://img.shields.io/badge/计算机经典电子书-下载-yellow.svg?style=for-the-badge" alt="无套路下载"></a>
-  <a href="https://github.com/itwanger/toBeBetterJavaer" target="_blank"><img alt="二哥的Java进阶之路" src="https://img.shields.io/github/stars/itwanger/toBeBetterJavaer?style=for-the-badge"></a><br><br>
-<a href="https://github.com/itwanger/toBeBetterJavaer">Github</a> |
-<a href="https://gitee.com/itwanger/toBeBetterJavaer">Gitee</a>
-</div>  
-:::
-
-
-## 为什么会有这个开源知识库
+# 为什么会有这个开源知识库
 
 知识库取名 **toBeBetterJavaer**，即 **To Be Better Javaer**，意为「成为一名更好的 Java 程序员」，是我自学 Java 以来所有原创文章和学习资料的大聚合。内容包括 Java 基础、Java 并发编程、Java 虚拟机、Java 企业级开发、Java 面试等核心知识点。据说每一个优秀的 Java 程序员都喜欢她，风趣幽默、通俗易懂。学 Java，就认准 二哥的Java进阶之路😄。
  

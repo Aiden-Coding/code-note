@@ -1,17 +1,3 @@
----
-title: 深入理解Java并发线程阻塞唤醒类LockSupport
-shortTitle: 线程阻塞唤醒类LockSupport
-description: LockSupport 是 Java 并发包中的一个用于线程阻塞和唤醒的工具类。与 wait/notify 或 Condition 不同，LockSupport 不需要在同步块或使用特定的锁对象中工作。它提供了更底层、更灵活的线程调度机制。
-category:
-  - Java核心
-tag:
-  - Java并发编程
-head:
-  - - meta
-    - name: keywords
-      content: Java,并发编程,多线程,Thread,LockSupport
----
-
 # 第十八节：线程阻塞唤醒类 LockSupport
 
 LockSupprot 用来阻塞和唤醒线程，底层实现依赖于 [Unsafe 类](https://javabetter.cn/thread/Unsafe.html)（后面会细讲）。

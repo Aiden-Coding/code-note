@@ -1,6 +1,6 @@
-## 面试题
+# 有了解过 Redis rehash 的过程吗？
 
-有了解过 Redis rehash 的过程吗？
+
 
 ## 面试官心理分析
 

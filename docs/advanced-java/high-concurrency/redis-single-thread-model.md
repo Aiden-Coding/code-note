@@ -1,6 +1,6 @@
-## 面试题
+# Redis 和 Memcached 有什么区别？Redis 的线程模型是什么？为什么 Redis 单线程却能支撑高并发？
 
-Redis 和 Memcached 有什么区别？Redis 的线程模型是什么？为什么 Redis 单线程却能支撑高并发？
+
 
 ## 面试官心理分析
 
