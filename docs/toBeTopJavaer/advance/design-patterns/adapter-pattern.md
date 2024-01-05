@@ -10,8 +10,7 @@ GOF中将适配器模式分为类适配器模式和对象适配器模式。区�
 相信大家都有这样的生活常识：就是目前我们使用的电子设备充电器的型号是不一样的。现在主流的手机充电器口主要包含Mini Usb、Micro Usb和Lightning三种。其中Mini Usb广泛出现在读卡器、MP3、数码相机以及移动硬盘上。由于Micro Usb比Mini Usb更薄，所有广泛应用于手机上，常见于安卓手机。还有一个比较常见的充电器口就是苹果手机常用的Lightning。
 
 当然，特定型号的手机只能使用特定型号的充电器充电。比如Iphone6手机只能使用Lightning接口的充电器进行充电。但是，如果我们身边只有一条安卓的Micro Usb充电器线的话，我们能不能为苹果手机充电呢？答案是肯定的，只要有一个适配器就可以了。
-
-<img src="http://www.hollischuang.com/wp-content/uploads/2016/05/adapter-300x300.jpg" alt="adapter" width="300" height="300" class="aligncenter size-medium wp-image-1501" />
+![Alt text](assets/image.png)
 
 适配器，在我们日常生活中随处可见。适配器模式也正是解决了类似的问题。
 
