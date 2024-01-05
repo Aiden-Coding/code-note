@@ -8,6 +8,8 @@ import { bestJavaer } from "./series/bestJavaer"
 import { CodeGuide } from "./series/CodeGuide"
 import { programmercarl } from "./series/programmercarl"
 import { toBeBetterJavaer } from "./series/toBeBetterJavaer"
+import { advanced_java } from "./series/advanced-java"
+import { toBeTopJavaer } from "./series/toBeTopJavaer"
 export default {
     base: "/code-note/",
     title: "学习笔记",
@@ -40,6 +42,8 @@ export default {
             "/bestJavaer/": bestJavaer,
             "/CodeGuide/": CodeGuide,
             "/toBeBetterJavaer/": toBeBetterJavaer,
+            "/advanced-java/": advanced_java,
+            "/toBeTopJavaer/": toBeTopJavaer,
             "/cs/cloud/": [
                 {
                     text: "springcloud",
