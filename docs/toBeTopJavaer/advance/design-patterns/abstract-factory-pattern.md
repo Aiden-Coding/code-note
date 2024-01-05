@@ -1,4 +1,4 @@
-# 概念
+# 抽象工厂模式
 
 抽象工厂模式(Abstract Factory Pattern)：提供一个创建一系列相关或相互依赖对象的接口，而无须指定它们具体的类。抽象工厂模式又称为Kit模式，属于对象创建型模式。
 
@@ -7,8 +7,7 @@
 ### 产品族
 
 来认识下什么是产品族: 位于不同产品等级结构中,功能相关的产品组成的家族。如下面的例子，就有两个产品族：跑车族和商务车族。
-
-[<img src="http://www.hollischuang.com/wp-content/uploads/2016/04/QQ20160419-0.png" alt="QQ20160419-0" width="637" height="408" class="alignnone size-full wp-image-1421" />][5]
+![Alt text](assets/image-1.png)
 
 ## 用途
 
@@ -37,13 +36,12 @@
 > Product(具体产品)：定义具体工厂生产的具体产品对象，实现抽象产品接口中定义的业务方法。
 
 本文的例子采用一个汽车代工厂造汽车的例子。假设我们是一家汽车代工厂商，我们负责给奔驰和特斯拉两家公司制造车子。我们简单的把奔驰车理解为需要加油的车，特斯拉为需要充电的车。其中奔驰车中包含跑车和商务车两种，特斯拉同样也包含跑车和商务车。
-
-[<img src="http://www.hollischuang.com/wp-content/uploads/2016/04/QQ20160419-1.png" alt="QQ20160419-1" width="657" height="554" class="alignnone size-full wp-image-1422" />][6]
+![Alt text](assets/image-2.png)
 
 以上场景，我们就可以把跑车和商务车分别对待，对于跑车有单独的工厂创建，商务车也有单独的工厂。这样，以后无论是再帮任何其他厂商造车，只要是跑车或者商务车我们都不需要再引入工厂。同样，如果我们要增加一种其他类型的车，比如越野车，我们也不需要对跑车或者商务车的任何东西做修改。
 
 下面是抽象产品，奔驰车和特斯拉车：
-
+```
     public interface BenzCar {
     
         //加汽油
@@ -56,10 +54,10 @@
         //充电
         public void charge();
     }
-    
+```    
 
 下面是具体产品，奔驰跑车、奔驰商务车、特斯拉跑车、特斯拉商务车：
-
+```
     public class BenzSportCar implements BenzCar {
         public void gasUp() {
             System.out.println("给我的奔驰跑车加最好的汽油");
@@ -83,19 +81,19 @@
             System.out.println("不用给我特斯拉商务车冲满电");
         }
     }
-    
+```    
 
 下面是抽象工厂：
-
+```
     public interface CarFactory {
     
         public BenzCar getBenzCar();
         public TeslaCar getTeslaCar();
     }
-    
+```    
 
 下面是具体工厂：
-
+```
     public class SportCarFactory implements CarFactory {
         public BenzCar getBenzCar() {
             return new BenzSportCar();
@@ -115,7 +113,7 @@
             return new TeslaBusinessCar();
         }
     }
-    
+ ```   
 
 ## “开闭原则”的倾斜性
 

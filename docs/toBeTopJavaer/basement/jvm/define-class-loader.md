@@ -1,3 +1,4 @@
+# ClassLoader
 ClassLoader中和类加载有关的方法有很多，前面提到了loadClass，除此之外，还有findClass和defineClass等，那么这几个方法有什么区别呢？
 
 * loadClass()
@@ -12,14 +13,14 @@ ClassLoader中和类加载有关的方法有很多，前面提到了loadClass，
 那么，如果我们想定义一个类加载器，但是不想破坏双亲委派模型的时候呢？
 
 这时候，就可以继承ClassLoader，并且重写findClass方法。findClass()方法是JDK1.2之后的ClassLoader新添加的一个方法。
-
+```
      /**
      * @since  1.2
      */
     protected Class<?> findClass(String name) throws ClassNotFoundException {
         throw new ClassNotFoundException(name);
     }
-    
+```    
 这个方法只抛出了一个异常，没有默认实现。
 
 JDK1.2之后已不再提倡用户直接覆盖loadClass()方法，而是建议把自己的类加载逻辑实现到findClass()方法中。

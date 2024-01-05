@@ -1,5 +1,5 @@
 
-## 概念
+# 适配器模式
 
 GOF是这样给适配器模式(`Adapter`)定义的：将一个类的接口转化成用户需要的另外一个接口。Adapter模式使得原本由于接口不兼容而不能一起工作的那些类可以一起工作。
 
@@ -36,12 +36,12 @@ GOF中将适配器模式分为类适配器模式和对象适配器模式。区�
 > 
 > Client：客户类
 
-<img src="http://www.hollischuang.com/wp-content/uploads/2016/05/Adapter-pattern.jpg" alt="Adapter-pattern" width="724" height="313" class="aligncenter size-full wp-image-1520" />
+![Alt text](assets/image-3.png)
 
 这里采用文章开头介绍的手机充电口的例子，我们定义一个适配器，该适配器的功能就是使用安卓充电器给苹果设备充电。
 
 先定义接口：
-
+```
     /**
      * MicroUsb充电器接口
      */
@@ -55,10 +55,10 @@ GOF中将适配器模式分为类适配器模式和对象适配器模式。区�
     public interface LightningInterface {
         public void chargeWithLightning();
     }
-    
+```    
 
 定义具体的实现类
-
+```
     /**
      * 安卓设备的充电器
      */
@@ -78,12 +78,12 @@ GOF中将适配器模式分为类适配器模式和对象适配器模式。区�
             System.out.println("使用Lightning型号的充电器充电...");
         }
     }
-    
+```   
 
 > 因为我们要使用适配器模式将MicroUsb转成Lightning，所以这里的AppleCharger是本来不需要定义的。因为我们使用适配器的目的就是代替新建一个他。这里定义出来是为了使例子更加完整。
 
 定义两个手机
-
+```
     public class Iphone6Plus {
     
         private LightningInterface lightningInterface;
@@ -135,12 +135,12 @@ GOF中将适配器模式分为类适配器模式和对象适配器模式。区�
             this.microUsbInterface = microUsbInterface;
         }
     }
-    
+```    
 
 这里定义手机的作用是为了更方便的理解适配器模式，在该模式中他不扮演任何角色。
 
 定义适配器
-
+```
     /**
      * 适配器,将MicroUsb接口转成Lightning接口
      */
@@ -167,12 +167,12 @@ GOF中将适配器模式分为类适配器模式和对象适配器模式。区�
             this.microUsbInterface = microUsbInterface;
         }
     }
-    
+```    
 
 该适配器的功能是把一个MicroUsb转换成Lightning。实现方式是实现目标类的接口（`LightningInterface`），然后使用组合的方式，在该适配器中定义microUsb。然后在重写的`chargeWithLightning（）`方法中，采用microUsb的方法来实现具体细节。
 
 定义客户端
-
+```
     public class Main {
     
         public static void main(String[] args) {
@@ -192,10 +192,10 @@ GOF中将适配器模式分为类适配器模式和对象适配器模式。区�
             newIphone.charge();
         }
     }
-    
+```    
 
 输出结果：
-
+```
     开始给我的Iphone6Plus手机充电...
     使用Lightning型号的充电器充电...
     结束给我的Iphone6Plus手机充电...
@@ -207,7 +207,7 @@ GOF中将适配器模式分为类适配器模式和对象适配器模式。区�
     开始给我的Iphone6Plus手机充电...
     使用MicroUsb型号的充电器充电...
     结束给我的Iphone6Plus手机充电...
-    
+```    
 
 上面的例子通过适配器，把一个MicroUsb型号的充电器用来给Iphone充电。从代码层面，就是通过适配器复用了MicroUsb接口及其实现类。在很大程度上复用了已有的代码。
 

@@ -1,5 +1,5 @@
 
-## 概念
+# 建造者模式
 
 建造者模式（英：Builder Pattern）是一种创建型设计模式，又名：生成器模式。GOF 给建造者模式的定义为：将一个复杂对象的构建与它的表示分离，使得同样的构建过程可以创建不同的表示。这句话说的比较抽象，其实解释一下就是：将建造复杂对象的过程和组成对象的部件解耦。
 
@@ -32,13 +32,12 @@
 > Director：指挥者(`Director`)
 > 
 > Product：产品角色(`Role`)
-
-[<img src="http://www.hollischuang.com/wp-content/uploads/2016/05/Builder.jpg" alt="Builder" width="713" height="338" class="alignnone size-full wp-image-1478" />][2]
+![Alt text](assets/image-4.png)
 
 这里采用设计角色的例子，为了便于理解，我们只创建两个角色，分别是普通角色和超级角色。他们都有设置头部、脸部、身体、气血值、魔法值、能量值等方法。值得注意的是设置脸部是依赖于设置头部的，要有先后顺序。
 
 产品角色：Role
-
+```
     public class Role {
     
         private String head; //头部
@@ -51,10 +50,10 @@
         //setter and getter 
          // toString 
     }
-    
+```    
 
 抽象建造者：Builder
-
+```
     public abstract class Builder {
     
         protected Role role = new Role();
@@ -75,10 +74,10 @@
             return role;
         }
     }
-    
+```    
 
 具体建造者：
-
+```
     public class CommonRoleBuilder extends Builder {
     
         private Role role = new Role();
@@ -158,10 +157,10 @@
             return role;
         }
     }
-    
+```    
 
 指挥者：
-
+```
     public class Director {
     
         public void construct(Builder builder){
@@ -173,10 +172,10 @@
             builder.buildSp();
         }
     }
-    
+```    
 
 测试类：
-
+```
     public class Main {
     
         public static void main(String[] args) {
@@ -190,7 +189,7 @@
     
         }
     }
-    
+```    
 
 到这里，一个建造者模式已经完成了，是不是很简单？
 

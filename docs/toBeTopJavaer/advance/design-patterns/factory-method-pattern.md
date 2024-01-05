@@ -1,4 +1,4 @@
-## 概念
+# 工厂方法模式
 
 工厂方法模式(Factory Method Pattern)又称为工厂模式，也叫虚拟构造器(Virtual Constructor)模式或者多态工厂(Polymorphic Factory)模式，它属于类创建型模式。
 
@@ -30,10 +30,10 @@
 > 
 > ConcreteFactory：具体工厂(`AddFactory`)
 
-[<img src="http://www.hollischuang.com/wp-content/uploads/2016/04/QQ20160412-0.png" alt="QQ20160412-0" width="798" height="518" class="alignnone size-full wp-image-1402" />][4]
+![Alt text](assets/image-5.png)
 
 这里还用计算器的例子。在保持`Operation`，`OperationAdd`，`OperationDiv`，`OperationSub`，`OperationMul`等几个方法不变的情况下，修改简单工厂模式中的工厂类（`OperationFactory`）。替代原有的那个"万能"的大工厂类，这里使用工厂方法来代替：
-
+```
     //工厂接口
     public interface IFactory {
         Operation CreateOption();
@@ -70,10 +70,10 @@
             return new OperationSub();
         }
     }
-    
+```    
 
 这样，在客户端中想要执行加法运算时，需要以下方式：
-
+```
     public class Main {
     
         public static void main(String[] args) {
@@ -84,7 +84,7 @@
             System.out.println(operationAdd.getResult());
         }
     }
-    
+ ```   
 
 到这里，一个工厂方法模式就已经写好了。
 
