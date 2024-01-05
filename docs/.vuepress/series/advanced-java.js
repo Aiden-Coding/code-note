@@ -1,6 +1,6 @@
 export const advanced_java = [
     {
-        text: "flowalbe 学习",
+        text: "big-data",
         collapsable: true,
         children: [
             "/advanced-java/big-data/count-different-phone-numbers.md",
@@ -15,6 +15,12 @@ export const advanced_java = [
             "/advanced-java/big-data/README.md",
             "/advanced-java/big-data/sort-the-query-strings-by-counts.md",
             "/advanced-java/big-data/topk-problems-and-solutions.md",
+        ],
+    },
+    {
+        text: "distributed-system",
+        collapsable: true,
+        children: [
             "/advanced-java/distributed-system/distributed-lock-redis-vs-zookeeper.md",
             "/advanced-java/distributed-system/distributed-session.md",
             "/advanced-java/distributed-system/distributed-system-cap.md",
@@ -31,12 +37,24 @@ export const advanced_java = [
             "/advanced-java/distributed-system/README.md",
             "/advanced-java/distributed-system/why-dubbo.md",
             "/advanced-java/distributed-system/zookeeper-application-scenarios.md",
+        ],
+    },
+    {
+        text: "extra-page",
+        collapsable: true,
+        children: [
             "/advanced-java/extra-page/advanced.md",
             "/advanced-java/extra-page/cover.md",
             "/advanced-java/extra-page/offer.md",
             "/advanced-java/extra-page/README.md",
             "/advanced-java/extra-page/rights-defending-action.md",
             "/advanced-java/extra-page/subscriptions-for-doocs.md",
+        ],
+    },
+    {
+        text: "high-availability",
+        collapsable: true,
+        children: [
             "/advanced-java/high-availability/e-commerce-website-detail-page-architecture.md",
             "/advanced-java/high-availability/hystrix-circuit-breaker.md",
             "/advanced-java/high-availability/hystrix-execution-isolation.md",
@@ -50,6 +68,12 @@ export const advanced_java = [
             "/advanced-java/high-availability/hystrix-timeout.md",
             "/advanced-java/high-availability/README.md",
             "/advanced-java/high-availability/sentinel-vs-hystrix.md",
+        ],
+    },
+    {
+        text: "high-concurrency",
+        collapsable: true,
+        children: [
             "/advanced-java/high-concurrency/database-shard-dynamic-expand.md",
             "/advanced-java/high-concurrency/database-shard-global-id-generate.md",
             "/advanced-java/high-concurrency/database-shard-method.md",
@@ -85,6 +109,12 @@ export const advanced_java = [
             "/advanced-java/high-concurrency/redis-single-thread-model.md",
             "/advanced-java/high-concurrency/why-cache.md",
             "/advanced-java/high-concurrency/why-mq.md",
+        ],
+    },
+    {
+        text: "micro-services",
+        collapsable: true,
+        children: [
             "/advanced-java/micro-services/advantages-and-disadvantages-of-microservice.md",
             "/advanced-java/micro-services/choose-microservice-deployment-strategy.md",
             "/advanced-java/micro-services/event-driven-data-management-for-microservices.md",

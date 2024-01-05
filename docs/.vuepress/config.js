@@ -1,15 +1,15 @@
 import { recoTheme } from "vuepress-theme-reco";
 import { tocPlugin } from "@vuepress/plugin-toc";
-import { bulletin } from "./bulletin"
+import { bulletin } from "./bulletin";
 import { navbar } from "./navbar";
-import { flowable } from "./series/flowable"
-import { JavaGuide } from "./series/JavaGuide"
-import { bestJavaer } from "./series/bestJavaer"
-import { CodeGuide } from "./series/CodeGuide"
-import { programmercarl } from "./series/programmercarl"
-import { toBeBetterJavaer } from "./series/toBeBetterJavaer"
-import { advanced_java } from "./series/advanced-java"
-import { toBeTopJavaer } from "./series/toBeTopJavaer"
+import { flowable } from "./series/flowable";
+import { JavaGuide } from "./series/JavaGuide";
+import { bestJavaer } from "./series/bestJavaer";
+import { CodeGuide } from "./series/CodeGuide";
+import { programmercarl } from "./series/programmercarl";
+import { toBeBetterJavaer } from "./series/toBeBetterJavaer";
+import { advanced_java } from "./series/advanced-java";
+import { toBeTopJavaer } from "./series/toBeTopJavaer";
 export default {
     base: "/code-note/",
     title: "学习笔记",
@@ -44,18 +44,7 @@ export default {
             "/toBeBetterJavaer/": toBeBetterJavaer,
             "/advanced-java/": advanced_java,
             "/toBeTopJavaer/": toBeTopJavaer,
-            "/cs/cloud/": [
-                {
-                    text: "springcloud",
-                    collapsable: true,
-                    children: ["/cs/cloud/微服务和Spring Cloud Alibaba介绍.md"],
-                },
-                {
-                    text: "nginx",
-                    collapsable: true,
-                    children: ["/cs/cloud/nginx.md"],
-                },
-            ],
+            "/cs/cloud/": ["微服务和SpringCloudAlibaba介绍.md", "nginx.md"],
             "/cs/others/": [
                 {
                     text: "工具",
