@@ -20,6 +20,6 @@ export const navbar = [
         text: "CodeGuide",
         link: "/CodeGuide/home.md",
     },
-    { text: "toBeTopJavaer", link: "/toBeTopJavaer/menu.md" },
+    { text: "toBeTopJavaer", link: "/toBeTopJavaer/README.md" },
     { text: "其他", link: "/cs/others/面向对象思想.md" },
 ]
