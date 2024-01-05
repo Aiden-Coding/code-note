@@ -1,5 +1,4 @@
 export const toBeTopJavaer = [
-    "/toBeTopJavaer/_sidebar.md",
     "/toBeTopJavaer/menu.md",
     "/toBeTopJavaer/README.md",
     {

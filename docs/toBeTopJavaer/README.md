@@ -1,4 +1,4 @@
-## Java工程师成神之路
+# 说明
 
 参考 [GitHub](https://github.com/hollischuang/toBeTopJavaer)上以issue或者PR的形式提出
 

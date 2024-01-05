@@ -7,7 +7,7 @@
 从互联网早起到现在，系统架构大体经历了下面几个过程：单体应用架构一>垂直应用架构一>分布式架构一>SOA架构—>微服务架构，当然还有悄然兴起的Service Mesh（服务网格化）。
 
 接下来我们就来了解一下每种系统架构是什么样子的，以及各有什么优缺点。
-![Alt text](image-1.png)
+![Alt text](./assert/image-1.png)
 
 #### 1.1.1 单体应用架构
 
@@ -91,14 +91,14 @@ SOA 架构中可能数据库存储会发生共享，微服务强调独每个服�
 
 复杂性更高。各个微服务进行分布式独立部署，当进行模块调用的时候，分布式将会变得更加麻烦。
 ### 1.2 微服务架构介绍 
-作者![Alt text](image.png)
+作者![Alt text](./assert/image.png)
 ①：英文；https://martinfowler.com/articles/microservices.html
 
 ②： 中文：http://blog.cuicc.com/blog/2015/07/22/microservices
 
 他说微服务其实是一种架构风格，我们在开发一个应用的时候这个应用应该是由一组小型服务组成，每个小型服务都运行在自己的进程内；小服务之间通过HTTP的方式进行互联互通。
-![Alt text](image-2.png)
-![Alt text](image-3.png)
+![Alt text](./assert/image-2.png)
+![Alt text](./assert/image-3.png)
 #### 1.2.1 微服务架构的常见问题
 
 一旦采用微服务系统架构，就势必会遇到这样几个问题：
@@ -112,7 +112,7 @@ SOA 架构中可能数据库存储会发生共享，微服务强调独每个服�
 这么多小服务，一旦出现问题了，应该如何排错？（链路追踪）skywalking 4个9 52.6分钟 5个9 5分钟
 
 对于上面的问题，是任何一个微服务设计者都不能绕过去的，因此大部分的微服务产品都针对每一个问题提供了相应的组件来解决它们。
-![Alt text](image-4.png)
+![Alt text](./assert/image-4.png)
 #### 1.2.2 常见微服务架构
 
 1. dubbo: zookeeper +dubbo + SpringMVC/Spring Boot
@@ -141,7 +141,7 @@ SOA 架构中可能数据库存储会发生共享，微服务强调独每个服�
 Spring Cloud 以微服务为核心的分布式系统构建标准
 
 〞分布式系统中的常见模式〞给了 Spring Cloud 一个清晰的定位，即“模式〞。也就是说 Spring Cloud 是针对分布式系统开发所做的通用抽象， 是标准模式的实现。这个定义非常抽象，看完之后并不能知道 Spring Cloud 具体包含什么内容。再来看一下 Spring 官方给出的一个 High Light 的架构图，就可以对这套模式有更清晰的认识：
-![Alt text](image-5.png)
+![Alt text](./assert/image-5.png)
 可以看到这个图中间就是各个 Microservice，也就是我们的这个微服务的实现，周边周围的话就是去围绕这个微服务来去做各种辅助的信息事情。
 
 例如分布式追踪、服务注册、配置服务等，都绕微服务运行时所依赖的必不可少的的支持性功能。我们可以得出这样一个结论：Spring Cloud 是以微服务为核心的分布式系统的一个构建标准。
@@ -153,11 +153,11 @@ Spring Cloud Alibaba 致力于提供微服务开发的一站式解决方案。�
 依托 Spring Cloud Alibaba，您只需要添加一些注解和少量配置，就可以将 Spring Cloud 应用接入阿里分布式应用解决方案，通过阿里中间件来迅速搭建分布式应用系统。
 
 根据 Jakarta 2019 年的调研报告，Spring Boot 拥有非常高的占比。熟悉 Java 语言的同学，应该对 Spring 框架都不会陌生。其倡导的依赖倒置、 面向切面编程等特性已经形成了 Java 语言的事实标准，几乎所有三方框架都会提供对 Spring 框架的支持。
-![Alt text](image-6.png)
+![Alt text](./assert/image-6.png)
 ## 3. Spring Cloud Alibaba 的定位
 
 既然说 Spring Cloud 是标准，那么自然少不了针对标准的实现。这里，为大家介绍下 Spring Cloud Alibaba 这套实现。先给出下面这张图帮助大家理解 Spring Cloud Alibaba 的定位：
-![Alt text](image-7.png)
+![Alt text](./assert/image-7.png)
 这里给大家这么一个公式，这个叫做：”3加2”。
 
 3 指的就是图中深色的部分，其实它就是 Spring Cloud 标准，一共有3层。中间颜色最深的部分就是及整个微服务最核心的内容，包括了“RPC 调用〞以及”服务注册与发现〞。第二层，也就是围绕着核心的这一圈，是一些辅助微服务更好的工作功能，包括了负载均衡、路由、网关、断路器，还有就是追踪等等这些内容。再外层的话，主要是一些分布式云环境里通用能力。
@@ -175,26 +175,26 @@ Spring Cloud Alibaba 致力于提供微服务开发的一站式解决方案。�
 ## 4. Spring Cloud 各套实现对比
 
 Spring Cloud 作为一套标准，它的实现肯定不止一套，那么各套实现都有什么区别呢？我们来一起看一下下面这张图：
-![Alt text](image-8.png)
+![Alt text](./assert/image-8.png)
 可以发现 Spring Cloud Alibaba 是所有的实现方案中功能最齐全的。尤其是在 Netflix 停止更新了以后，Spring Cloud Alibaba 依然在持续更新和迭代。
-![Alt text](image-9.png)
-![Alt text](image-10.png)
+![Alt text](./assert/image-9.png)
+![Alt text](./assert/image-10.png)
 人18年7月份 Spring Cloud Alibaba 正式提交代码开始，就得到了大家广泛的关注。截止今天，Spring Cloud Alibaba 一共获得了超过了 1.5万的star数，已经的领先于所有其他实现的总和。
 
 根据今年 X-lab 开放实验室刚刚发布的《2020 年微服务领域开源数字化报告》，Spring Cloud Alibaba 已经成为最活跃的 Spring Cloud 实现。
-![Alt text](image-11.png)
+![Alt text](./assert/image-11.png)
 数据来源《2020 年微服务领域开源数字化报告》，公众号后台回复关键词“微服务报告〞获取报告全文。
 
 ## 5. Spring Cloud Alibaba 生态
 
 可以看到除了围绕着 Spring Cloud 的标准实现以外，还有包括的数据、资源、消息、缓存等各种类型的服务。在不同类型的服务下，也有很多具体的产品可供用户选择。
-![Alt text](image-12.png)
+![Alt text](./assert/image-12.png)
 这里罗列典型而非全部产品。更多的内容，可以参考阿里云官网
 
 ## 6. Spring Cloud Alibaba 用户数
 
 截止到今天，Spring Cloud Alibaba 获得了数超过 1.5w 的 star 数。同时在 Github 上的项目依赖，就是对 Spring Cloud Alibaba 产生依赖关系的产品，也超过了 6000。最重要的，使用 Spring Cloud Alibaba 的公司超过1000 家。当然不只是外部的公司在使用，阿里内部也在使用。经过了双十一的洗礼，其实整个这套框架它的这个稳定性可靠性都得到了印证。
-![Alt text](image-13.png)
+![Alt text](./assert/image-13.png)
 ## 7. Spring Cloud Alibaba环境搭建
 
 SpringCloud Alibaba 依赖 Jaya 环境来运行。还需要为此配置 Maven环境，请确保是在以下版本环境中安装使用：
@@ -217,9 +217,9 @@ Spring Cloud:Hoxton.SR8
 
 最新的版本选择：Spring Cloud Alibaba 2.2.5.RELEASE
 组件版本关系
-![Alt text](image-14.png)
+![Alt text](./assert/image-14.png)
 毕业版本依赖关系（推荐使用）
-![Alt text](image-15.png)
+![Alt text](./assert/image-15.png)
 父pom如下:
 ```xml
 <？xml version="1.0" encoding="UTF-8"？>
@@ -297,7 +297,7 @@ Spring Cloud:Hoxton.SR8
 ```
 
 ## 8. Java 工程脚手架：更适合亚太区 Java 开发者的脚手架
-![Alt text](image-16.png)
+![Alt text](./assert/image-16.png)
 很多开发者应该眼我一样，都有过这样的经历：创建新应用时，先我一个我们最熟悉的一个老应用，把它里边的业务代码全部清理干净。然后相关的各种配置名称全部改掉，最终做出一个空的一个应用模板。再把这个应用模板拿过来改个名子，就变成了一个新的应用。
 
 当然可能有的同学会做的更多一些，例如长期维护这么一个空白模板在那里。下次拿过出来之后再改改个名字，就是一个新的应用。
@@ -311,5 +311,5 @@ Spring Cloud:Hoxton.SR8
 重复劳动
 
 通过提供 Java 工程脚手架来解决这个问题。下面就是 Java 工程脚手架的页面：https://start.aliyun.com/bootstrap.html
-![Alt text](image-17.png)
+![Alt text](./assert/image-17.png)
 在这里，开发者设置项目的基本信息，例如：开发语言、Java 版本、Spring Boot 版本等内容。

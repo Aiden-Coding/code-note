@@ -11,8 +11,8 @@ Nginx 是异步框架的网页服务器，也可以用作反向代理、负载�
 高可靠性经过十几年各种复杂场景和各大公司的生产环境验证，并且 nginx 的架构是由 master 进程和 worker 进程组成的，如果 worker 进程出现问题，那么 master 进程可以快速开启一个新的 worker 进程提供服务。
 
 主流 Web 服务器市场占有率对比
-![Alt text](image-18.png)
-![Alt text](image-19.png)
+![Alt text](./assert/image-18.png)
+![Alt text](./assert/image-19.png)
 ## Nginx 全局命令介绍
 查看当前 nginx 版本
 ```
@@ -106,8 +106,8 @@ kill -hup（输入nginx主进程号）
 ```
 
 Nginx 目录文件＆配置文件讲解
-![Alt text](image-20.png)
-![Alt text](image-21.png)
+![Alt text](./assert/image-20.png)
+![Alt text](./assert/image-21.png)
 ```bash
 #user nobody；
 
