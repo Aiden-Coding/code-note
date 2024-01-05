@@ -1,76 +1,7 @@
----
-category:
-  - 联系作者
-tag:
-  - 心路历程
----
-
-# 我的第一个，10 万(B站视频播放)
-
-恭喜这个 B。。。。。。站上的 UP，上一期视频播放量突破了 10 万！这也是二哥人生当中的第一次，凭借单条视频突破 10 万播放，必须得纪念下。
-
-
-![](https://cdn.tobebetterjavaer.com/tobebetterjavaer/images/szjy/bzhan-10wan-4f27a848-7dba-4cd3-a705-a6ef02162338.png)
-
-
-
-从众多的宫斗剧中我得出了一条宝贵的人生经验：“母凭子贵”。这条经验同样适用于二哥本人，可能会因为这一期视频，吹这辈子最多的牛逼：这不，荣获哔哩哔哩第 3 周【校园优秀奖&校园新星奖】。
-
-![](https://cdn.tobebetterjavaer.com/tobebetterjavaer/images/szjy/bzhan-10wan-340f1fe4-49f1-48c6-a972-c5da7de8ddd0.png)
-
-我已经按捺不住激动的心情，在两万人的朋友圈大肆炫耀了。十万播放，对于百大 UP 来说，可能就是分分钟的事，可对于我这个（未来的） B站百大来说，苦苦等了 149 天！！！！！！！
-
-这真是一个漫长的日子，鬼知道这些天我经历了什么。
-
-我一度怀疑自己到底适不适合拍视频，表情的僵硬，普通话的塑料，甚至连自己一项引以为荣的台本，都觉得拉胯。
-
-可就因为这个视频，让我重获新生，亢奋的心情一直在持续。我知道，一条视频的播放突破 10 万，并不意味着下一个视频也会有 10 万的播放，但好歹能让我感到幸福会，至少可以“厚颜无耻”地再吹一次牛皮吧！
-
-昨天的文章里，承诺新的一年 2022 年把肝重新交给大家，我就会说到做到：这年头，职场就流行这个“沙雕”文化，**你有没有能力不重要，重要的是领导交代你的有没有去执行**。
-
-二哥打算豁出去了！
-
-新一期视频也上传到 B 站了，希望能借英雄哥的吉言，再爆一次。链接我放这里了：
-
->https://www.bilibili.com/video/BV1za411q79U/
-
-三不三连没关系，有关系的是不三连可能会对不起二哥的肝，所以还是三连吧，哈哈哈哈，瞧瞧我们这该死的生物钟，起这么早。。。
-
-![](https://cdn.tobebetterjavaer.com/tobebetterjavaer/images/szjy/bzhan-10wan-5a1d423e-8827-4a66-9197-4641ef0ecbaf.png)
-
-接下来，上干货，我把这期 10万+ 播放的视频台本重新整理了一下，本来不想发的，很多小伙伴私信说二哥偏爱 B 站，同步都懒得同步了吗？
-
-这不，赶紧发到公众号上来，希望学生党们现在立刻马上收藏起来，这个寒假你会过得非常充实；至于工作党嘛，像二哥这样的，既要工作，又要读书写作照顾家庭的，忙都忙死了，就算了吧！
-
-![](https://cdn.tobebetterjavaer.com/tobebetterjavaer/images/szjy/bzhan-10wan-99073995-10b0-42ee-81e5-cc4abc26aa71.png)
-
-啊，不，还是要稍微卷一卷吧，免得被那群还有半年就毕业的家伙们拍死在沙滩上。。。。
-
-------
-
-二哥的读者当中有不少大学生，所以当知乎上刷到这个题目时：
-
->“学校课程规划的比较奇怪，大一上学期学c++，下学期学python，在寒假我是应该复习或预习课内内容（python，c++），还是自己对外拓展呢（c，数据结构）？”
-
-立马就冲上去答了一波。
-
-**就冲这份爱学习的决心，三年后绝对互联网公司的 offer 拿到手软**！
-
-讲真，小伙伴学校安排的课程和我当年非常相似，也是大一上来就搞 Java，隔壁班上来就搞 C++，完全没有安排 C语言来过渡下。
-
-所以我的建议是，**趁寒假打打王者上上分吧**！
-
-![](https://cdn.tobebetterjavaer.com/tobebetterjavaer/images/szjy/bzhan-10wan-63412a28-7315-4ac4-a04b-a049b338c0d8.gif)
-
-啊，不！**趁寒假刷一波清华在 GitHub 上 20k+ star 的开源课程吧**！
-
 ## 一、清华大学在 GitHub 上的开源课程
 
-
-
 >地址：https://github.com/PKUanonym/REKCARC-TSC-UHT
-
-![](https://cdn.tobebetterjavaer.com/tobebetterjavaer/images/szjy/bzhan-10wan-c309fdb8-084c-44b1-bd8e-86a4b39cbb7b.png)
+![Alt text](assets/image.png)
 
 我来带小伙伴们过一下清华的课程安排哈，主要是针对计算机专业的。
 
@@ -104,10 +35,7 @@ tag:
 视频课是浙江大学翁恺教授的，一门《C语言程序设计入门》，一门《C语言程序设计进阶》。
 
 学完这些，大家至少能学会下面这幅思维导图中列出来的内容。
-
-![](https://cdn.tobebetterjavaer.com/tobebetterjavaer/images/szjy/bzhan-10wan-03e4f5b4-c756-401c-aada-695b9cfaf00d.png)
-
-更多 C 语言的学习内容，可以戳下面这个链接，之前在公众号上发过了，这里就不再复制粘贴了：
+![Alt text](assets/image-1.png)
 
 [大一新生应该如何学习C语言，书上代码看不懂理解不了怎么办？](https://mp.weixin.qq.com/s/cZq24FJto2gJYWVhbhNBnQ)
 
@@ -189,20 +117,17 @@ class 二哥 {
 如果你有 C/C++ 的底子，我给推荐两本书。
 
 第一本，《趣学数据结构》
-
-![](https://cdn.tobebetterjavaer.com/tobebetterjavaer/images/szjy/bzhan-10wan-bd02be2f-ae71-413f-b0c0-0050fee0e2b5.png)
+![Alt text](assets/image-2.png)
 
 说到这，多说一嘴。2018 年的时候，人民邮电出版社的张老师邀请我出一本 Java 方面的书，我当时想命名为《趣学 Java》。张老师说，刚好之前和陈小玉老师合作出了一本《趣学算法》的书，要不发一本你看看吧。
 
 你别说，这本书还挺适合拿来作为算法的入门书呢。后来，陈小玉老师又出了一本新书，叫《趣学数据结构》，我看了，虽然离“趣”字有点距离，但很适合作为一门数据结构方面的入门书。
 
 第二本，《数据结构（C++语言版）》
-
-![](https://cdn.tobebetterjavaer.com/tobebetterjavaer/images/szjy/bzhan-10wan-de28bb8a-ddb6-4b73-b132-ebf5e507fdbe.png)
+![Alt text](assets/image-3.png)
 
 对，清华大学邓俊辉教授编著的，豆瓣评分也蛮高的。这本书还配套了视频课程，是免费的，可以在学堂在线上看，我之前也有推荐过。
-
-![](https://cdn.tobebetterjavaer.com/tobebetterjavaer/images/szjy/bzhan-10wan-15de0615-3d9c-4bdc-bedb-4165ac6f4802.png)
+![Alt text](assets/image-4.png)
 
 
 课程质量木得说，算是国家级精品课了。大家有时间的话，一定要刷一遍。
@@ -216,14 +141,12 @@ class 二哥 {
 如果你有 Java 的底子，我也给推荐两本书。
 
 第一本，《数据结构与算法分析（Java 语言描述）》
-
-![](https://cdn.tobebetterjavaer.com/tobebetterjavaer/images/szjy/bzhan-10wan-1672e79d-a576-4a24-bc60-ced47b692a0f.png)
+![Alt text](assets/image-5.png)
 
 虽然翻译得不怎么样，但内容很全面，适合拿来作为一本数据结构的入门书。
 
 第二本，《算法（第 4 版）》
-
-![](https://cdn.tobebetterjavaer.com/tobebetterjavaer/images/szjy/bzhan-10wan-9e260fc8-69fa-4dfa-82c6-9d6b1d7027e5.png)
+![Alt text](assets/image-6.png)
 
 虽然名为算法，但大家都知道，算法是基于数据结构的，数组、队列、栈、堆、二叉树、哈希表等等，这些数据结构都讲到了。
 

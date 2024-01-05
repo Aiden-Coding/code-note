@@ -80,10 +80,6 @@ tag:
 
 ![](https://cdn.tobebetterjavaer.com/tobebetterjavaer/images/szjy/csdn-1000wan-0056fcd2-afa4-475e-ad69-95b84b90b8c7.png)
 
-10 月 11 日，收到《二哥的Java进阶之路》专栏在 GitHub 上开源以来的两笔大额打赏。
-
-![](https://cdn.tobebetterjavaer.com/tobebetterjavaer/images/szjy/csdn-1000wan-7e6d9918-6d94-45ef-9afa-42882f79944d.png)
-
 11 月 6 日，和四位河科大的学弟撸完串后在校园里的合影。
 
 ![](https://cdn.tobebetterjavaer.com/tobebetterjavaer/images/szjy/csdn-1000wan-0c1b3624-f4e5-4e0c-b119-0ef4d440a60d.png)
@@ -106,9 +102,7 @@ tag:
 ### 二、有点遗憾
 
 一年时间过得可真快，有很多想做好的事情，到最后都差了点意思。就说一件吧，B 站的视频播放量没有达到预期。
-
-![](https://cdn.tobebetterjavaer.com/tobebetterjavaer/images/szjy/csdn-1000wan-83e7cfbc-496d-45e8-bfd6-cd0d1dfc60d3.png)
-
+![Alt text](assets/image-9.png)
 
 8 月份还能坚持一周输出一个，从一开始面对镜头时的恐惧，到慢慢接纳自己。但好景不长，9 月份的时候，视频播放量呈现下降趋势，我就开始胡思乱想了。
 
@@ -160,8 +154,7 @@ B 站我一定做到一万粉——这个 flag 不能到。
 展望 2022 年，有太多的期待了。
 
 这不，新的惊喜就是《二哥的Java进阶之路》专栏第一次上了 GitHub 的 trending 榜单！
-
-![](https://cdn.tobebetterjavaer.com/tobebetterjavaer/images/szjy/csdn-1000wan-8868c50f-d622-4f1f-a92b-13cf95edd786.png)
+![Alt text](assets/image-8.png)
 
 正应了那句话，功夫不负有心人。
 
@@ -172,8 +165,7 @@ B 站我一定做到一万粉——这个 flag 不能到。
 英文名字叫 toBeBetterJavaer， 前后呼应，一气呵成。
 
 立个 flag 吧，**2022 年，冲 5000 star**！
-
-![](https://cdn.tobebetterjavaer.com/tobebetterjavaer/images/szjy/csdn-1000wan-5ebc2c65-f342-45f9-aaf6-7f663b5406b8.png)
+![Alt text](assets/image-7.png)
 
 这个 flag 绝不能倒！
 
@@ -206,14 +198,6 @@ B 站我一定做到一万粉——这个 flag 不能到。
 
 ### 四、最后的祝福
 
-如果你是学生党，希望课堂上的你，能够认认真真听讲；如果老师的课实在没意思，网上有很多优质的公开资源，可参考[该死！B 站上这些 Java 视频真香！](https://mp.weixin.qq.com/s/Wgedf4ZH3_zJXxFxyPPyNQ)
+如果你是学生党，希望课堂上的你，能够认认真真听讲；如果老师的课实在没意思，网上有很多优质的公开资源，可参考<br>
+[该死！B 站上这些 Java 视频真香！](https://mp.weixin.qq.com/s/Wgedf4ZH3_zJXxFxyPPyNQ)
 
-还有就是逢考必过，追 TA 必到手。
-
-如果你是工作党，希望工作中的你，不被甩锅，蒸蒸日上；如果事业上遇到瓶颈了，不妨拓展一门副业，给自己打开一扇窗。
-
-还有就是绩效必 A，跳槽涨薪美滋滋。
-
-就这吧！
-
-如果可以的话，大家可以在评论区刷一波，**二哥牛逼，2022 我们一起飞**~~
