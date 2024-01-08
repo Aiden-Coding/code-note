@@ -1,5 +1,5 @@
 ---
-title: 携程面试官：大文件上传时如何做到秒传？
+title: 大文件上传时如何做到秒传？
 shortTitle: 如何秒传大文件？
 description: 携程面试官：大文件上传时如何做到秒传？
 category:

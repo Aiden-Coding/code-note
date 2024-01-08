@@ -1,5 +1,5 @@
 ---
-title: 面渣逆袭必看，面试题八股文Java基础、Java 集合框架、Java 并发编程、JVM、Spring、Redis、MyBatis、MySQL、操作系统、计算机网络、RocketMQ、分布式、微服务👍
+title: 面渣逆袭
 shortTitle: 面渣逆袭
 description: 面试前必读系列！包括 Java 基础（JavaSE）、Java 集合框架、Java 并发编程（Java 多线程）、Java 虚拟机（JVM）、Spring、Redis、MyBatis、MySQL、操作系统、计算机网络、RocketMQ、分布式、微服务 等等。
 categories:
@@ -145,7 +145,7 @@ head:
 
 * 分布式
 
-![](http://cdn.tobebetterjavaer.com/tobebetterjavaer/images/sidebar/sanfene//nixi-cdfba194-459d-4ec6-8b9f-07f6cca4ac80.png)
+![Alt text](assets/image-183.png)
 
 * 微服务
 ![Alt text](assets/image-19.png)

@@ -1,5 +1,5 @@
 ---
-title: 淘宝面试官：优惠券系统该如何设计？
+title: 优惠券系统该如何设计？
 shortTitle: 如何设计优惠券系统？
 description: 大厂的优惠券系统是如何设计的？
 category:

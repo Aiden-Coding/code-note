@@ -1,5 +1,5 @@
 ---
-title: Java 基础背诵版八股文必看🍉
+title: Java 基础背诵版八股文
 shortTitle: Java基础背诵版八股文🍉
 category:
   - 求职面试

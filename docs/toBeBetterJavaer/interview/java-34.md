@@ -1,5 +1,5 @@
 ---
-title: 34 道 Java 精选面试题👍
+title: Java 精选面试题👍
 shortTitle: 34 道 Java 精选面试题👍
 category:
   - 求职面试

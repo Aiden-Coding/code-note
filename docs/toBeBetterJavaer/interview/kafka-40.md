@@ -1,5 +1,5 @@
 ---
-title: 40 道精选 Kafka 面试题👍
+title: 精选 Kafka 面试题👍
 shortTitle: 40 道精选 Kafka 面试题👍
 author: 菜农
 category:

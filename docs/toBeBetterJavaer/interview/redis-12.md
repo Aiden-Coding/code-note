@@ -1,5 +1,5 @@
 ---
-title: 12 道 Redis 精选面试题👍
+title: Redis 精选面试题👍
 shortTitle: 12 道 Redis 精选面试题👍
 category:
   - 求职面试

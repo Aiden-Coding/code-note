@@ -1,5 +1,5 @@
 ---
-title: 40 道 Nginx 精选面试题👍
+title: Nginx 精选面试题👍
 shortTitle: 40 道 Nginx 精选面试题👍
 category:
   - 求职面试

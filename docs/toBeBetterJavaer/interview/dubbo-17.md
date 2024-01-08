@@ -1,5 +1,5 @@
 ---
-title: 17 道 Dubbo 精选面试题👍
+title: Dubbo 精选面试题👍
 shortTitle: 17 道 Dubbo 精选面试题👍
 category:
   - 求职面试

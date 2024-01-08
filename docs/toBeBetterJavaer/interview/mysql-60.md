@@ -1,5 +1,5 @@
 ---
-title: 60 道 MySQL 精选面试题👍
+title: MySQL 精选面试题👍
 shortTitle: 60 道 MySQL 精选面试题👍
 category:
   - 求职面试
