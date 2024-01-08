@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-f7be630e","path":"/toBeTopJavaer/basics/java-basic/generics.html","title":"","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"createdTime":1704292846000,"updatedTime":1704292846000,"contributors":[{"name":"dong","email":"dwx_job@163.com","commits":1}]},"filePathRelative":"toBeTopJavaer/basics/java-basic/generics.md"}');export{e as data};

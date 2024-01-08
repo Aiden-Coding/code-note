@@ -1,0 +1,1 @@
+const a=JSON.parse('{"key":"v-3cb6303d","path":"/toBeTopJavaer/basics/java-basic/enum-switch.html","title":"","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"createdTime":1704292846000,"updatedTime":1704292846000,"contributors":[{"name":"dong","email":"dwx_job@163.com","commits":1}]},"filePathRelative":"toBeTopJavaer/basics/java-basic/enum-switch.md"}');export{a as data};

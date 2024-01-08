@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-062b5e64","path":"/bestJavaer/linux/whymemoryshouldsegment.html","title":"内存为什么要分段？","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"createdTime":1704300175000,"updatedTime":1704300175000,"contributors":[{"name":"dong","email":"dwx_job@163.com","commits":1}]},"filePathRelative":"bestJavaer/linux/whymemoryshouldsegment.md"}');export{e as data};

@@ -1,0 +1,1 @@
+const a=JSON.parse('{"key":"v-a49b8322","path":"/advanced-java/extra-page/advanced.html","title":"advance","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"createdTime":1704292846000,"updatedTime":1704479745000,"contributors":[{"name":"dong","email":"dwx_job@163.com","commits":2}]},"filePathRelative":"advanced-java/extra-page/advanced.md"}');export{a as data};

@@ -1,0 +1,1 @@
+const a=JSON.parse('{"key":"v-474ef0a7","path":"/cs/programmercarl/problems/kama53.xunbao.html","title":"","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"createdTime":1703694408000,"updatedTime":1703694408000,"contributors":[{"name":"dong","email":"dwx_job@163.com","commits":1}]},"filePathRelative":"cs/programmercarl/problems/kama53.寻宝.md"}');export{a as data};
