@@ -1,5 +1,5 @@
 ---
-title: Spring Boot整合Knife4j，美化强化丑陋的Swagger
+title: Knife4j
 category:
   - Java企业级开发
 tag:

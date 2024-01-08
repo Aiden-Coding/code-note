@@ -1,6 +1,7 @@
 ---
 
-category: itstack-code-life
+categories: 
+  - itstack-code-life
 title: BATJTMD，大厂招聘，都招什么样Java程序员？
 tagline: by 小傅哥
 tag: [java,itstack-code-life]

@@ -169,3 +169,5 @@ class 二哥 {
 不要一个寒假就被甩开了差距。
 
 工作党其实也一样，适当放松，时刻警惕，该学的时候还是要能支棱起来。
+
+[该死！B 站上这些 Java 视频真香！](https://mp.weixin.qq.com/s/Wgedf4ZH3_zJXxFxyPPyNQ)

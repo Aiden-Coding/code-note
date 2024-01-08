@@ -1,5 +1,5 @@
 ---
-title: Log4j：Java日志框架的鼻祖
+title: Log4j
 category:
   - Java企业级开发
 tag:

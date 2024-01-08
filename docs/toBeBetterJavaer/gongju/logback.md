@@ -1,5 +1,5 @@
 ---
-title: Logback：Spring Boot内置的日志处理框架
+title: Logback
 category:
   - Java企业级开发
 tag:

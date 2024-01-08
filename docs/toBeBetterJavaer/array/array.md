@@ -1,9 +1,8 @@
 ---
-title: 掌握Java数组：一个非常特殊的对象
-shortTitle: 数组
-category:
+title: 数组
+categories:
   - Java核心
-tag:
+tags:
   - 数组&字符串
 description: 本文详细介绍了Java数组，包括数组的基本概念、创建方法、初始化方法以及常用操作。学习本文内容，您将掌握Java数组的定义、如何创建和初始化数组，以及如何进行数组元素的添加、删除、查询等操作，为您的Java编程之旅打下坚实基础。
 head:

@@ -72,14 +72,5 @@ head:
 
 ![](https://cdn.tobebetterjavaer.com/tobebetterjavaer/images/nice-article/weixin-sulwgalcpdssbjavakfsc-33efc94e-746c-4e7e-961c-2bf95b14a371.jpg)
 
-## 07、最后
-
-如果你想成为一名优秀的 Java 工程师，那么这份手册上的内容几乎是必须要掌握的。是不是已经迫不及待想要下载这份手册了？
-
-微信搜索「**沉默王二**」回复「**手册**」就可以免费获取了，当然你也可以扫描下面的二维码后回复，赶紧赶紧。
-
-![](https://cdn.tobebetterjavaer.com/tobebetterjavaer/images/gongzhonghao.png)
-
-最后，我衷心地祝福你，希望你能学有所成，to be better，奥利给！
 
 

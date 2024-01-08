@@ -1,5 +1,5 @@
 ---
-title: Warp：号称下一代终端神器，GitHub星标2.8k+，用完爱不释手
+title: Warp
 shortTitle: Warp：21世纪终端工具
 category:
   - Java企业级开发

@@ -1,43 +1,16 @@
-# 为什么会有这个开源知识库
-
-知识库取名 **toBeBetterJavaer**，即 **To Be Better Javaer**，意为「成为一名更好的 Java 程序员」，是我自学 Java 以来所有原创文章和学习资料的大聚合。内容包括 Java 基础、Java 并发编程、Java 虚拟机、Java 企业级开发、Java 面试等核心知识点。据说每一个优秀的 Java 程序员都喜欢她，风趣幽默、通俗易懂。学 Java，就认准 二哥的Java进阶之路😄。
- 
- 知识库旨在为学习 Java 的小伙伴提供一系列：
- - **优质的原创 Java 教程**
- - **全面清晰的 Java 学习路线**
- - **免费但靠谱的 Java 学习资料**
- - **精选的 Java 岗求职面试指南**
- - **Java 企业级开发所需的必备技术**
-
-赠人玫瑰手有余香。知识库会持续保持**更新**，欢迎收藏品鉴！推荐你通过在线阅读网站进行阅读，体验更好，速度更快！
-
-- [二哥的Java进阶之路在线网址（推荐👍）](https://javabetter.cn/)
-- [技术派之二哥的Java进阶之路专栏](https://paicoding.com/column/5/1)
-
-如果你更喜欢离线的 PDF 版本，戳这个链接获取[👍二哥的 Java 进阶之路.pdf](https://javabetter.cn/overview/)
-
-**转载须知** ：以下所有文章如非文末说明为转载皆为我（沉默王二）的原创，如果你需要转载，请在文末注明出处，如发现恶意抄袭/搬运，会动用法律武器维护自己的权益。让我们一起维护一个良好的技术创作环境！
+# 主页
 
 ## 知识库地图
 
 知识库收录的核心内容就全在这里面了，大类分为 Java 核心、Java 企业级开发、数据库、计算机基础、求职面试、学习资源、程序人生，几乎你需要的这里都有。
 
-![](https://cdn.tobebetterjavaer.com/tobebetterjavaer/images/tobebetterjavaer-map.png)
+![Alt text](assets/image.png)
 
-一个人可以走得很快，但一群人才能走得更远。[二哥的编程星球](https://javabetter.cn/zhishixingqiu/)已经有 **4000 多名** 球友加入了，如果你也需要一个良好的学习环境，扫描下方的优惠券加入我们吧。新人可免费体验 3 天，不满意可全额退款（我只能帮你到这里了😄）。
 
-<img src="https://cdn.tobebetterjavaer.com/paicoding/7c0ac1af155d3c1a1df268a17813ca45.png" title="二哥的编程星球" width="400" />
-
-这是一个**编程学习指南 + Java 项目实战 + LeetCode 刷题的私密圈子**，你可以阅读星球专栏、向二哥提问、帮你制定学习计划、和球友一起打卡成长。
-
-![](https://cdn.tobebetterjavaer.com/stutymore/what-is-jvm-20231019155412.png)
-
-两个置顶帖「球友必看」和「知识图谱」里已经沉淀了非常多优质的内容，**相信能帮助你走的更快、更稳、更远**。
-
-- [二哥的Java面试指南专栏发布了✌️](https://javabetter.cn/zhishixingqiu/mianshi.html)
-- [二哥的原创实战项目技术派上线了✌️](https://javabetter.cn/zhishixingqiu/paicoding.html)
-- [二哥的并发编程小册发布了✌️](https://javabetter.cn/thread/)
-- [已经帮 2000 位球友修改过简历了✌️](https://javabetter.cn/zhishixingqiu/jianli.html)
+- [二哥的Java面试指南专栏发布了✌️](./zhishixingqiu/mianshi.md)
+- [二哥的原创实战项目技术派上线了✌️](./zhishixingqiu/paicoding.md)
+- [二哥的并发编程小册发布了✌️](./thread/)
+- [已经帮 2000 位球友修改过简历了✌️](./zhishixingqiu/jianli.md)
 
 ## 学习路线
 
@@ -502,19 +475,6 @@
 - [给域名配置HTTPS证书](szjy/https-domain.md)
 - [使用docsify+Git+GitHub+码云+阿里云服务器搭建知识库网站](szjy/tobebetterjavaer-wangzhan-shangxian.md)
 
-
-## 联系作者
-
-
->- 作者是一名普通普通普通普通三连的 Java 后端开发者，热爱学习，热爱分享
->- 参加工作以后越来越理解交流和分享的重要性，在不停地汲取营养的同时，也希望帮助到更多的小伙伴们
->- 二哥的Java进阶之路，不仅是作者自学 Java 以来所有的原创文章和学习资料的大聚合，更是作者向这个世界传播知识的一个窗口。
-
-
-- [走近作者：个人介绍 Q&A](about-the-author/readme.md)
-- [我的第一个，10 万(B站视频播放)](about-the-author/bzhan-10wan.md)
-- [我的第一个，一千万！知乎阅读](about-the-author/zhihu-1000wan.md)
-- [我的第二个，一千万！CSDN阅读](about-the-author/csdn-1000wan.md)
 
 
 

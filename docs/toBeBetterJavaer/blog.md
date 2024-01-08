@@ -1,7 +1,4 @@
 ---
-home: true
-layout: BlogHome
-icon: home
 title: 博客
 heroImage: /itwanger.png
 heroText: 沉默王二的技术博客

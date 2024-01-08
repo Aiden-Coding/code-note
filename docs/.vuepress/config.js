@@ -25,14 +25,14 @@ export default {
         // 自动设置分类
         // autoSetBlogCategories: true,
         // 自动将分类和标签添加至头部导航条
-        autoAddCategoryToNavbar: {
-            location: 1, // 默认 0
-            categoryText: "分类", // 默认 categories
-            tagText: "标签", // 默认 tags
-        },
+        // autoAddCategoryToNavbar: {
+        //     location: 1, // 默认 0
+        //     categoryText: "分类", // 默认 categories
+        //     tagText: "标签", // 默认 tags
+        // },
         // 当 autoAddCategoryToNavbar 为 true 时，则全部取默认值
         // autoAddCategoryToNavbar: true,
-        bulletin: bulletin,
+        // bulletin: bulletin,
         subSidebar: "auto",
         //默认主题配置
         navbar: navbar,

@@ -1,5 +1,5 @@
 ---
-title: DBeaver：干掉付费的 Navicat，操作所有数据库就靠它了！
+title: DBeaver
 shortTitle: DBeaver：一款免费的数据库操作工具
 category:
   - Java企业级开发
@@ -11,6 +11,7 @@ head:
     - name: keywords
       content: 辅助工具,GitHub,DBeaver教程,DBeaver使用,DBeaver开源,Navicat DBeaver,Java企业级开发
 ---
+
 
 
 作为一名开发者，免不了要和数据库打交道，于是我们就需要一款顺手的数据库管理工具。很长一段时间里，Navicat 都是我的首选，但最近更换了一台新电脑，之前的绿色安装包找不到了。

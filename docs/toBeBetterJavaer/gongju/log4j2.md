@@ -1,5 +1,5 @@
 ---
-title: Log4j 2：Apache维护的一款高性能日志记录工具
+title: Log4j2
 category:
   - Java企业级开发
 tag:

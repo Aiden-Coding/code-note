@@ -1,5 +1,5 @@
 ---
-title: SLF4J：阿里巴巴强制使用的日志门面担当
+title: SLF4J
 category:
   - Java企业级开发
 tag:

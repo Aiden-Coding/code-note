@@ -1,9 +1,9 @@
 ---
+title: choco
 category:
   - Java企业级开发
 tag:
   - 辅助工具
-title: Chocolatey：一款 GitHub 星标 8.2k+ 的 Windows 命令行软件管理器，好用到爆！
 shortTitle: Chocolatey：Windows软件管理神器
 description: chocolatey：一款 GitHub 星标 8.2k+ 的 Windows 命令行软件管理神器，好用到爆！
 head:

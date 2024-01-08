@@ -1,5 +1,5 @@
 ---
-title: Junit：一个开源的Java单元测试框架
+title: Junit
 category:
   - Java企业级开发
 tag:

@@ -1,21 +1,16 @@
 ---
-title: JVM面试题，50道Java虚拟机八股文（1.5万字51张手绘图），面渣逆袭必看👍
-shortTitle: 面渣逆袭-JVM
-author: 三分恶
-category:
-  - 面渣逆袭
-tag:
-  - 面渣逆袭
-description: 下载次数超 1 万次，1.5 万字 51 张手绘图，详解 50 道 Java 虚拟机面试高频题（让天下没有难背的八股），面渣背会这些 JVM 八股文，这次吊打面试官，我觉得稳了（手动 dog）。
+title: 面渣逆袭-JVM
+# author: 三分恶
+# category:
+#   - 面渣逆袭
+# tag:
+#   - 面渣逆袭
+description: JVM面试题，50道Java虚拟机八股文（1.5万字51张手绘图），面渣逆袭必看👍
 head:
   - - meta
     - name: keywords
       content: Java,Java虚拟机,JVM,Java面试题,JVM面试题,java虚拟机面试题,八股文,java
 ---
-
-
-1.5 万字 51 张手绘图，详解 50 道 Java 虚拟机面试高频题（让天下没有难背的八股），面渣背会这些 JVM 八股文，这次吊打面试官，我觉得稳了（手动 dog）。整理：沉默王二，戳[转载链接](https://mp.weixin.qq.com/s/bHhqhl8mH3OAPt3EkaVc8Q)，作者：三分恶，戳[原文链接](https://mp.weixin.qq.com/s/XYsEJyIo46jXhHE1sOR_0Q)。
-
 
 ## 一、引言
 
@@ -25,11 +20,11 @@ JVM——Java 虚拟机，它是 Java 实现平台无关性的基石。
 
 Java 程序运行的时候，编译器将 Java 文件编译成平台无关的 Java 字节码文件（.class）,接下来对应平台 JVM 对字节码文件进行解释，翻译成对应平台匹配的机器指令并运行。
 
-![Java语言编译运行](https://cdn.tobebetterjavaer.com/tobebetterjavaer/images/sidebar/sanfene/jvm-1.png)
+![Alt text](assets/image-120.png)
 
 同时 JVM 也是一个跨语言的平台，和语言无关，只和 class 的文件格式关联，任何语言，只要能翻译成符合规范的字节码文件，都能被 JVM 运行。
 
-![JVM跨语言](https://cdn.tobebetterjavaer.com/tobebetterjavaer/images/sidebar/sanfene/jvm-2.png)
+![Alt text](assets/image-121.png)
 
 ## 二、内存管理
 
@@ -37,7 +32,8 @@ Java 程序运行的时候，编译器将 Java 文件编译成平台无关的 Ja
 
 JVM 内存区域最粗略的划分可以分为`堆`和`栈`，当然，按照虚拟机规范，可以划分为以下几个区域：
 
-![Java虚拟机运行时数据区](https://cdn.tobebetterjavaer.com/tobebetterjavaer/images/sidebar/sanfene/jvm-3.png)
+![Alt text](assets/image-122.png)
+
 
 JVM 内存分为线程私有区和线程共享区，其中`方法区`和`堆`是线程共享区，`虚拟机栈`、`本地方法栈`和`程序计数器`是线程隔离的数据区。
 

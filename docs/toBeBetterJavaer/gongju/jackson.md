@@ -1,5 +1,5 @@
 ---
-title: Jackson：GitHub上star数最多的JSON解析库
+title: Jackson
 category:
   - Java企业级开发
 tag:
