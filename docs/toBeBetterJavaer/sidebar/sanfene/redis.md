@@ -1,7 +1,7 @@
 ---
-title: Redis面试题，53道Redis八股文（1.9万字97张手绘图），面渣逆袭必看👍
-shortTitle: 面渣逆袭-Redis
-description: 下载次数超 1 万次，1.9 万字 97 张手绘图，详解 53 道 Redis 面试高频题（让天下没有难背的八股），面渣背会这些 Redis 八股文，这次吊打面试官，我觉得稳了（手动 dog）。
+title: 面渣逆袭-Redis
+shortTitle: 
+description: Redis面试题，53道Redis八股文（1.9万字97张手绘图），面渣逆袭必看👍
 author: 三分恶
 category:
   - 面渣逆袭

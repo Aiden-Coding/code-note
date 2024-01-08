@@ -1,7 +1,7 @@
 ---
-title: 消息队列面试题之RocketMQ篇，23道RocketMQ八股文（1.1万字45张手绘图），面渣逆袭必看👍
-shortTitle: 面渣逆袭-RocketMQ
-description: 下载次数超 1 万次，1.1 万字 45 张手绘图，详解 23 道 RocketMQ 面试高频题（让天下没有难背的八股），面渣背会这些 RocketMQ 八股文，这次吊打面试官，我觉得稳了（手动 dog）。
+title: 面渣逆袭-RocketMQ
+shortTitle: 
+description: 消息队列面试题之RocketMQ篇，23道RocketMQ八股文（1.1万字45张手绘图），面渣逆袭必看👍
 author: 三分恶
 category:
   - 面渣逆袭

@@ -22,7 +22,6 @@ export const toBeBetterJavaer = [
             "/toBeBetterJavaer/interview/redis-12.md",
 
             "/toBeBetterJavaer/sidebar/sanfene/nixi.md",
-            "/toBeBetterJavaer/sidebar/computer-base.md",
             "/toBeBetterJavaer/sidebar/kusen/javase.md",
             "/toBeBetterJavaer/sidebar/sanfene/collection.md",
             "/toBeBetterJavaer/sidebar/sanfene/fenbushi.md",
@@ -56,7 +55,6 @@ export const toBeBetterJavaer = [
             "/toBeBetterJavaer/xuexiluxian/os.md",
             "/toBeBetterJavaer/xuexiluxian/python.md",
             "/toBeBetterJavaer/xuexiluxian/qianduan.md",
-            "/toBeBetterJavaer/xuexiluxian/readme.md",
             "/toBeBetterJavaer/xuexiluxian/redis.md",
             "/toBeBetterJavaer/xuexiluxian/java/jvm.md",
             "/toBeBetterJavaer/xuexiluxian/java/thread.md",
@@ -64,12 +62,11 @@ export const toBeBetterJavaer = [
         ],
     },
     {
-        text: "basic-grammar",
+        text: "基本语法",
         collapsable: true,
         children: [
             "/toBeBetterJavaer/basic-grammar/basic-data-type.md",
             "/toBeBetterJavaer/basic-grammar/basic-exercise.md",
-            "/toBeBetterJavaer/basic-grammar/bigdecimal-biginteger.md",
             "/toBeBetterJavaer/basic-grammar/flow-control.md",
             "/toBeBetterJavaer/basic-grammar/javadoc.md",
             "/toBeBetterJavaer/basic-grammar/operator.md",

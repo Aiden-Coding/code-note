@@ -1,5 +1,5 @@
 ---
-title: Java流程控制语句详解：带你轻松学会各类控制结构
+title: Java流程控制语句详解
 shortTitle: Java流程控制语句
 category:
   - Java核心

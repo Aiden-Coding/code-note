@@ -1,12 +1,12 @@
 ---
-title: 微服务面试题（Dubbo、Spring Cloud），33道微服务八股文（1.4万字33张手绘图），面渣逆袭必看👍
-shortTitle: 面渣逆袭-微服务
+title: 面渣逆袭-微服务 
+shortTitle: 
 author: 三分恶
 category:
   - 面渣逆袭
 tag:
   - 面渣逆袭
-description: 下载次数超 1 万次，1.3 万字 33 张手绘图，详解 33 道微服务（Dubbo、Spring Cloud）面试高频题（让天下没有难背的八股），面渣背会这些八股文，这次吊打面试官，我觉得稳了（手动 dog）
+description: 微服务面试题（Dubbo、Spring Cloud），33道微服务八股文（1.4万字33张手绘图），面渣逆袭必看👍
 head:
   - - meta
     - name: keywords
