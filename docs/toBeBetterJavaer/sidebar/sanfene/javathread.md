@@ -1,5 +1,5 @@
 ---
-title: 面渣逆袭-Java并发编程
+title: Java并发编程
 # author: 三分恶
 # category:
 #   - 面渣逆袭
@@ -20,11 +20,11 @@ head:
 - 并行就是同一时刻，两个线程都在执行。这就要求有两个CPU去分别执行两个线程。
 - 并发就是同一时刻，只有一个执行，但是一个时间段内，两个线程都执行了。并发的实现依赖于CPU切换线程，因为切换的时间特别短，所以基本对于用户是无感知的。
 
-![并行和并发](https://cdn.tobebetterjavaer.com/tobebetterjavaer/images/sidebar/sanfene/javathread-1.png)
+![Alt text](assets/image-184.png)
 
 就好像我们去食堂打饭，并行就是我们在多个窗口排队，几个阿姨同时打菜；并发就是我们挤在一个窗口，阿姨给这个打一勺，又手忙脚乱地给那个打一勺。
 
-![并行并发和食堂打饭](https://cdn.tobebetterjavaer.com/tobebetterjavaer/images/sidebar/sanfene/javathread-2.png)
+![Alt text](assets/image-185.png)
 
 ### 2.说说什么是进程和线程？
 
@@ -37,7 +37,7 @@ head:
 
 比如在Java中，当我们启动 main 函数其实就启动了一个JVM进程，而 main 函数在的线程就是这个进程中的一个线程，也称主线程。
 
-![程序进程线程关系](https://cdn.tobebetterjavaer.com/tobebetterjavaer/images/sidebar/sanfene/javathread-3.png)
+![Alt text](assets/image-186.png)
 
 一个进程中有多个线程，多个线程共用进程的堆和方法区资源，但是每个线程有自己的程序计数器和栈。
 
@@ -45,7 +45,7 @@ head:
 
 Java中创建线程主要有三种方式，分别为继承Thread类、实现Runnable接口、实现Callable接口。
 
-![线程创建三种方式](https://cdn.tobebetterjavaer.com/tobebetterjavaer/images/sidebar/sanfene/javathread-4.png)
+![Alt text](assets/image-187.png)
 
 - 继承Thread类，重写run()方法，调用start()方法启动线程
 
@@ -119,13 +119,13 @@ public class CallerTask implements Callable<String> {
 
 JVM执行start方法，会先创建一条线程，由创建出来的新线程去执行thread的run方法，这才起到多线程的效果。
 
-![start方法](https://cdn.tobebetterjavaer.com/tobebetterjavaer/images/sidebar/sanfene/javathread-5.png)
+![Alt text](assets/image-188.png)
 
  **为什么我们不能直接调用run()方法？**也很清楚， 如果直接调用Thread的run()方法，那么run方法还是运行在主线程中，相当于顺序执行，就起不到多线程的效果。
 
 ### 5.线程有哪些常用的调度方法？
 
-![线程常用调度方法](https://cdn.tobebetterjavaer.com/tobebetterjavaer/images/sidebar/sanfene/javathread-6.png)
+![Alt text](assets/image-189.png)
 
 **线程等待与通知**
 
@@ -182,17 +182,17 @@ Java 中的线程中断是一种线程间的协作模式，通过设置线程的
 
 线程在自身的生命周期中， 并不是固定地处于某个状态，而是随着代码的执行在不同的状态之间进行切换，Java线程状态变化如图示：
 
-![Java线程状态变化](https://cdn.tobebetterjavaer.com/tobebetterjavaer/images/sidebar/sanfene/javathread-7.png)
+![Alt text](assets/image-190.png)
 
 ### 7.什么是线程上下文切换？
 
 使用多线程的目的是为了充分利用CPU，但是我们知道，并发其实是一个CPU来应付多个线程。
 
-![线程切换-2020-12-16-2107](https://cdn.tobebetterjavaer.com/tobebetterjavaer/images/sidebar/sanfene/javathread-8.png)
+![Alt text](assets/image-191.png)
 
 为了让用户感觉多个线程是在同时执行的， CPU 资源的分配采用了时间片轮转也就是给每个线程分配一个时间片，线程在时间片内占用 CPU 执行任务。当线程使用完时间片后，就会处于就绪状态并让出 CPU 让其他线程占用，这就是上下文切换。
 
-![上下文切换时机](https://cdn.tobebetterjavaer.com/tobebetterjavaer/images/sidebar/sanfene/javathread-9.png)
+![Alt text](assets/image-192.png)
 
 ### 8.守护线程了解吗？
 
@@ -204,7 +204,7 @@ Java中的线程分为两类，分别为 daemon 线程（守护线程）和 user
 
 ### 9.线程间有哪些通信方式？
 
-![线程间通信方式](https://cdn.tobebetterjavaer.com/tobebetterjavaer/images/sidebar/sanfene/javathread-10.png)
+![Alt text](assets/image-193.png)
 
 - **volatile和synchronized关键字** 
 
@@ -235,12 +235,9 @@ ThreadLocal，即线程变量，是一个以ThreadLocal对象为键、任意对�
 
 > 关于多线程，其实很大概率还会出一些笔试题，比如交替打印、银行转账、生产消费模型等等，后面老三会单独出一期来盘点一下常见的多线程笔试题。
 
-GitHub 上标星 10000+ 的开源知识库《[二哥的 Java 进阶之路](https://github.com/itwanger/toBeBetterJavaer)》第一版 PDF 终于来了！包括Java基础语法、数组&字符串、OOP、集合框架、Java IO、异常处理、Java 新特性、网络编程、NIO、并发编程、JVM等等，共计 32 万余字，500+张手绘图，可以说是通俗易懂、风趣幽默……详情戳：[太赞了，GitHub 上标星 10000+ 的 Java 教程](https://javabetter.cn/overview/)
 
 
-微信搜 **沉默王二** 或扫描下方二维码关注二哥的原创公众号沉默王二，回复 **222** 即可免费领取。
 
-![](https://cdn.tobebetterjavaer.com/tobebetterjavaer/images/gongzhonghao.png)
 
 ## ThreadLocal
 
@@ -250,7 +247,7 @@ ThreadLocal其实应用场景不是很多，但却是被炸了千百遍的面试
 
 ThreadLocal，也就是线程本地变量。如果你创建了一个ThreadLocal变量，那么访问这个变量的每个线程都会有这个变量的一个本地拷贝，多个线程操作这个变量的时候，实际是操作自己本地内存里面的变量，从而起到线程隔离的作用，避免了线程安全问题。
 
-![ThreadLocal线程副本](https://cdn.tobebetterjavaer.com/tobebetterjavaer/images/sidebar/sanfene/javathread-11.png)
+![Alt text](assets/image-194.png)
 
 - 创建
 
@@ -289,7 +286,7 @@ localVariable.get();
 
 这时候我们就可以用到ThreadLocal，在控制层拦截请求把用户信息存入ThreadLocal，这样我们在任何一个地方，都可以取出ThreadLocal中存的用户数据。
 
-![ThreadLoca存放用户上下文](https://cdn.tobebetterjavaer.com/tobebetterjavaer/images/sidebar/sanfene/javathread-12.png)
+![Alt text](assets/image-195.png)
 
 很多其它场景的cookie、session等等数据隔离也都可以通过ThreadLocal去实现。
 
@@ -351,7 +348,7 @@ public WeakReference(T referent) {
 
 key的赋值，使用的是WeakReference的赋值。
 
-![ThreadLoca结构图](https://cdn.tobebetterjavaer.com/tobebetterjavaer/images/sidebar/sanfene/javathread-13.png)
+![Alt text](assets/image-196.png)
 
 > 所以，怎么回答ThreadLocal原理？要答出这几个点：
 
@@ -366,7 +363,7 @@ key的赋值，使用的是WeakReference的赋值。
 
 所以呢，栈中存储了ThreadLocal、Thread的引用，堆中存储了它们的具体实例。
 
-![ThreadLocal内存分配](https://cdn.tobebetterjavaer.com/tobebetterjavaer/images/sidebar/sanfene/javathread-14.png)
+![Alt text](assets/image-197.png)
 
 ThreadLocalMap中使用的 key 为 ThreadLocal 的弱引用。
 
@@ -399,7 +396,7 @@ key设计成弱引用同样是为了防止内存泄漏。
 
 ThreadLocalMap虽然被叫做Map，其实它是没有实现Map接口的，但是结构还是和HashMap比较类似的，主要关注的是两个要素：`元素数组`和`散列方法`。
 
-![ThreadLocalMap结构示意图](https://cdn.tobebetterjavaer.com/tobebetterjavaer/images/sidebar/sanfene/javathread-15.png)
+![Alt text](assets/image-198.png)
 
 - 元素数组
 
@@ -435,7 +432,7 @@ int i = key.threadLocalHashCode & (table.length - 1);
 
 ThreadLocalMap没有使用链表，自然也不是用链地址法来解决冲突了，它用的是另外一种方式——**开放定址法**。开放定址法是什么意思呢？简单来说，就是这个坑被人占了，那就接着去找空着的坑。
 
-![ThreadLocalMap解决冲突](https://cdn.tobebetterjavaer.com/tobebetterjavaer/images/sidebar/sanfene/javathread-16.png)
+![Alt text](assets/image-199.png)
 
 如上图所示，如果我们插入一个value=27的数据，通过 hash计算后应该落入第 4 个槽位中，而槽位 4 已经有了 Entry数据，而且Entry数据的key和当前不相等。此时就会线性向后查找，一直找到 Entry为 null的槽位才会停止查找，把元素放到空的槽中。
 
@@ -477,13 +474,13 @@ private void expungeStaleEntries() {
 
 接着看看具体的`resize()`方法，扩容后的`newTab`的大小为老数组的两倍，然后遍历老的table数组，散列方法重新计算位置，开放地址解决冲突，然后放到新的`newTab`，遍历完成之后，`oldTab`中所有的`entry`数据都已经放入到`newTab`中了，然后table引用指向`newTab`
 
-![ThreadLocalMap扩容](https://cdn.tobebetterjavaer.com/tobebetterjavaer/images/sidebar/sanfene/javathread-17.png)
+![Alt text](assets/image-200.png)
 
 
 
 具体代码：
 
-![ThreadLocalMap resize](https://cdn.tobebetterjavaer.com/tobebetterjavaer/images/sidebar/sanfene/javathread-18.png)
+![Alt text](assets/image-201.png)
 
 ### 17.父子线程怎么共享数据？
 
@@ -529,12 +526,9 @@ if (inheritThreadLocals && parent.inheritableThreadLocals != null)
         ThreadLocal.createInheritedMap(parent.inheritableThreadLocals);
 ```
 
-GitHub 上标星 10000+ 的开源知识库《[二哥的 Java 进阶之路](https://github.com/itwanger/toBeBetterJavaer)》第一版 PDF 终于来了！包括Java基础语法、数组&字符串、OOP、集合框架、Java IO、异常处理、Java 新特性、网络编程、NIO、并发编程、JVM等等，共计 32 万余字，500+张手绘图，可以说是通俗易懂、风趣幽默……详情戳：[太赞了，GitHub 上标星 10000+ 的 Java 教程](https://javabetter.cn/overview/)
 
 
-微信搜 **沉默王二** 或扫描下方二维码关注二哥的原创公众号沉默王二，回复 **222** 即可免费领取。
 
-![](https://cdn.tobebetterjavaer.com/tobebetterjavaer/images/gongzhonghao.png)
 
 ## Java内存模型
 
@@ -546,11 +540,11 @@ JMM定义了线程和主内存之间的抽象关系：线程之间的共享变�
 
 Java内存模型的抽象图：
 
-![Java内存模型](https://cdn.tobebetterjavaer.com/tobebetterjavaer/images/sidebar/sanfene/javathread-19.png)
+![Alt text](assets/image-202.png)
 
 本地内存是JMM的 一个抽象概念，并不真实存在。它其实涵盖了缓存、写缓冲区、寄存器以及其他的硬件和编译器优化。
 
-![实际线程工作模型](https://cdn.tobebetterjavaer.com/tobebetterjavaer/images/sidebar/sanfene/javathread-20.png)
+![Alt text](assets/image-203.png)
 
 图里面的是一个双核 CPU 系统架构 ，每个核有自己的控制器和运算器，其中控制器包含一组寄存器和操作控制器，运算器执行算术逻辅运算。每个核都有自己的一级缓存，在有些架构里面还有一个所有 CPU 共享的二级缓存。 那么 Java 内存模型里面的工作内存，就对应这里的 Ll 缓存或者 L2 缓存或者 CPU 寄存器。
 
@@ -591,11 +585,11 @@ i = i + 1;
 
 从Java源代码到最终实际执行的指令序列，会分别经历下面3种重排序，如图：
 
-![多级指令重排](https://cdn.tobebetterjavaer.com/tobebetterjavaer/images/sidebar/sanfene/javathread-21.png)
+![Alt text](assets/image-204.png)
 
 我们比较熟悉的双重校验单例模式就是一个经典的指令重排的例子，`Singleton instance=new Singleton()；`对应的JVM指令分为三步：分配内存空间-->初始化对象--->对象指向分配的内存空间，但是经过了编译器的指令重排序，第二步和第三步就可能会重排序。
 
-![双重校验单例模式异常情形](https://cdn.tobebetterjavaer.com/tobebetterjavaer/images/sidebar/sanfene/javathread-22.png)
+![Alt text](assets/image-205.png)
 
 JMM属于语言级的内存模型，它确保在不同的编译器和不同的处理器平台之上，通过禁止特定类型的编译器重排序和处理器重排序，为程序员提供一致的内存可见性保证。
 
@@ -610,7 +604,7 @@ happens-before的定义：
 
 happens-before和我们息息相关的有六大规则：
 
-![happens-before六大规则](https://cdn.tobebetterjavaer.com/tobebetterjavaer/images/sidebar/sanfene/javathread-23.png)
+![Alt text](assets/image-206.png)
 
 - **程序顺序规则**：一个线程中的每个操作，happens-before于该线程中的任意后续操作。 
 - **监视器锁规则**：对一个锁的解锁，happens-before于随后对这个锁的加锁。 
@@ -633,13 +627,13 @@ double area = pi * r * r;   // C
 
 上面3个操作的数据依赖关系：
 
-![](https://cdn.tobebetterjavaer.com/tobebetterjavaer/images/sidebar/sanfene/javathread-24.png)
+![Alt text](assets/image-207.png)
 
 A和C之间存在数据依赖关系，同时B和C之间也存在数据依赖关系。因此在最终执行的指令序列中，C不能被重排序到A和B的前面（C排到A和B的前面，程序的结果将会被改变）。但A和B之间没有数据依赖关系，编译器和处理器可以重排序A和B之间的执行顺序。 
 
 所以最终，程序可能会有两种执行顺序：
 
-![两种执行结果](https://cdn.tobebetterjavaer.com/tobebetterjavaer/images/sidebar/sanfene/javathread-25.png)
+![Alt text](assets/image-208.png)
 
 as-if-serial语义把单线程程序保护了起来，遵守as-if-serial语义的编译器、runtime和处理器共同编织了这么一个“楚门的世界”：单线程程序是按程序的“顺序”来执行的。as- if-serial语义使单线程情况下，我们不需要担心重排序的问题，可见性的问题。
 
@@ -655,13 +649,13 @@ volatile可以确保对某个变量的更新对其他线程马上可见，一个
 
 例如，我们声明一个 volatile 变量 volatile int x = 0，线程A修改x=1，修改完之后就会把新的值刷新回主内存，线程B读取x的时候，就会清空本地内存变量，然后再从主内存获取最新值。
 
-![volatile内存可见性](https://cdn.tobebetterjavaer.com/tobebetterjavaer/images/sidebar/sanfene/javathread-26.png)
+![Alt text](assets/image-209.png)
 
 > volatile怎么保证有序性的呢？
 
 重排序可以分为编译器重排序和处理器重排序，valatile保证有序性，就是通过分别限制这两种类型的重排序。
 
-![volatile重排序规则表](https://cdn.tobebetterjavaer.com/tobebetterjavaer/images/sidebar/sanfene/javathread-27.png)
+![Alt text](assets/image-210.png)
 
 为了实现volatile的内存语义，编译器在生成字节码时，会在指令序列中插入内存屏障来禁止特定类型的处理器重排序。
 
@@ -670,16 +664,13 @@ volatile可以确保对某个变量的更新对其他线程马上可见，一个
 3. 在每个volatile读操作的后面插入一个`LoadLoad`屏障
 4. 在每个volatile读操作的后面插入一个`LoadStore`屏障
 
-![volatile写插入内存屏障后生成的指令序列示意图](https://cdn.tobebetterjavaer.com/tobebetterjavaer/images/sidebar/sanfene/javathread-28.png)
+![Alt text](assets/image-211.png)
 
-![volatile写插入内存屏障后生成的指令序列示意图](https://cdn.tobebetterjavaer.com/tobebetterjavaer/images/sidebar/sanfene/javathread-29.png)
-
-GitHub 上标星 10000+ 的开源知识库《[二哥的 Java 进阶之路](https://github.com/itwanger/toBeBetterJavaer)》第一版 PDF 终于来了！包括Java基础语法、数组&字符串、OOP、集合框架、Java IO、异常处理、Java 新特性、网络编程、NIO、并发编程、JVM等等，共计 32 万余字，500+张手绘图，可以说是通俗易懂、风趣幽默……详情戳：[太赞了，GitHub 上标星 10000+ 的 Java 教程](https://javabetter.cn/overview/)
+![Alt text](assets/image-212.png)
 
 
-微信搜 **沉默王二** 或扫描下方二维码关注二哥的原创公众号沉默王二，回复 **222** 即可免费领取。
 
-![](https://cdn.tobebetterjavaer.com/tobebetterjavaer/images/gongzhonghao.png)
+
 
 ## 锁
 
@@ -725,13 +716,13 @@ synchronized(this) {
 
    反编译一段synchronized修饰代码块代码，`javap -c -s -v -l SynchronizedDemo.class`，可以看到相应的字节码指令。
 
-![monitorenter和monitorexit](https://cdn.tobebetterjavaer.com/tobebetterjavaer/images/sidebar/sanfene/javathread-30.png)
+![Alt text](assets/image-213.png)
 
 2. synchronized修饰同步方法时，JVM采用`ACC_SYNCHRONIZED`标记符来实现同步，这个标识指明了该方法是一个同步方法。
 
 同样可以写段代码反编译看一下。
 
-![synchronized修饰同步方法](https://cdn.tobebetterjavaer.com/tobebetterjavaer/images/sidebar/sanfene/javathread-31.png)
+![Alt text](assets/image-214.png)
 
 > synchronized锁住的是什么呢？
 
@@ -777,7 +768,7 @@ ObjectMonitor() {
 
 - 就诊结束后，**走出就诊室**，候诊室的**下一位候诊患者**进入就诊室。
 
-![就诊-图片来源参考[18]](https://cdn.tobebetterjavaer.com/tobebetterjavaer/images/sidebar/sanfene/javathread-32.png)
+![Alt text](assets/image-215.png)
 
 这个过程就和Monitor机制比较相似：
 
@@ -785,7 +776,7 @@ ObjectMonitor() {
 - **就诊室**：就诊室**_Owner**里里只能有一个线程就诊，就诊完线程就自行离开
 - **候诊室**：就诊室繁忙时，进入**等待区（Wait Set）**，就诊室空闲的时候就从**等待区（Wait Set）**叫新的线程
 
-![Java Montior机制](https://cdn.tobebetterjavaer.com/tobebetterjavaer/images/sidebar/sanfene/javathread-33.png)
+![Alt text](assets/image-216.png)
 
 所以我们就知道了，同步是锁住的什么东西：
 
@@ -824,7 +815,7 @@ Java对象头里，有一块结构，叫`Mark Word`标记字段，这块结构�
 
 64 位虚拟机 Mark Word 是 64bit，我们来看看它的状态变化：
 
-![Mark Word变化](https://cdn.tobebetterjavaer.com/tobebetterjavaer/images/sidebar/sanfene/javathread-34.png)
+![Alt text](assets/image-217.png)
 
 
 
@@ -845,7 +836,7 @@ Mark Word存储对象自身的运行数据，如**哈希码、GC分代年龄、�
 
 锁升级方向：无锁-->偏向锁---> 轻量级锁---->重量级锁，这个方向基本上是不可逆的。
 
-![锁升级方向](https://cdn.tobebetterjavaer.com/tobebetterjavaer/images/sidebar/sanfene/javathread-35.png)
+![Alt text](assets/image-218.png)
 
 我们看一下升级的过程：
 
@@ -878,11 +869,11 @@ Mark Word存储对象自身的运行数据，如**哈希码、GC分代年龄、�
 
 大体上省简的升级过程：
 
-![锁升级简略过程](https://cdn.tobebetterjavaer.com/tobebetterjavaer/images/sidebar/sanfene/javathread-36.png)
+![Alt text](assets/image-219.png)
 
 完整的升级过程：
 
-![synchronized 锁升级过程-来源参考[14]](https://cdn.tobebetterjavaer.com/tobebetterjavaer/images/sidebar/sanfene/javathread-37.png)
+![Alt text](assets/image-220.png)
 
 
 
@@ -900,7 +891,7 @@ Mark Word存储对象自身的运行数据，如**哈希码、GC分代年龄、�
 
 下面的表格列出出了两种锁之间的区别：
 
-![synchronized和ReentrantLock的区别](https://cdn.tobebetterjavaer.com/tobebetterjavaer/images/sidebar/sanfene/javathread-38.png)
+![Alt text](assets/image-221.png)
 
 ### 29.AQS了解多少？
 
@@ -1158,12 +1149,9 @@ compareAndSwapInt 是一个native方法，基于CAS来操作int类型变量。�
 
 ![线程死锁检测](https://cdn.tobebetterjavaer.com/tobebetterjavaer/images/sidebar/sanfene/javathread-49.png)
 
-GitHub 上标星 10000+ 的开源知识库《[二哥的 Java 进阶之路](https://github.com/itwanger/toBeBetterJavaer)》第一版 PDF 终于来了！包括Java基础语法、数组&字符串、OOP、集合框架、Java IO、异常处理、Java 新特性、网络编程、NIO、并发编程、JVM等等，共计 32 万余字，500+张手绘图，可以说是通俗易懂、风趣幽默……详情戳：[太赞了，GitHub 上标星 10000+ 的 Java 教程](https://javabetter.cn/overview/)
 
 
-微信搜 **沉默王二** 或扫描下方二维码关注二哥的原创公众号沉默王二，回复 **222** 即可免费领取。
 
-![](https://cdn.tobebetterjavaer.com/tobebetterjavaer/images/gongzhonghao.png)
 
 ## 并发工具类
 
@@ -1393,12 +1381,9 @@ public class ExchangerTest {
 
 假如两个线程有一个没有执行exchange()方法，则会一直等待，如果担心有特殊情况发生，避免一直等待，可以使用`exchange(V x, long timeOut, TimeUnit unit) `设置最大等待时长。
 
-GitHub 上标星 10000+ 的开源知识库《[二哥的 Java 进阶之路](https://github.com/itwanger/toBeBetterJavaer)》第一版 PDF 终于来了！包括Java基础语法、数组&字符串、OOP、集合框架、Java IO、异常处理、Java 新特性、网络编程、NIO、并发编程、JVM等等，共计 32 万余字，500+张手绘图，可以说是通俗易懂、风趣幽默……详情戳：[太赞了，GitHub 上标星 10000+ 的 Java 教程](https://javabetter.cn/overview/)
 
 
-微信搜 **沉默王二** 或扫描下方二维码关注二哥的原创公众号沉默王二，回复 **222** 即可免费领取。
 
-![](https://cdn.tobebetterjavaer.com/tobebetterjavaer/images/gongzhonghao.png)
 
 ## 线程池
 

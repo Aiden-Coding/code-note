@@ -24,7 +24,7 @@ head:
 
 微信搜索「**沉默王二**」发送「**10**」关键字领取即可领取，也可以扫描下面的二维码关注后发送「**10**」关键字。
 
-![](https://cdn.tobebetterjavaer.com/tobebetterjavaer/images/gongzhonghao.png)
+
 
 再来推荐一个网站：Refactoring Guru。  
 
@@ -131,7 +131,7 @@ public class WindowsButton implements Button {
 
 如果大家对这份 PDF 感兴趣的话，可以**微信搜索「**沉默王二**」发送**关键字「**设计模式**」获取下载链接：
 
-![](https://cdn.tobebetterjavaer.com/tobebetterjavaer/images/gongzhonghao.png)
+
 
 也可以扫描上面的二维码关注后发送 「**10** 」获取下载链接  
 

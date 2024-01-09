@@ -1,5 +1,5 @@
 ---
-title: 有无实习/暑期实习 offer 如何准备秋招？💪
+title: 有无实习/暑期实习 offer 如何准备秋招？
 shortTitle: 字节小姐姐的一份秋招攻略
 description: 秋招准备的重点，有没有实习，有没有暑期实习 offer，如何准备秋招？
 author: 半颗糖o

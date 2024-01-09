@@ -32,7 +32,7 @@ head:
 
 那还卖什么关子，直接长按扫码关注下方二维码，回复 「**操作系统**」 下载这份 PDF 吧：
 
-![](https://cdn.tobebetterjavaer.com/tobebetterjavaer/images/gongzhonghao.png)
+
 
 （长按扫码识别）
 

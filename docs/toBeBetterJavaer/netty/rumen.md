@@ -1,5 +1,5 @@
 ---
-title: 超详细Netty入门，看这篇就够了！
+title: 超详细Netty入门
 shortTitle: 超详细Netty入门
 description: 本文主要讲述Netty框架的一些特性以及重要组件，希望看完之后能对Netty框架有一个比较直观的感受，希望能帮助读者快速入门Netty，减少一些弯路。
 tag:
@@ -54,7 +54,7 @@ head:
 
 ## 三、架构图
 
-![](https://cdn.tobebetterjavaer.com/tobebetterjavaer/images/nice-article/segmentfault-chaoxxnettyrmkzpjglsegmentfaultsf-0dff19b2-e1ef-4e04-8c52-ba711186d65c.jpg)
+![Alt text](assets/image.png)
 
 上面这张图就是在官网首页的架构图，我们从上到下分析一下。
 
@@ -70,7 +70,7 @@ head:
 
 首先搭建一个HelloWord工程，先熟悉一下API，还有为后面的学习做铺垫。以下面这张图为依据：
 
-![](https://cdn.tobebetterjavaer.com/tobebetterjavaer/images/nice-article/segmentfault-chaoxxnettyrmkzpjglsegmentfaultsf-32a186fc-8926-47ba-83cc-bce135c0f9f1.jpg)
+![Alt text](assets/image-1.png)
 
 ### 4.1 引入Maven依赖
 
@@ -215,11 +215,11 @@ public class MyClientHandler extends ChannelInboundHandlerAdapter {
 
 MyServer打印结果:
 
-![](https://cdn.tobebetterjavaer.com/tobebetterjavaer/images/nice-article/segmentfault-chaoxxnettyrmkzpjglsegmentfaultsf-c50ff1f0-da13-4d73-b898-40c75e5e9386.jpg)
+![Alt text](assets/image-2.png)
 
 MyClient打印结果：
 
-![](https://cdn.tobebetterjavaer.com/tobebetterjavaer/images/nice-article/segmentfault-chaoxxnettyrmkzpjglsegmentfaultsf-5372b75c-6a67-4ac4-80ab-a4e480cdd956.jpg)
+![Alt text](assets/image-3.png)
 
 ## 五、Netty的特性与重要组件
 
@@ -251,7 +251,7 @@ public class MyServerHandler extends ChannelInboundHandlerAdapter {
 
 我们打一个debug调试，是可以看到添加进去的taskQueue有一个任务。
 
-![](https://cdn.tobebetterjavaer.com/tobebetterjavaer/images/nice-article/segmentfault-chaoxxnettyrmkzpjglsegmentfaultsf-8537e15b-e13a-4d71-b5fe-4d8ac4b07da9.jpg)
+![Alt text](assets/image-4.png)
 
 ### 5.2 scheduleTaskQueue延时任务队列
 
@@ -274,7 +274,7 @@ ctx.channel().eventLoop().schedule(new Runnable() {
 
 依然打开debug进行调试查看，我们可以有一个scheduleTaskQueue任务待执行中
 
-![](https://cdn.tobebetterjavaer.com/tobebetterjavaer/images/nice-article/segmentfault-chaoxxnettyrmkzpjglsegmentfaultsf-3327d3b2-b052-4bb3-bbb6-bf69609de339.jpg)
+![Alt text](assets/image-5.png)
 
 ### 5.3 Future异步机制
 
@@ -690,9 +690,6 @@ public EventExecutor next() {
 
 ----
 
-GitHub 上标星 10000+ 的开源知识库《[二哥的 Java 进阶之路](https://github.com/itwanger/toBeBetterJavaer)》第一版 PDF 终于来了！包括Java基础语法、数组&字符串、OOP、集合框架、Java IO、异常处理、Java 新特性、网络编程、NIO、并发编程、JVM等等，共计 32 万余字，500+张手绘图，可以说是通俗易懂、风趣幽默……详情戳：[太赞了，GitHub 上标星 10000+ 的 Java 教程](https://javabetter.cn/overview/)
 
 
-微信搜 **沉默王二** 或扫描下方二维码关注二哥的原创公众号沉默王二，回复 **222** 即可免费领取。
 
-![](https://cdn.tobebetterjavaer.com/tobebetterjavaer/images/gongzhonghao.png)

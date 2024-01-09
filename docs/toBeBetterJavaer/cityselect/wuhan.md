@@ -306,4 +306,3 @@ tag:
 
 >作者：大白，转载链接：[https://github.com/csguide-dabai/Programmer-look-at-China](https://github.com/csguide-dabai/Programmer-look-at-China)
 
-![](https://cdn.tobebetterjavaer.com/tobebetterjavaer/images/gongzhonghao.png)

@@ -1,26 +1,10 @@
 export const toBeBetterJavaer = [
     "/toBeBetterJavaer/home.md",
-    "/toBeBetterJavaer/blog.md",
 
     {
         text: "面试",
         collapsable: true,
         children: [
-            "/toBeBetterJavaer/interview/dubbo-17.md",
-            "/toBeBetterJavaer/interview/java-34.md",
-            "/toBeBetterJavaer/interview/java-basic-baguwen.md",
-            "/toBeBetterJavaer/interview/java-hashmap-13.md",
-            "/toBeBetterJavaer/interview/java-jvm-baguwen.md",
-            "/toBeBetterJavaer/interview/java-thread-baguwen.md",
-            "/toBeBetterJavaer/interview/kafka-40.md",
-            "/toBeBetterJavaer/interview/mianshiguan-bigfile-miaochuan.md",
-            "/toBeBetterJavaer/interview/mianshiguan-fenkufenbiao.md",
-            "/toBeBetterJavaer/interview/mianshiguan-youhuiquan.md",
-            "/toBeBetterJavaer/interview/mysql-60.md",
-            "/toBeBetterJavaer/interview/mysql-suoyin-15.md",
-            "/toBeBetterJavaer/interview/nginx-40.md",
-            "/toBeBetterJavaer/interview/redis-12.md",
-
             "/toBeBetterJavaer/sidebar/sanfene/nixi.md",
             "/toBeBetterJavaer/sidebar/kusen/javase.md",
             "/toBeBetterJavaer/sidebar/sanfene/collection.md",
@@ -36,6 +20,21 @@ export const toBeBetterJavaer = [
             "/toBeBetterJavaer/sidebar/sanfene/rocketmq.md",
             "/toBeBetterJavaer/sidebar/sanfene/spring.md",
             "/toBeBetterJavaer/sidebar/sanfene/weifuwu.md",
+
+            "/toBeBetterJavaer/interview/dubbo-17.md",
+            "/toBeBetterJavaer/interview/java-34.md",
+            "/toBeBetterJavaer/interview/java-basic-baguwen.md",
+            "/toBeBetterJavaer/interview/java-hashmap-13.md",
+            "/toBeBetterJavaer/interview/java-jvm-baguwen.md",
+            "/toBeBetterJavaer/interview/java-thread-baguwen.md",
+            "/toBeBetterJavaer/interview/kafka-40.md",
+            "/toBeBetterJavaer/interview/mianshiguan-bigfile-miaochuan.md",
+            "/toBeBetterJavaer/interview/mianshiguan-fenkufenbiao.md",
+            "/toBeBetterJavaer/interview/mianshiguan-youhuiquan.md",
+            "/toBeBetterJavaer/interview/mysql-60.md",
+            "/toBeBetterJavaer/interview/mysql-suoyin-15.md",
+            "/toBeBetterJavaer/interview/nginx-40.md",
+            "/toBeBetterJavaer/interview/redis-12.md",
         ],
     },
 
@@ -432,14 +431,14 @@ export const toBeBetterJavaer = [
     },
     "/toBeBetterJavaer/microservice/api-wangguan.md",
     {
-        text: "nice-article",
+        text: "好文",
         collapsable: true,
         children: [
             "/toBeBetterJavaer/nice-article/weixin/luoczbmsddyb.md",
             "/toBeBetterJavaer/nice-article/weixin/miansmtgl.md",
             "/toBeBetterJavaer/nice-article/weixin/xzbztdncdlxgljsjq.md",
             "/toBeBetterJavaer/nice-article/weixin/youdxzhhmjzlycfx.md",
-            "/toBeBetterJavaer/nice-article/weixin/zijxjjdyfqzgl.md",
+            // "/toBeBetterJavaer/nice-article/weixin/zijxjjdyfqzgl.md",
         ],
     },
     {

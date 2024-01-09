@@ -20,7 +20,7 @@ head:
 
 微信搜索「**沉默王二**」关注后，在后台回复「**并发**」即可获取《深入浅出 Java 多线程》小册一本，文末有详细介绍。
 
-![](https://cdn.tobebetterjavaer.com/tobebetterjavaer/images/gongzhonghao.png)
+
 
 也可以截图后，微信扫码关注后回复「**006**」
 
@@ -68,6 +68,6 @@ head:
 
 **回复「pdf」即可获取本文提到的书籍电子版pdf**
 
-![](https://cdn.tobebetterjavaer.com/tobebetterjavaer/images/gongzhonghao.png)
+
 
 **也可以截图后，微信扫码关注**

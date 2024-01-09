@@ -292,4 +292,3 @@ qrtz_job_details 表里也可以查看具体的任务详情。
 
 ---
 
-![](https://cdn.tobebetterjavaer.com/tobebetterjavaer/images/gongzhonghao.png)

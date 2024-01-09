@@ -1,5 +1,5 @@
 ---
-title: 面渣逆袭-分布式
+title: 分布式
 shortTitle: 面渣逆袭-分布式
 # author: 三分恶
 # category:

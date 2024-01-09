@@ -16,7 +16,7 @@ head:
 
 这次一次性把 C/C++、Java、Go 版的刷题笔记全部贡献出来，需要刷题笔记PDF文档的小伙伴可以直接长按扫码关注下方二维码，回复 「**刷题笔记**」 四个字自取：
 
-![](https://cdn.tobebetterjavaer.com/tobebetterjavaer/images/gongzhonghao.png)
+
 
 （长按扫码识别）
 
@@ -60,7 +60,7 @@ head:
 
 需要这三份刷题笔记PDF文档（包括 C/C++、Java、Go 版）的小伙伴可以直接长按扫码关注下方二维码，回复 「**刷题笔记**」 四个字自取：
 
-![](https://cdn.tobebetterjavaer.com/tobebetterjavaer/images/gongzhonghao.png)
+
 
 （长按扫码识别）
 

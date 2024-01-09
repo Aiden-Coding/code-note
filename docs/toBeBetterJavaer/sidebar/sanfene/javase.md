@@ -1,5 +1,5 @@
 ---
-title: 面渣逆袭-Java SE
+title: Java SE
 shortTitle: 面渣逆袭-Java SE
 # author: 三分恶
 # categories:

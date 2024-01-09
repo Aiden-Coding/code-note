@@ -1,5 +1,5 @@
 ---
-title: 校招时间节点、简历编写、笔试、HR面、实习等注意事项💪
+title: 校招时间节点、简历编写、笔试、HR面、实习等注意事项
 shortTitle: 校招/简历/笔试/HR面/实习
 description: 校招时间节点、简历编写、笔试、HR面、实习等注意事项
 author: LanSir
@@ -33,8 +33,8 @@ head:
 以下是正文。
 
 * * *
+![Alt text](assets/image-7.png)
 
-![](https://cdn.tobebetterjavaer.com/tobebetterjavaer/images/nice-article/weixin-youdxzhhmjzlycfx-ad1625aa-c32f-45f0-b6b5-33414391fee1.jpg)
 
 一、自我介绍
 ------
@@ -156,14 +156,12 @@ head:
 ### 个人技能
 
 根据自己的意向岗位，去各大招聘网站看看相关企业有哪些需求，然后对比自己技能包，看看自己是否合适，还差哪些技术，对方公司更需要哪方面能力的人选。下面随便看两个Boss直聘和拉钩(不是打广告哈)的招聘要求。
-
-![](https://cdn.tobebetterjavaer.com/tobebetterjavaer/images/nice-article/weixin-youdxzhhmjzlycfx-c4c8a5a0-ac0b-44a0-9fd6-d5cbd2292778.jpg)
-
-![](https://cdn.tobebetterjavaer.com/tobebetterjavaer/images/nice-article/weixin-youdxzhhmjzlycfx-26c87f3d-541b-4154-adee-dd07f3c60b46.jpg)
+![Alt text](assets/image-8.png)
+![Alt text](assets/image-9.png)
 
 > 这部分可以算是整份简历的**重中之重**了，HR一眼就知道了是否和岗位匹配。但是对于技能的掌握又分为精通，熟练，了解三个层面，别上来一顿都是精通(比如精通c++)。所以我们可以将其分为三个部分，掌握，熟悉，了解来分别阐述。
 
-![](https://cdn.tobebetterjavaer.com/tobebetterjavaer/images/nice-article/weixin-youdxzhhmjzlycfx-20880788-4135-4bab-b132-81882f739353.jpg)
+![Alt text](assets/image-10.png)
 
 **注意**
 
@@ -387,15 +385,15 @@ head:
 
 ### 1 操作系统
 
-![](https://cdn.tobebetterjavaer.com/tobebetterjavaer/images/nice-article/weixin-youdxzhhmjzlycfx-2c2057f5-748b-428f-acbe-d81761e9fb6e.jpg)
+![Alt text](assets/image-11.png)
 
 ### 2 算法与数据结构
 
-![](https://cdn.tobebetterjavaer.com/tobebetterjavaer/images/nice-article/weixin-youdxzhhmjzlycfx-ece3195e-7407-406f-a8d5-d87308638b3f.jpg)
+![Alt text](assets/image-12.png)
 
 ### 3 数据库
 
-![](https://cdn.tobebetterjavaer.com/tobebetterjavaer/images/nice-article/weixin-youdxzhhmjzlycfx-f098655d-32e4-4eb1-9d03-1519b1188ba2.jpg)
+![Alt text](assets/image-13.png)
 
   
 
@@ -417,5 +415,3 @@ head:
 
 
 >转载链接：[https://mp.weixin.qq.com/s/rO7cU4NX74CoWADo_O4IUw](https://mp.weixin.qq.com/s/rO7cU4NX74CoWADo_O4IUw)，出处：暖蓝笔记，整理：沉默王二
-
-![](https://cdn.tobebetterjavaer.com/tobebetterjavaer/images/gongzhonghao.png)

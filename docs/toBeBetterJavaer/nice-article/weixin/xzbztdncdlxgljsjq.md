@@ -1,5 +1,5 @@
 ---
-title: 【修正版】5张图带你彻底理解G1垃圾收集器
+title: 【彻底理解G1垃圾收集器
 shortTitle: 【修正版】5张图带你彻底理解G1垃圾收集器
 description: 作为一款高效的垃圾收集器，G1在JDK7中加入JVM，在JDK9中取代CMS成为了默认的垃圾收集器。1 垃圾
 author: jinjunzhu
@@ -46,7 +46,7 @@ G1垃圾收集器主要用于多处理器、大内存的场景，它有五个属
 *   并行和并发：为了提高吞吐量，一些操作需要STW。一些需要花费很多时间的操作，比如整堆操作(像全局标记)**可以并发执行，同时可以并发跟应用并行执行**。
 *   标记整理：G1主要使用标记整理算法来进行垃圾收集，标记阶段跟“标记清除”算法一样，但标记之后不会直接对可回收对象进⾏清理，⽽是让所有存活对象都移动到一端，然后直接回收掉移动之后边界以外的内存。如下图：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/a1gicTYmvicdicNg1QXA7Ribhb0pfzpGBLZGdZlBP3PMNu2ePDEAAVZuaSNnfSgCmibhOBoFTjRgJ03XeYV2OiaA2cGg/640?wx_fmt=png)
+![Alt text](assets/image-1.png)
 
       我们知道，垃圾收集器的一个目标就是STW(stop the word)越短越好。利用可预测停顿时间模型，G1为垃圾收集设定一个STW的目标时间(通过 -XX:MaxGCPauseMillis 参数设定，默认200ms)，G1尽可能地在这个时间内完成垃圾收集，并且在不需要额外配置的情况下实现高吞吐量。
 
@@ -65,7 +65,8 @@ G1致力于在下面的应用和环境下寻找延迟和吞吐量的最佳平衡
 
 G1把整个堆分成了大小相等的region，每一个region都是连续的虚拟内存，region是内存分配和回收的基本单位。如下图：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/a1gicTYmvicdibngxYs4dUUdTnEJw56yPIJmV3TwviaoB7vicS8cGicZNJuK2C6OSZ0rru3PFMNt6CsaLfiaylVOH26Kw/640?wx_fmt=png)
+![Alt text](assets/image-2.png)
+
 
 红色带"S"的region表示新生代的survivor，红色不带"S"的表示新生代eden，浅蓝色不带"H"的表示老年代，浅蓝色带"H"的表示老年代中的大对象。跟G1之前的内存分配策略不同的是，survivor、eden、老年代这些区域可能是不连续的。
 
@@ -81,7 +82,7 @@ G1在停顿的时候可以回收整个新生代的region，新生代region的对
 
 如下图，一个大对象占据了两个半region，给大对象分配内存时，必须从一个region开始分配连续的region，在大对象被回收前，最后一个region不能被分配给其他对象。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/a1gicTYmvicdibngxYs4dUUdTnEJw56yPIJ3sG7a9vDPHyG9EsSTFzOTp6Gib8M2icliaG8KjicVR3hLtq6UPuOHg0VDA/640?wx_fmt=png)
+![Alt text](assets/image-3.png)
 
 **大对象什么时候回收**？通常，只有在mark结束以后的Cleanup停顿阶段或者FullGC的时候，死亡的大对象才会被回收掉。但是，基本类型(比如bool数组、所有的整形数组、浮点型数组等)的数组大对象有个例外,G1会在任何GC停顿的时候回收这些死亡大对象。这个默认是开启的，但是可以使用 -XX:G1EagerReclaimHumongousObjects 这个参数禁用掉。
 
@@ -117,7 +118,7 @@ G1虽然把堆内存划分成了多个region，但是依然存在新生代和老
 
 G1的垃圾收集是在 Young-Only 和 Space-Reclamation两个阶段交替执行的。如下图：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/a1gicTYmvicdibngxYs4dUUdTnEJw56yPIJon3pibl9cmbTCKcyRd63W9Hdz5yPfYEsVic03xxlYMkV3OOXbomH3oqg/640?wx_fmt=png)
+![Alt text](assets/image-5.png)
 
 young-only阶段会用对象逐步把老年代区域填满，space-reclamation阶段除了会回收年轻代的内存以外，还会增量回收老年代的内存。完成后重新开始young-only阶段。
 
@@ -125,7 +126,7 @@ young-only阶段会用对象逐步把老年代区域填满，space-reclamation�
 
 Young-only阶段流程如下图：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/a1gicTYmvicdibngxYs4dUUdTnEJw56yPIJa0oDAx2lYZ06cBPAFgpUnLfX0ib9Ig31U73SIdTWfnFAr6sqmLUIH2A/640?wx_fmt=png)
+![Alt text](assets/image-6.png)
 
 这个阶段从普通的 young-only GC 开始，young-only GC把一些对象移动到老年代，当老年代的空间占用达到IHOP时，G1就停止普通的young-only GC，开始初始标记(Initial Mark)。
 

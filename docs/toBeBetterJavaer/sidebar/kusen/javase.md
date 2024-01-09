@@ -1,4 +1,18 @@
-## Java 基础
+---
+title: Java 基础 
+shortTitle: 
+# author: 三分恶
+# category:
+#   - 面渣逆袭
+# tag:
+#   - 面渣逆袭
+description: Java 基础
+head:
+  - - meta
+    - name: keywords
+      content: Java,微服务,Spring Cloud,Dubbo,面试题,八股文,Microservices
+---
+# Java 基础
 
 ### Java 概述
 
@@ -38,7 +52,7 @@ JRE 是 Java Runtime Environment 缩写，它可以运行编译后的 Java 程�
 
 JDK 包含 JRE，JRE 包含 JVM。
 
-![](http://blog-img.coolsen.cn/img/image-20210219163725268.png)
+![Alt text](assets/image.png)
 
 #### **什么是字节码?**
 
@@ -48,7 +62,7 @@ Java 之所以可以“一次编译，到处运行”，一是因为 JVM 针对�
 
 之所以被称之为字节码，是因为字节码文件由十六进制值组成，而 JVM 以两个十六进制值为一组，即以字节为单位进行读取。在 Java 中一般是用 javac 命令编译源代码为字节码文件，一个.java 文件从编译到运行的示例如图所示。
 
-![](http://blog-img.coolsen.cn/img/image-20210219165630888.png)
+![Alt text](assets/image-1.png)
 
 #### 采用字节码的好处是什么?
 
@@ -65,13 +79,6 @@ Java 语言通过字节码的方式，在一定程度上解决了传统解释型
 - Oracle JDK 不会为即将发布的版本提供长期支持，用户每次都必须通过更新到最新版本获得支持；
 - Oracle JDK 根据二进制代码许可协议获得许可，而 OpenJDK 根据 GPLv2 许可获得许可。
 
-GitHub 上标星 10000+ 的开源知识库《[二哥的 Java 进阶之路](https://github.com/itwanger/toBeBetterJavaer)》第一版 PDF 终于来了！包括Java基础语法、数组&字符串、OOP、集合框架、Java IO、异常处理、Java 新特性、网络编程、NIO、并发编程、JVM等等，共计 32 万余字，500+张手绘图，可以说是通俗易懂、风趣幽默……详情戳：[太赞了，GitHub 上标星 10000+ 的 Java 教程](https://javabetter.cn/overview/)
-
-
-微信搜 **沉默王二** 或扫描下方二维码关注二哥的原创公众号沉默王二，回复 **222** 即可免费领取。
-
-![](https://cdn.tobebetterjavaer.com/tobebetterjavaer/images/gongzhonghao.png)
-    
 
 ### 基础语法
 
@@ -79,7 +86,7 @@ GitHub 上标星 10000+ 的开源知识库《[二哥的 Java 进阶之路](https
 
 Java 语言的数据类型分为两种：基本数据类型和引用数据类型。
 
-![](http://blog-img.coolsen.cn/img/image-20210219172725756.png)
+![Alt text](assets/image-2.png)
 
 1.基本数据类型
 
@@ -126,7 +133,7 @@ Java 中，可以使用访问控制符来保护对类、变量、方法和构造
 - **public** : 对所有类可见。使用对象：类、接口、变量、方法。
 - **protected** : 对同一包内的类和所有子类可见。使用对象：变量、方法。 **注意：不能修饰类（外部类）**。
 
-![](http://blog-img.coolsen.cn/img/image-20210219173433142.png)
+![Alt text](assets/image-3.png)
 
 #### break,continue,return 的区别及作用？
 
