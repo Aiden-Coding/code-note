@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-e0e34ab0","path":"/bestJavaer/aboutlife/cxuan-oneweek.html","title":"我的价值观","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"createdTime":1704300175000,"updatedTime":1704373598000,"contributors":[{"name":"dong","email":"dwx_job@163.com","commits":2}]},"filePathRelative":"bestJavaer/aboutlife/cxuan-oneweek.md"}');export{e as data};

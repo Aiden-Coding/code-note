@@ -1,0 +1,1 @@
+const a=JSON.parse('{"key":"v-408492d8","path":"/bestJavaer/aboutlife/cxuan-nationalday.html","title":"国庆躺平真爽","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"createdTime":1704300175000,"updatedTime":1704300175000,"contributors":[{"name":"dong","email":"dwx_job@163.com","commits":1}]},"filePathRelative":"bestJavaer/aboutlife/cxuan-nationalday.md"}');export{a as data};

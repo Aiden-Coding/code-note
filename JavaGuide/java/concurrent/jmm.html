@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="generator" content="VuePress 2.0.0-rc.0">
+    <script>
+      (function() {
+        const userMode = localStorage.getItem('vuepress-reco-color-scheme') || 'auto';
+        const systemDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+
+        if (userMode === 'dark' || (userMode === 'auto' && systemDarkMode)) {
+          document.documentElement.classList.toggle('dark', true);
+        }
+      })();
+    </script>
+    <meta name="keywords" content="CPU 缓存模型,指令重排序,Java 内存模型（JMM）,happens-before"><meta name="description" content="对于 Java 来说，你可以把 JMM 看作是 Java 定义的并发编程相关的一组规范，除了抽象了线程和主内存之间的关系之外，其还规定了从 Java 源代码到 CPU 可执行指令的这个转化过程要遵守哪些和并发相关的原则和规范，其主要目的是为了简化多线程编程，增强程序可移植性的。"><title>JMM（Java 内存模型）详解 | 学习笔记</title>
+    <!--vuepress-ssr-resources-->
+    <link rel="preload" href="/code-note/assets/style-yo3V6EP-.css" as="style"><link rel="stylesheet" href="/code-note/assets/style-yo3V6EP-.css">
+  </head>
+  <body>
+    <div id="app"><!--vuepress-ssr-app--></div>
+    <script type="module" src="/code-note/assets/app-3RcBQnkC.js" defer></script>
+  </body>
+</html>

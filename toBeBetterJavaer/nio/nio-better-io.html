@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="generator" content="VuePress 2.0.0-rc.0">
+    <script>
+      (function() {
+        const userMode = localStorage.getItem('vuepress-reco-color-scheme') || 'auto';
+        const systemDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+
+        if (userMode === 'dark' || (userMode === 'auto' && systemDarkMode)) {
+          document.documentElement.classList.toggle('dark', true);
+        }
+      })();
+    </script>
+    <meta name="keywords" content="java,nio,io,Java NIO, 传统IO, 非阻塞模式, 缓冲区, 通道, 选择器"><title>Java NIO 比传统 IO 强在哪里？ | 学习笔记</title><meta name="description" content="本篇内容主要讲述了 NIO 和传统 IO 之间的差异。首先，传统 IO 采用阻塞模型，而 NIO 使用非阻塞模型，通过选择器监控多个通道上的 I/O 事件，从而提升性能与可伸缩性。其次，在文件操作方面，传统 IO 依赖字节流或字符流进行文件读写，而 NIO 则利用通道和缓冲区进行操作，性能优势相对较小。最后，在网络传输方面，传统 IO 使用 Socket 和 ServerSocket，而 NIO 提供了 SocketChannel 和 ServerSocketChannel，支持非阻塞网络传输，进一步增强并发处理能力。">
+    <!--vuepress-ssr-resources-->
+    <link rel="preload" href="/code-note/assets/style-yo3V6EP-.css" as="style"><link rel="stylesheet" href="/code-note/assets/style-yo3V6EP-.css">
+  </head>
+  <body>
+    <div id="app"><!--vuepress-ssr-app--></div>
+    <script type="module" src="/code-note/assets/app-3RcBQnkC.js" defer></script>
+  </body>
+</html>

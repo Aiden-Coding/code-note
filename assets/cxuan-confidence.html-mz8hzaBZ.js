@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-0ab61706","path":"/bestJavaer/aboutlife/cxuan-confidence.html","title":"这是对我最大的认可和鼓励","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"createdTime":1704300175000,"updatedTime":1704300175000,"contributors":[{"name":"dong","email":"dwx_job@163.com","commits":1}]},"filePathRelative":"bestJavaer/aboutlife/cxuan-confidence.md"}');export{e as data};

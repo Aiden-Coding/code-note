@@ -1,0 +1,1 @@
+import{_ as n,o,c as a,a as e,b as t}from"./app-3RcBQnkC.js";const s={},_=e("p",null,[t("本章解释如何用核心 "),e("strong",null,"ASM API"),t(" 生成和转换已编译方法。首先介绍编译后的方法，然后介绍用于生成和转换它们的相应 "),e("strong",null,"ASM"),t(" 接口、组件和工具，并给出大量说明性示例。")],-1),c=[_];function l(r,f){return o(),a("div",null,c)}const u=n(s,[["render",l],["__file","3.0fangfa.html.vue"]]);export{u as default};

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="generator" content="VuePress 2.0.0-rc.0">
+    <script>
+      (function() {
+        const userMode = localStorage.getItem('vuepress-reco-color-scheme') || 'auto';
+        const systemDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+
+        if (userMode === 'dark' || (userMode === 'auto' && systemDarkMode)) {
+          document.documentElement.classList.toggle('dark', true);
+        }
+      })();
+    </script>
+    <meta name="keywords" content="Java,并发编程,多线程,Thread,生产者-消费者,生产者消费者,生产者,消费者"><title>从根上理解生产者-消费者模式 | 学习笔记</title><meta name="description" content="生产者-消费者模式是计算机科学中一种常见的并发设计模式，常用于在生产者和消费者之间传递数据。在这种模式中，两个（或多个）进程共享一个固定大小的缓冲区，作为中间存储。生产者的任务是生成数据、将其放入缓冲区，而消费者的任务是从缓冲区中移除数据并消费它。">
+    <!--vuepress-ssr-resources-->
+    <link rel="preload" href="/code-note/assets/style-yo3V6EP-.css" as="style"><link rel="stylesheet" href="/code-note/assets/style-yo3V6EP-.css">
+  </head>
+  <body>
+    <div id="app"><!--vuepress-ssr-app--></div>
+    <script type="module" src="/code-note/assets/app-3RcBQnkC.js" defer></script>
+  </body>
+</html>

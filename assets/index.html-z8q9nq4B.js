@@ -1,0 +1,1 @@
+const a=JSON.parse('{"key":"v-a73969a2","path":"/tags/shuzu_zifuchuan/1/","title":"","lang":"zh-CN","frontmatter":{"layout":"Categories"},"headers":[],"git":{},"filePathRelative":null}');export{a as data};

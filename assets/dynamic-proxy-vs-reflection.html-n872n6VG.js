@@ -1,0 +1,1 @@
+import{_ as e,o as c,c as o,a as t}from"./app-3RcBQnkC.js";const n={},s=t("p",null,"反射是动态代理的一种实现方式。",-1),_=[s];function r(a,l){return c(),o("div",null,_)}const d=e(n,[["render",r],["__file","dynamic-proxy-vs-reflection.html.vue"]]);export{d as default};

@@ -1,0 +1,93 @@
+import{_ as e,r as o,o as c,c as i,a as n,b as s,d as t,e as p}from"./app-3RcBQnkC.js";const l={},u=n("h1",{id:"_1254-统计封闭岛屿的数目",tabindex:"-1"},[n("a",{class:"header-anchor",href:"#_1254-统计封闭岛屿的数目","aria-hidden":"true"},"#"),s(" 1254. 统计封闭岛屿的数目")],-1),r={href:"https://leetcode.cn/problems/number-of-closed-islands/",target:"_blank",rel:"noopener noreferrer"},d=p('<p>二维矩阵 grid 由 0 （土地）和 1 （水）组成。岛是由最大的4个方向连通的 0 组成的群，封闭岛是一个 完全 由1包围（左、上、右、下）的岛。</p><p>请返回 封闭岛屿 的数目。</p><p><img src="https://code-thinking-1253855093.file.myqcloud.com/pics/20220830111533.png" alt=""></p><ul><li>输入：grid = [[1,1,1,1,1,1,1,0],[1,0,0,0,0,1,1,0],[1,0,1,0,1,1,1,0],[1,0,0,0,0,1,0,1],[1,1,1,1,1,1,1,0]]</li><li>输出：2</li><li>解释：灰色区域的岛屿是封闭岛屿，因为这座岛屿完全被水域包围（即被 1 区域包围）。</li></ul><p><img src="https://code-thinking-1253855093.file.myqcloud.com/pics/20220830111601.png" alt=""></p><ul><li>输入：grid = [[0,0,1,0,0],[0,1,0,1,0],[0,1,1,1,0]]</li><li>输出：1</li></ul><p>提示：</p><ul><li>1 &lt;= grid.length, grid[0].length &lt;= 100</li><li>0 &lt;= grid[i][j] &lt;=1</li></ul><h2 id="思路" tabindex="-1"><a class="header-anchor" href="#思路" aria-hidden="true">#</a> 思路</h2>',9),k={href:"https://leetcode.cn/problems/number-of-enclaves/solution/by-carlsun-2-7lt9/",target:"_blank",rel:"noopener noreferrer"},v=p(`<div class="language-CPP line-numbers-mode" data-ext="CPP"><pre class="language-CPP"><code>class Solution {
+private:
+    int dir[4][2] = {-1, 0, 0, -1, 1, 0, 0, 1}; // 保存四个方向
+    void dfs(vector&lt;vector&lt;int&gt;&gt;&amp; grid, int x, int y) {
+        grid[x][y] = 1;
+        for (int i = 0; i &lt; 4; i++) { // 向四个方向遍历
+            int nextx = x + dir[i][0];
+            int nexty = y + dir[i][1];
+            // 超过边界
+            if (nextx &lt; 0 || nextx &gt;= grid.size() || nexty &lt; 0 || nexty &gt;= grid[0].size()) continue;
+            // 不符合条件，不继续遍历
+            if (grid[nextx][nexty] == 1) continue;
+
+            dfs (grid, nextx, nexty);
+        }
+        return;
+    }
+
+public:
+    int closedIsland(vector&lt;vector&lt;int&gt;&gt;&amp; grid) {
+        int n = grid.size(), m = grid[0].size();
+        // 从左侧边，和右侧边 向中间遍历
+        for (int i = 0; i &lt; n; i++) {
+            if (grid[i][0] == 0) dfs(grid, i, 0);
+            if (grid[i][m - 1] == 0) dfs(grid, i, m - 1);
+        }
+        // 从上边和下边 向中间遍历
+        for (int j = 0; j &lt; m; j++) {
+            if (grid[0][j] == 0) dfs(grid, 0, j);
+            if (grid[n - 1][j] == 0) dfs(grid, n - 1, j);
+        }
+        int count = 0;
+        for (int i = 0; i &lt; n; i++) {
+            for (int j = 0; j &lt; m; j++) {
+                if (grid[i][j] == 0) {
+                    count++;
+                    dfs(grid, i, j);
+                }
+            }
+        }
+        return count;
+    }
+};
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2 id="其他语言版本" tabindex="-1"><a class="header-anchor" href="#其他语言版本" aria-hidden="true">#</a> 其他语言版本</h2><h3 id="javascript" tabindex="-1"><a class="header-anchor" href="#javascript" aria-hidden="true">#</a> JavaScript:</h3><div class="language-javascript line-numbers-mode" data-ext="js"><pre class="language-javascript"><code><span class="token doc-comment comment">/**
+ * <span class="token keyword">@param</span> <span class="token class-name"><span class="token punctuation">{</span>number<span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">}</span></span> <span class="token parameter">grid</span>
+ * <span class="token keyword">@return</span> <span class="token class-name"><span class="token punctuation">{</span>number<span class="token punctuation">}</span></span>
+ */</span>
+<span class="token keyword">var</span> <span class="token function-variable function">closedIsland</span> <span class="token operator">=</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token parameter">grid</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">let</span> rows <span class="token operator">=</span> grid<span class="token punctuation">.</span>length<span class="token punctuation">;</span>
+    <span class="token keyword">let</span> cols <span class="token operator">=</span> grid<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">.</span>length<span class="token punctuation">;</span>
+    <span class="token comment">// 存储四个方向</span>
+    <span class="token keyword">let</span> dir <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token punctuation">[</span><span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">,</span> <span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">,</span> <span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">,</span> <span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">,</span> <span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">,</span> <span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">,</span> <span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">,</span> <span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+    <span class="token comment">// 深度优先</span>
+    <span class="token keyword">function</span> <span class="token function">dfs</span><span class="token punctuation">(</span><span class="token parameter">x<span class="token punctuation">,</span> y</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        grid<span class="token punctuation">[</span>x<span class="token punctuation">]</span><span class="token punctuation">[</span>y<span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span>
+        <span class="token comment">// 向四个方向遍历</span>
+        <span class="token keyword">for</span><span class="token punctuation">(</span><span class="token keyword">let</span> i <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> i <span class="token operator">&lt;</span> <span class="token number">4</span><span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+            <span class="token keyword">let</span> nextX <span class="token operator">=</span> x <span class="token operator">+</span> dir<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+            <span class="token keyword">let</span> nextY <span class="token operator">=</span> y <span class="token operator">+</span> dir<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+            <span class="token comment">// 判断是否越界</span>
+            <span class="token keyword">if</span> <span class="token punctuation">(</span>nextX <span class="token operator">&lt;</span> <span class="token number">0</span> <span class="token operator">||</span> nextX <span class="token operator">&gt;=</span> rows <span class="token operator">||</span> nextY <span class="token operator">&lt;</span> <span class="token number">0</span> <span class="token operator">||</span> nextY <span class="token operator">&gt;=</span> cols<span class="token punctuation">)</span> <span class="token keyword">continue</span><span class="token punctuation">;</span>
+            <span class="token comment">// 不符合条件</span>
+            <span class="token keyword">if</span> <span class="token punctuation">(</span>grid<span class="token punctuation">[</span>nextX<span class="token punctuation">]</span><span class="token punctuation">[</span>nextY<span class="token punctuation">]</span> <span class="token operator">===</span> <span class="token number">1</span><span class="token punctuation">)</span> <span class="token keyword">continue</span><span class="token punctuation">;</span>
+            <span class="token comment">// 继续递归</span>
+            <span class="token function">dfs</span><span class="token punctuation">(</span>nextX<span class="token punctuation">,</span> nextY<span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+    <span class="token comment">// 从边界岛屿开始</span>
+    <span class="token comment">// 从左侧和右侧出发</span>
+    <span class="token keyword">for</span><span class="token punctuation">(</span><span class="token keyword">let</span> i <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> i <span class="token operator">&lt;</span> rows<span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">if</span> <span class="token punctuation">(</span>grid<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span> <span class="token operator">===</span> <span class="token number">0</span><span class="token punctuation">)</span> <span class="token function">dfs</span><span class="token punctuation">(</span>i<span class="token punctuation">,</span> <span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token keyword">if</span> <span class="token punctuation">(</span>grid<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">[</span>cols <span class="token operator">-</span> <span class="token number">1</span><span class="token punctuation">]</span> <span class="token operator">===</span> <span class="token number">0</span><span class="token punctuation">)</span> <span class="token function">dfs</span><span class="token punctuation">(</span>i<span class="token punctuation">,</span> cols <span class="token operator">-</span> <span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+    <span class="token comment">// 从上侧和下侧出发</span>
+    <span class="token keyword">for</span><span class="token punctuation">(</span><span class="token keyword">let</span> j <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> j <span class="token operator">&lt;</span> cols<span class="token punctuation">;</span> j<span class="token operator">++</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">if</span> <span class="token punctuation">(</span>grid<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">[</span>j<span class="token punctuation">]</span> <span class="token operator">===</span> <span class="token number">0</span><span class="token punctuation">)</span> <span class="token function">dfs</span><span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">,</span> j<span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token keyword">if</span> <span class="token punctuation">(</span>grid<span class="token punctuation">[</span>rows <span class="token operator">-</span> <span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">[</span>j<span class="token punctuation">]</span> <span class="token operator">===</span> <span class="token number">0</span><span class="token punctuation">)</span> <span class="token function">dfs</span><span class="token punctuation">(</span>rows <span class="token operator">-</span> <span class="token number">1</span><span class="token punctuation">,</span> j<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+    <span class="token keyword">let</span> count <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
+    <span class="token comment">// 排除所有与边界相连的陆地之后</span>
+    <span class="token comment">// 依次遍历网格中的每个元素，如果遇到一个元素是陆地且状态是未访问，则遇到一个新的岛屿，将封闭岛屿的数目加 1</span>
+    <span class="token comment">// 并访问与当前陆地连接的所有陆地</span>
+    <span class="token keyword">for</span><span class="token punctuation">(</span><span class="token keyword">let</span> i <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> i <span class="token operator">&lt;</span> rows<span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">for</span><span class="token punctuation">(</span><span class="token keyword">let</span> j <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> j <span class="token operator">&lt;</span> cols<span class="token punctuation">;</span> j<span class="token operator">++</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+            <span class="token keyword">if</span> <span class="token punctuation">(</span>grid<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">[</span>j<span class="token punctuation">]</span> <span class="token operator">===</span> <span class="token number">0</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+                count<span class="token operator">++</span><span class="token punctuation">;</span>
+                <span class="token function">dfs</span><span class="token punctuation">(</span>i<span class="token punctuation">,</span> j<span class="token punctuation">)</span><span class="token punctuation">;</span>
+            <span class="token punctuation">}</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+    <span class="token keyword">return</span> count<span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div>`,4);function m(b,f){const a=o("ExternalLinkIcon");return c(),i("div",null,[u,n("p",null,[n("a",r,[s("力扣题目链接"),t(a)])]),d,n("p",null,[s("和 "),n("a",k,[s("1020. 飞地的数量"),t(a)]),s(" 思路是一样的，代码也基本一样")]),v])}const h=e(l,[["render",m],["__file","1254.tongjifengbidaoyudeshumu.html.vue"]]);export{h as default};

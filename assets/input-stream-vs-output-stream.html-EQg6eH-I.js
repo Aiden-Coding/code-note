@@ -1,0 +1,1 @@
+import{_ as e,o as s,c as o,a as t}from"./app-3RcBQnkC.js";const n={},_=t("p",null,"输入、输出，有一个参照物，参照物就是存储数据的介质。如果是把对象读入到介质中，这就是输入。从介质中向外读数据，这就是输出。",-1),c=t("p",null,"所以，输入流是把数据写入存储介质的。输出流是从存储介质中把数据读取出来。",-1),a=[_,c];function r(l,u){return s(),o("div",null,a)}const m=e(n,[["render",r],["__file","input-stream-vs-output-stream.html.vue"]]);export{m as default};

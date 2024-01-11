@@ -1,0 +1,1 @@
+import{_ as t,o,c as n,a as e}from"./app-3RcBQnkC.js";const c={},_=e("p",null,"由于计算机中保存的小数其实是十进制的小数的近似值，并不是准确值，所以，千万不要在代码中使用浮点数来表示金额等重要的指标。",-1),s=e("p",null,"建议使用BigDecimal或者Long（单位为分）来表示金额。",-1),a=[_,s];function l(r,i){return o(),n("div",null,a)}const m=t(c,[["render",l],["__file","float-amount.html.vue"]]);export{m as default};

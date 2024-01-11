@@ -1,0 +1,1 @@
+import{_ as e,o as t,c as _,a as s}from"./app-3RcBQnkC.js";const a={},c=s("p",null,"本章解释如何用核心 API 生成和转换编译后的 Java 类元数据，比如注释。每一节都首先介绍一种元数据类型，然后给出用于生成和转换这些元数据的相应 ASM 接口、组件和工具，并给出一些说明性示例。",-1),n=[c];function o(r,u){return t(),_("div",null,n)}const d=e(a,[["render",o],["__file","4.0yuanshuju.html.vue"]]);export{d as default};

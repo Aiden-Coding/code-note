@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="generator" content="VuePress 2.0.0-rc.0">
+    <script>
+      (function() {
+        const userMode = localStorage.getItem('vuepress-reco-color-scheme') || 'auto';
+        const systemDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+
+        if (userMode === 'dark' || (userMode === 'auto' && systemDarkMode)) {
+          document.documentElement.classList.toggle('dark', true);
+        }
+      })();
+    </script>
+    <meta name="keywords" content="Java,并发编程,多线程,Thread,偏向锁"><title>深入浅出偏向锁 | 学习笔记</title><meta name="description" content="偏向锁是 Java 虚拟机（JVM）中一种用于提高程序运行效率的锁机制。在许多应用场景中，大部分锁是只被一个线程所访问的。如果锁对象始终被一个线程访问，那么同步操作显得非常多余。为了减少这样的重量级操作，Java 6 引入了偏向锁的概念。">
+    <!--vuepress-ssr-resources-->
+    <link rel="preload" href="/code-note/assets/style-yo3V6EP-.css" as="style"><link rel="stylesheet" href="/code-note/assets/style-yo3V6EP-.css">
+  </head>
+  <body>
+    <div id="app"><!--vuepress-ssr-app--></div>
+    <script type="module" src="/code-note/assets/app-3RcBQnkC.js" defer></script>
+  </body>
+</html>

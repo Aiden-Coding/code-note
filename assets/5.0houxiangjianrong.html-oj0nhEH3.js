@@ -1,0 +1,1 @@
+import{_ as a,o as n,c as o,a as e,b as t}from"./app-3RcBQnkC.js";const r={},_=e("h1",{id:"_5-0-后向兼容",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#_5-0-后向兼容","aria-hidden":"true"},"#"),t(" 5.0 后向兼容")],-1),c=[_];function s(i,d){return n(),o("div",null,c)}const l=a(r,[["render",s],["__file","5.0houxiangjianrong.html.vue"]]);export{l as default};

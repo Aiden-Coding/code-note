@@ -1,0 +1,1 @@
+import{_ as t,o as a,c as o,a as e}from"./app-3RcBQnkC.js";const n={},c=e("p",null,[e("img",{src:"https://oss.javaguide.cn/github/javaguide/gongzhonghaoxuanchuan.png",alt:"JavaGuide 官方公众号"})],-1),s=[c];function r(_,i){return a(),o("div",null,s)}const u=t(n,[["render",r],["__file","article-footer.snippet.html.vue"]]);export{u as default};

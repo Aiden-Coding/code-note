@@ -1,0 +1,1 @@
+import{_ as c,o as s,c as t,a as e}from"./app-3RcBQnkC.js";const a={},o=e("p",null,"在面试中，我们常常会遇到面试官让我们用某种编程语言做题，并要求能够在本地编译运行。 这种模式也被称做ACM模式。",-1),_=e("p",null,"本文将介绍如何用Java处理输入输出。",-1),u=[o,_];function n(l,h){return s(),t("div",null,u)}const i=c(a,[["render",n],["__file","Javachulishurushuchu.html.vue"]]);export{i as default};

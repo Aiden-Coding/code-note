@@ -1,0 +1,45 @@
+import{_ as n,o as s,c as a,e}from"./app-3RcBQnkC.js";const p={},t=e(`<h1 id="_44-数字序列中的某一位数字" tabindex="-1"><a class="header-anchor" href="#_44-数字序列中的某一位数字" aria-hidden="true">#</a> 44. 数字序列中的某一位数字</h1><h2 id="题目描述" tabindex="-1"><a class="header-anchor" href="#题目描述" aria-hidden="true">#</a> 题目描述</h2><p>数字以 0123456789101112131415... 的格式序列化到一个字符串中，求这个字符串的第 index 位。</p><h2 id="解题思路" tabindex="-1"><a class="header-anchor" href="#解题思路" aria-hidden="true">#</a> 解题思路</h2><div class="language-java line-numbers-mode" data-ext="java"><pre class="language-java"><code><span class="token keyword">public</span> <span class="token keyword">int</span> <span class="token function">getDigitAtIndex</span><span class="token punctuation">(</span><span class="token keyword">int</span> index<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">if</span> <span class="token punctuation">(</span>index <span class="token operator">&lt;</span> <span class="token number">0</span><span class="token punctuation">)</span>
+        <span class="token keyword">return</span> <span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">;</span>
+    <span class="token keyword">int</span> place <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span>  <span class="token comment">// 1 表示个位，2 表示 十位...</span>
+    <span class="token keyword">while</span> <span class="token punctuation">(</span><span class="token boolean">true</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">int</span> amount <span class="token operator">=</span> <span class="token function">getAmountOfPlace</span><span class="token punctuation">(</span>place<span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token keyword">int</span> totalAmount <span class="token operator">=</span> amount <span class="token operator">*</span> place<span class="token punctuation">;</span>
+        <span class="token keyword">if</span> <span class="token punctuation">(</span>index <span class="token operator">&lt;</span> totalAmount<span class="token punctuation">)</span>
+            <span class="token keyword">return</span> <span class="token function">getDigitAtIndex</span><span class="token punctuation">(</span>index<span class="token punctuation">,</span> place<span class="token punctuation">)</span><span class="token punctuation">;</span>
+        index <span class="token operator">-=</span> totalAmount<span class="token punctuation">;</span>
+        place<span class="token operator">++</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+<span class="token doc-comment comment">/**
+ * place 位数的数字组成的字符串长度
+ * 10, 90, 900, ...
+ */</span>
+<span class="token keyword">private</span> <span class="token keyword">int</span> <span class="token function">getAmountOfPlace</span><span class="token punctuation">(</span><span class="token keyword">int</span> place<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">if</span> <span class="token punctuation">(</span>place <span class="token operator">==</span> <span class="token number">1</span><span class="token punctuation">)</span>
+        <span class="token keyword">return</span> <span class="token number">10</span><span class="token punctuation">;</span>
+    <span class="token keyword">return</span> <span class="token punctuation">(</span><span class="token keyword">int</span><span class="token punctuation">)</span> <span class="token class-name">Math</span><span class="token punctuation">.</span><span class="token function">pow</span><span class="token punctuation">(</span><span class="token number">10</span><span class="token punctuation">,</span> place <span class="token operator">-</span> <span class="token number">1</span><span class="token punctuation">)</span> <span class="token operator">*</span> <span class="token number">9</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token doc-comment comment">/**
+ * place 位数的起始数字
+ * 0, 10, 100, ...
+ */</span>
+<span class="token keyword">private</span> <span class="token keyword">int</span> <span class="token function">getBeginNumberOfPlace</span><span class="token punctuation">(</span><span class="token keyword">int</span> place<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">if</span> <span class="token punctuation">(</span>place <span class="token operator">==</span> <span class="token number">1</span><span class="token punctuation">)</span>
+        <span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span>
+    <span class="token keyword">return</span> <span class="token punctuation">(</span><span class="token keyword">int</span><span class="token punctuation">)</span> <span class="token class-name">Math</span><span class="token punctuation">.</span><span class="token function">pow</span><span class="token punctuation">(</span><span class="token number">10</span><span class="token punctuation">,</span> place <span class="token operator">-</span> <span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token doc-comment comment">/**
+ * 在 place 位数组成的字符串中，第 index 个数
+ */</span>
+<span class="token keyword">private</span> <span class="token keyword">int</span> <span class="token function">getDigitAtIndex</span><span class="token punctuation">(</span><span class="token keyword">int</span> index<span class="token punctuation">,</span> <span class="token keyword">int</span> place<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">int</span> beginNumber <span class="token operator">=</span> <span class="token function">getBeginNumberOfPlace</span><span class="token punctuation">(</span>place<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token keyword">int</span> shiftNumber <span class="token operator">=</span> index <span class="token operator">/</span> place<span class="token punctuation">;</span>
+    <span class="token class-name">String</span> number <span class="token operator">=</span> <span class="token punctuation">(</span>beginNumber <span class="token operator">+</span> shiftNumber<span class="token punctuation">)</span> <span class="token operator">+</span> <span class="token string">&quot;&quot;</span><span class="token punctuation">;</span>
+    <span class="token keyword">int</span> count <span class="token operator">=</span> index <span class="token operator">%</span> place<span class="token punctuation">;</span>
+    <span class="token keyword">return</span> number<span class="token punctuation">.</span><span class="token function">charAt</span><span class="token punctuation">(</span>count<span class="token punctuation">)</span> <span class="token operator">-</span> <span class="token char">&#39;0&#39;</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div>`,5),o=[t];function c(i,l){return s(),a("div",null,o)}const r=n(p,[["render",c],["__file","44. shuzixuliezhongdemouyiweishuzi.html.vue"]]);export{r as default};

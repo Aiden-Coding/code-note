@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-672e1ea2","path":"/CodeGuide/md/bytecode/asm-document/A.4guize.html","title":"A.4 规则","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"createdTime":1704301416000,"updatedTime":1704301416000,"contributors":[{"name":"dong","email":"dwx_job@163.com","commits":1}]},"filePathRelative":"CodeGuide/md/bytecode/asm-document/A.4规则.md"}');export{e as data};

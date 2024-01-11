@@ -1,0 +1,1 @@
+import{_ as t,o,c as s,a as e}from"./app-3RcBQnkC.js";const n={},_=e("p",null,"在运行时判断任意一个对象所属的类。",-1),c=e("p",null,"在运行时判断任意一个类所具有的成员变量和方法。",-1),l=e("p",null,"在运行时任意调用一个对象的方法",-1),a=e("p",null,"在运行时构造任意一个类的对象",-1),r=[_,c,l,a];function i(f,u){return o(),s("div",null,r)}const h=t(n,[["render",i],["__file","usage-of-reflection.html.vue"]]);export{h as default};

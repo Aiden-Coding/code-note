@@ -1,0 +1,1 @@
+import{_ as t,o as e,c as l,a as s}from"./app-3RcBQnkC.js";const r={},a=s("ol",null,[s("li",null,[s("p",null,"asList 得到的只是一个 Arrays 的内部类，一个原来数组的视图 List，因此如果对它进行增删操作会报错")]),s("li",null,[s("p",null,"用 ArrayList 的构造器可以将其转变成真正的 ArrayList")])],-1),n=[a];function o(c,_){return e(),l("div",null,n)}const u=t(r,[["render",o],["__file","Arrays-asList.html.vue"]]);export{u as default};

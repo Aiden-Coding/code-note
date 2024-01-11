@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="generator" content="VuePress 2.0.0-rc.0">
+    <script>
+      (function() {
+        const userMode = localStorage.getItem('vuepress-reco-color-scheme') || 'auto';
+        const systemDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+
+        if (userMode === 'dark' || (userMode === 'auto' && systemDarkMode)) {
+          document.documentElement.classList.toggle('dark', true);
+        }
+      })();
+    </script>
+    <meta name="keywords" content="IO模型, 阻塞IO, 非阻塞IO, 多路复用, 信号驱动, 异步IO,java,nio"><title>一文彻底理解Java IO模型（阻塞IO非阻塞IO/IO多路复用） | 学习笔记</title><meta name="description" content="I/O 模型包括阻塞 I/O、非阻塞 I/O、多路复用、信号驱动和异步 I/O。阻塞 I/O 操作等待数据传输完成，非阻塞 I/O 操作不等待，可执行其他任务。多路复用适用于高并发和高吞吐量场景，信号驱动依赖信号通知应用程序。异步 I/O 由内核负责数据传输，应用程序无需等待。">
+    <!--vuepress-ssr-resources-->
+    <link rel="preload" href="/code-note/assets/style-yo3V6EP-.css" as="style"><link rel="stylesheet" href="/code-note/assets/style-yo3V6EP-.css">
+  </head>
+  <body>
+    <div id="app"><!--vuepress-ssr-app--></div>
+    <script type="module" src="/code-note/assets/app-3RcBQnkC.js" defer></script>
+  </body>
+</html>

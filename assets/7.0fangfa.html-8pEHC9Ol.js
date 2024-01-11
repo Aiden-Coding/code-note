@@ -1,0 +1,1 @@
+import{_ as e,o as t,c as _,a}from"./app-3RcBQnkC.js";const c={},n=a("p",null,"本章解释如何用 ASM 树 API 生成和转换方法。首先介绍树 API 本身，给出一些说明性示例， 然后说明如何用核心 API 编写它。用于泛型和注释的树 API 在下一章介绍。",-1),o=[n];function s(r,f){return t(),_("div",null,o)}const d=e(c,[["render",s],["__file","7.0fangfa.html.vue"]]);export{d as default};

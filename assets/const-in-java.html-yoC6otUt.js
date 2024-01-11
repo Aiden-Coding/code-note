@@ -1,0 +1,1 @@
+import{_ as e,o as t,c as n,a}from"./app-3RcBQnkC.js";const c={},o=a("p",null,"const是Java预留关键字，用于后期扩展用，用法跟final相似，不常用",-1),s=[o];function _(l,r){return t(),n("div",null,s)}const f=e(c,[["render",_],["__file","const-in-java.html.vue"]]);export{f as default};

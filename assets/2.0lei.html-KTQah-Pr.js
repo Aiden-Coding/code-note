@@ -1,0 +1,1 @@
+import{_ as e,o as t,c as _,a as c}from"./app-3RcBQnkC.js";const o={},s=c("p",null,"本章说明如何使用核心 ASM API 来生成和转换经过编译的 Java 类。首先介绍已编译类，然后将利用大量说明性示例，介绍用于生成和转换已编译类的相应 ASM 接口、组件和工具。方法、注释和泛型的内容将在之后各章中说明。",-1),a=[s];function n(l,r){return t(),_("div",null,a)}const d=e(o,[["render",n],["__file","2.0lei.html.vue"]]);export{d as default};

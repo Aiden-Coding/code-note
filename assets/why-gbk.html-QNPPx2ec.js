@@ -1,0 +1,1 @@
+import{_ as e,o as t,c,a as o}from"./app-3RcBQnkC.js";const _={},s=o("p",null,"其实UTF8确实已经是国际通用的字符编码了，但是这种字符标准毕竟是外国定的，而国内也有类似的标准指定组织，也需要制定一套国内通用的标准，于是GBK就诞生了。",-1),n=[s];function a(r,l){return t(),c("div",null,n)}const f=e(_,[["render",a],["__file","why-gbk.html.vue"]]);export{f as default};

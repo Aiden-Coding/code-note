@@ -1,0 +1,1 @@
+import{_ as e,o as t,c,a as o}from"./app-3RcBQnkC.js";const n={},_=o("p",null,"反射机制指的是程序在运行时能够获取自身的信息。在java中，只要给定类的名字，那么就可以通过反射机制来获得类的所有属性和方法。",-1),s=[_];function a(r,l){return t(),c("div",null,s)}const i=e(n,[["render",a],["__file","reflection.html.vue"]]);export{i as default};

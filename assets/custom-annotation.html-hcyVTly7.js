@@ -1,0 +1,1 @@
+import{_ as e,o as t,c as o,a as n}from"./app-3RcBQnkC.js";const c={},s=n("p",null,"除了元注解，都是自定义注解。通过元注解定义出来的注解。 如我们常用的Override 、Autowire等。 日常开发中也可以自定义一个注解，这些都是自定义注解。",-1),_=[s];function a(r,i){return t(),o("div",null,_)}const u=e(c,[["render",a],["__file","custom-annotation.html.vue"]]);export{u as default};
